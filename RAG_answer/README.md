@@ -2,6 +2,20 @@
 
 All commands run from `RAG_answer/`.
 
+## RAG Setup
+
+Generates comprehensive answers using Retrieval-Augmented Generation: Wikipedia retrieval + LLM generation.
+
+**Pipeline**: Dual Wikipedia search (full question + subject entity) → top-N passages (1200 chars each) → LLM with retrieved context → answer. Falls back to parametric knowledge if retrieval fails.
+
+**Fixed for reproducibility**: `temperature=0.0`, 4 retry attempts with exponential backoff, incremental saves.
+
+**Key Parameters**:
+- `--num-passages N`: Wikipedia passages (default 4, range 1-50). More context = higher cost.
+- `--model`: Override default model (e.g., `gpt-4o`, `claude-opus-4-5`)
+- `--limit N`, `--start-from I`, `--resume`: Control dataset processing
+- Output tags: `RAGW{n}G` (Wiki+n+GPT), `RAGW{n}M` (Gemini), `RAGW{n}C` (Claude), `RAGP` (Perplexity)
+
 ## 1. Generate RAG answers
 
 ```
@@ -16,9 +30,9 @@ python3 run_rag_answers.py \
   [--output PATH]           # override default output path
 ```
 
-Output: `results/rag_answers/<TAG>/<timestamp>/<dataset>_rag_answers.json`
+**Output**: `results/rag_answers/<TAG>/<timestamp>/<dataset>_rag_answers.json`
 
-Tags: `RAGW{n}G` (OpenAI), `RAGW{n}M` (Gemini), `RAGW{n}C` (Claude), `RAGP` (Perplexity)
+**Tags**: `RAGW{n}G` (OpenAI), `RAGW{n}M` (Gemini), `RAGW{n}C` (Claude), `RAGP` (Perplexity)
 
 ## 2. Convert to reproducibility JSON
 
