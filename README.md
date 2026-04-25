@@ -114,8 +114,15 @@ Outputs land in `results/rag_answers/<RAG_TAG>/<TIMESTAMP>/` and
 
 ### `create_annotation_templates/`  → [`README`](create_annotation_templates/README.md)
 
-Builds the blank JSON templates that human annotators fill in.  Two
-independent steps:
+Builds the blank JSON templates that human annotators fill in, along with
+annotation guidelines for the human evaluation tasks.
+
+**Annotation Guidelines (PDFs):**
+- Task 1 — Manual Nuggetization
+- Task 2 — Edit Nuggetization  
+- Task 3 — Nugget Assignment
+
+**Template Generation (two independent steps):**
 
 ```bash
 cd create_annotation_templates

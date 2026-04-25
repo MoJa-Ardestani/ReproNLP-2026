@@ -7,6 +7,9 @@ pipeline.  Run both from the `create_annotation_templates/` directory.
 create_annotation_templates/
 ├── create_nuggetization_templates.py   # Step 1 — nuggets
 ├── create_assignment_templates.py      # Step 2 — assignment
+├── Task 1 Guideline - Manual Nuggetization.pdf     # Human annotation guideline
+├── Task 2 Guideline-Edit Nuggetization.pdf         # Human annotation guideline
+├── Task 3 Guideline-Nugget Assignment.pdf          # Human annotation guideline
 └── templates/
     └── Qampari/
         ├── Qampari_manual_nuggetization_template.json
@@ -16,6 +19,16 @@ create_annotation_templates/
             ├── Qampari_{RAG_TAG}_edited_nuggetization_human_assignment.json
             └── Qampari_{RAG_TAG}_manual_nuggetization_human_assignment.json
 ```
+
+---
+
+## Human Annotation Guidelines
+
+Three PDF guidelines are provided for human annotators:
+
+- **Task 1 Guideline - Manual Nuggetization.pdf** — Instructions for creating nuggets from scratch
+- **Task 2 Guideline-Edit Nuggetization.pdf** — Instructions for editing LLM-generated nuggets
+- **Task 3 Guideline-Nugget Assignment.pdf** — Instructions for assigning nuggets to system answers
 
 ---
 
