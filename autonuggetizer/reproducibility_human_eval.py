@@ -24,10 +24,6 @@ def generate_human_eval_files(
     assignment_tasks = []
     manual_nuggetization_tasks = []
     edited_nuggetization_tasks = []
-    aid = 0
-    mnid = 0
-    enid = 0
-
     for row in results:
         if not isinstance(row, dict) or "error" in row:
             continue
@@ -43,26 +39,21 @@ def generate_human_eval_files(
         context_segments = row.get("context_segments") or source.get("context_segments", [])
 
         assignment_tasks.append({
-            "task_id": aid,
             "qid": qid,
             "question": question,
             "passage": passage,
             "human_assignment": [],
         })
-        aid += 1
 
         manual_nuggetization_tasks.append({
-            "task_id": mnid,
             "qid": qid,
             "question": question,
             "context_segments": context_segments,
             "manual_created_nuggets": [],
             "manual_created_importance": [],
         })
-        mnid += 1
 
         edited_nuggetization_tasks.append({
-            "task_id": enid,
             "qid": qid,
             "question": question,
             "context_segments": context_segments,
@@ -71,7 +62,6 @@ def generate_human_eval_files(
             "manual_edited_nuggets": [],
             "manual_edited_importance": [],
         })
-        enid += 1
 
     base = os.path.join(output_dir, dataset_name)
     assignment_path = f"{base}_manual_assignment.json"

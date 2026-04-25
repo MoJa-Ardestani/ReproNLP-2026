@@ -9,9 +9,9 @@ DATASETS = {
         "raw_key": "gpt-4o_self_contained_paragraph_answer_raw",
         "type": "split_span",
     },
-    "Qampari_RAGWG": {
+    "Qampari_RAGW4G": {
         "dataset": "Qampari",
-        "generation_type": "RAGWG",
+        "generation_type": "RAGW4G",
         "raw_key": "wikipedia_gpt-4o_self_contained_paragraph_answer_raw",
         "type": "split_span",
     },
@@ -55,7 +55,7 @@ DATASETS = {
 
 
 def dataset_data_relpath(cfg: dict) -> str:
-    """Path relative to experiments/: canonical JSON next to autonuggetizer package."""
+    """Path relative to the project root: canonical JSON next to autonuggetizer package."""
     return f"data/reproducibility_{cfg['dataset']}_{cfg['generation_type']}.json"
 
 

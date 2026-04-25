@@ -1,0 +1,124 @@
+# -----------------------------------------------------------------------------
+# Secrets & credentials (never commit)
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+**/credentials.yaml
+**/credentials.yml
+**/secrets.yaml
+**/secrets.yml
+*token*.json
+**/service-account*.json
+**/google-credentials*.json
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.p12
+*.pfx
+.netrc
+.authinfo
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# ML / caches / large local artifacts
+# -----------------------------------------------------------------------------
+# Hugging Face & model caches
+.cache/
+**/.cache/huggingface/
+**/hub/
+
+# Experiment tracking
+wandb/
+mlruns/
+.lightning/
+
+
+# -----------------------------------------------------------------------------
+# OS & editors
+# -----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.idea/
+*.swp
+*.swo
+*~
+
+# VS Code (often contains machine paths or pasted keys)
+.vscode/
+
+# -----------------------------------------------------------------------------
+# LaTeX (build noise under Papers_latex)
+# -----------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# -----------------------------------------------------------------------------
+# Project-specific: truly temporary / scratch outputs only
+# -----------------------------------------------------------------------------
+# Temporary / scratch outputs (not data)
+results/tmp/
+results/scratch/

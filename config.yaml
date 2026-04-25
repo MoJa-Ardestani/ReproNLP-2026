@@ -1,0 +1,16 @@
+# AutoNuggetizer Reproduction Configuration
+
+llm:
+  model: "gpt-4o"
+  provider: "openai"          # "openai" or "azure"
+  temperature: 0.0
+  seed: 42
+
+paths:
+  input: "data/samples.json"
+  output: "results/reproduction_output.json"
+  analysis: "results/analysis.json"
+
+reproduction:
+  skip_scoring: false         # set true to skip nugget importance scoring
+  batch_size: 10              # nuggets per LLM call (matches original paper)

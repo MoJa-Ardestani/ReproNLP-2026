@@ -43,7 +43,7 @@ def main():
     parser.add_argument(
         "--output-dir",
         default="results/reproducibility",
-        help="Reproducibility root; relative paths are resolved under experiments/",
+        help="Reproducibility root; relative paths are resolved under the project root",
     )
     parser.add_argument("--limit", type=int, default=0, help="Process only first N samples (0=all)")
     parser.add_argument("--start-from", type=int, default=0, help="Resume from this index")
@@ -83,7 +83,7 @@ def main():
         metavar="PATH",
         help=(
             "Assignment-only: output .json path (overrides default under --output-dir). "
-            "Relative paths are under experiments/. If the file exists, _1/_2 suffix is used."
+            "Relative paths are under the project root. If the file exists, _1/_2 suffix is used."
         ),
     )
     parser.add_argument(

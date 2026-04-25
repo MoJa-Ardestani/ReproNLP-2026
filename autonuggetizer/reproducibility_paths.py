@@ -1,4 +1,4 @@
-"""Path anchors: package lives under experiments/; data and results resolve from there."""
+"""Path anchors: package lives under the project root; data and results resolve from there."""
 
 from __future__ import annotations
 

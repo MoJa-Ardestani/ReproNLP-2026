@@ -1,0 +1,2293 @@
+{
+  "score_aggregate": {
+    "n_valid_samples": 49,
+    "vstrict": {
+      "mean": 0.39459,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "astrict": {
+      "mean": 0.377853,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "total_counts": {
+      "nuggets_total": 361,
+      "nuggets_vital": 289,
+      "nuggets_okay": 72,
+      "support_count": 123,
+      "partial_support_count": 23,
+      "not_support_count": 215
+    }
+  },
+  "samples": [
+    {
+      "qid": "267__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who is the director for the film with music created by Sohail Sen?",
+      "passage": "# Directors of Films with Music by Sohail Sen\n\n**Ashutosh Gowariker**\nDirected *What's Your Raashee?* (2009), one of Sohail Sen's breakthrough films as a composer. This romantic comedy featured Priyanka Chopra in twelve different roles and established Sen's reputation in Bollywood.\n\n**Ali Abbas Zafar**\nDirected *Gunday* (2014), a period action drama set in Calcutta with music composed by Sohail Sen. The film starred Ranveer Singh, Arjun Kapoor, and Priyanka Chopra as outlaws in the coal mafia.\n\n**Kabir Khan**\nDirected *Ek Tha Tiger* (2012), a spy thriller starring Salman Khan and Katrina Kaif with music by Sohail Sen. This was one of Sen's most commercially successful soundtracks and part of the Tiger franchise.\n\n**Ali Abbas Zafar**\nDirected *Mere Brother Ki Dulhan* (2011), a romantic comedy featuring Imran Khan, Katrina Kaif, and Ali Zafar with music by Sohail Sen. The soundtrack was highly acclaimed and popular.\n\n**Mudassar Aziz**\nDirected *Happy Bhag Jayegi* (2016), a cross-border romantic comedy starring Diana Penty with music composed by Sohail Sen. The film was primarily shot in Chandigarh and Amritsar.\n\n**Rajeev Walia**\nDirected *Sirf* (2008), Sohail Sen's debut film as a composer. Though the film went largely unnoticed, it marked Sen's entry into Bollywood music composition.\n\n**Kabir Khan**\nDirected *Phantom* (2015), an action thriller starring Saif Ali Khan and Katrina Kaif with music by Sohail Sen. The film dealt with counter-terrorism themes.\n\n**Mudassar Aziz**\nDirected *Pati Patni Aur Woh* (2019), a romantic comedy remake starring Kartik Aaryan, Bhumi Pednekar, and Ananya Panday with music by Sohail Sen among other composers.\n\n**Kabir Khan**\nDirected *Tubelight* (2017), a period war drama starring Salman Khan set during the 1962 Sino-Indian War, featuring music by Pritam and Sohail Sen.\n\n**Mudassar Aziz**\nDirected *Happy Phirr Bhag Jayegi* (2018), the sequel to Happy Bhag Jayegi, continuing the romantic comedy franchise with music by Sohail Sen and others.",
+      "nuggets": [
+        "Ashutosh Gowariker directed What's Your Raashee,which has music composed partly by Sohail Sen.",
+        "Ali Abbas Zafar directed Mere Brother Ki Dulhan, with score composed by Sohail Sen.",
+        "Anand Tiwari directed Love Per Square Foot, whose soundtrack was composed by Sohail Sen.",
+        "Mudassar Aziz directed Happy Phirr Bhag Jayegi, with soundtrack composed by Sohail Sen.",
+        "Sourabh Shrivastava directed Fraud Saiyaan, with soundtrack composed by Sohail Sen.",
+        "Sajid-Farhad directed Housefull 3, which has music composed partly by Sohail Sen."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "partial_support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.4,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.4,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "1__wikitables_composition__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which fatal accident involving a commercial aircraft took place in Michigan?",
+      "passage": "# Fatal Commercial Aircraft Accidents in Michigan\n\n**Northwest Airlines Flight 255 (August 16, 1987)**\nThis McDonnell Douglas MD-82 crashed shortly after takeoff from Detroit Metropolitan Wayne County Airport, killing 154 of the 155 people on board and two people on the ground. The sole survivor was a 4-year-old girl. The crash was caused by the crew's failure to properly configure the aircraft's flaps and slats for takeoff.\n\n**Northwest Airlines Flight 2501 (June 23, 1950)**\nThis Douglas DC-4 disappeared over Lake Michigan while en route from New York to Seattle with a stopover in Minneapolis. All 58 people on board were killed. The wreckage was never found despite extensive searches, making it one of the greatest unsolved mysteries in aviation history.\n\n**Capital Airlines Flight 67 (April 6, 1958)**\nThis Vickers Viscount turboprop crashed near Freeland, Michigan, in Saginawa County, killing all 47 people on board. The aircraft encountered severe icing conditions and structural failure during its flight from Chicago to Detroit.\n\n**United Airlines Flight 859 (July 23, 1963)**\nThis Vickers Viscount crashed near Pellston, Michigan, killing all 6 crew members on board. The cargo flight was operating from Chicago to Pellston when it crashed during approach in poor weather conditions.\n\n**Mohawk Airlines Flight 40 (June 23, 1967)**\nThis BAC 1-11 crashed near Blossburg, Pennsylvania, but had departed from Elmira, New York with connections through Michigan routes. However, a separate Mohawk Airlines accident occurred when Flight 112, a Fairchild FH-227, crashed near Rochester, New York after departing from Detroit on March 3, 1972, killing 17 people.\n\n**Trans World Airlines Flight 128 (July 19, 1969)**\nThis Boeing 707 was hijacked and diverted, though the incident itself didn't result in a crash in Michigan, TWA operations through Michigan airports were affected by various incidents during this era.\n\n**Comair Flight 5191 connection (August 27, 2006)**\nWhile this crash occurred in Kentucky, the flight was operated by Comair, a Delta Connection carrier that had significant operations through Detroit Metropolitan Airport, affecting Michigan-based crew and operations.",
+      "nuggets": [
+        "Northwest Orient Airlines Flight 2501 went down over Lake Michigan.",
+        "Trans-Canada Air Lines Flight 304 had a engine incident over Flat Rock, Michigan.",
+        "Comair Flight 3272 crashed at a site in Michigan.",
+        "Northwest Airlines Flight 255 crashed in saginaw, Michigan",
+        "Capital Airlines Flight 67 crashed on final approach to Freeland, Michigan."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.25,
+      "astrict": 0.4,
+      "scores": {
+        "vstrict": 0.25,
+        "astrict": 0.4,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "221__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who composed works directed by A. Jagannathan?",
+      "passage": "# Composers Who Worked on Films Directed by A. Jagannathan\n\nBased on the available information about A. Jagannathan's directorial work, here are the composers who created music for his films:\n\n**Ilaiyaraaja**\nIlaiyaraaja composed the music for \"Watchman Vadivel\" (1994), which was directed by A. Jagannathan. He is one of the most prolific composers in Indian cinema, having scored music for over 1,000 films across multiple languages.\n\n**Deva**\nDeva composed music for several films directed by A. Jagannathan during the 1990s. He was a prominent Tamil film composer known for his melodious compositions and worked extensively in Tamil cinema during this period.\n\n**Sirpy**\nSirpy (S. A. Rajkumar) composed music for films directed by A. Jagannathan in the 1990s. He was known for his folk-influenced compositions and worked on numerous Tamil films during this era.\n\n**Vidyasagar**\nVidyasagar composed music for at least one film directed by A. Jagannathan. He is known for his versatile compositions across South Indian languages and has been active since the late 1980s.\n\n**Note:** A. Jagannathan was primarily active as a director in Tamil cinema during the 1990s and early 2000s. While \"Watchman Vadivel\" (1994) is confirmed from the passages, detailed information about all his directorial works and their respective composers is limited in widely available sources. The composers listed above represent those who are documented to have worked on his films based on available filmographic records.",
+      "nuggets": [
+        "Ilaiyaraaja composed the music for Vellai Roja directed by A. Jagannathan.",
+        "G. Devarajan composed the musical score for Kumara Vijayam directed by A. Jagannathan.",
+        "Anu Malik composed the music for Tahqiqaat directed by A. Jagannathan.",
+        "T. Rajendar composed the musical score for Muthukkal Moondru directed by A. Jagannathan.",
+        "S. A. Rajkumar composed the music for En Thangai directed by A. Jagannathan.",
+        "Gangai Amaran composed the musical score for Karpoora Deepam directed by A. Jagannathan.",
+        "Deva composed the musical score for Mill Thozhilali directed by A. Jagannathan.",
+        "M. S. Viswanathan composed music for a film that marked A. Jagannathan's directorial debut."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 8,
+        "nuggets_vital": 7,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 1,
+        "not_support_count": 7
+      }
+    },
+    {
+      "qid": "662__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Don Hahn was executive producer of which movie?",
+      "passage": "# Films Don Hahn Was Executive Producer Of\n\n**Beauty and the Beast (1991)**\nDon Hahn served as producer on this landmark Disney animated film, which became the first animated feature to be nominated for the Academy Award for Best Picture. The film was a critical and commercial success that helped define the Disney Renaissance era.\n\n**The Lion King (1994)**\nHahn was the producer of this massively successful animated film, which became one of the highest-grossing animated films of all time. The film won two Academy Awards and remains one of Disney's most beloved classics.\n\n**The Hunchback of Notre Dame (1996)**\nHahn produced this darker Disney animated adaptation of Victor Hugo's novel. The film featured a more mature tone than typical Disney fare and showcased impressive animation and musical sequences.\n\n**Atlantis: The Lost Empire (2001)**\nHahn served as executive producer on this science fiction animated adventure film. The movie represented Disney's attempt to appeal to older audiences with a more action-oriented story.\n\n**The Emperor's New Groove (2000)**\nHahn was executive producer on this comedic animated film set in ancient Peru. The film underwent significant changes during production, transforming from a more serious epic into a buddy comedy.\n\n**Maleficent (2014)**\nAccording to the Wikipedia passage provided, Angelina Jolie served as executive producer on this film, though Hahn's involvement in Disney live-action productions during this period is notable. This live-action reimagining of Sleeping Beauty was a major commercial success.\n\n**Frankenweenie (2012)**\nHahn served as executive producer on Tim Burton's stop-motion animated feature. The film was an expansion of Burton's 1984 short film of the same name.\n\n**Disneynature Films**\nHahn has been involved as executive producer on several Disneynature documentary films, including various nature documentaries released under Disney's documentary label focusing on wildlife and environmental themes.",
+      "nuggets": [
+        "Don Hahn was executive producer of Maleficent.",
+        "Don Hahn was an executive producer on The Emperor's New Groove.",
+        "Don Hahn served as executive producer on Oceans.",
+        "Don Hahn served as executive producer on African Cats."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.25,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.25,
+        "nuggets_total": 4,
+        "nuggets_vital": 2,
+        "nuggets_okay": 2,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "703__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which nonprofit organization is headquartered in Niger?",
+      "passage": "I need to identify nonprofit organizations that are headquartered in Niger. After carefully reviewing the passages and my knowledge, I must note that this is a challenging question because Niger, as one of the world's least developed countries, hosts relatively few international nonprofit headquarters compared to more developed nations. Most NGOs working in Niger are headquartered elsewhere.\n\nBased on available information, I can identify the following:\n\n**SOS Villages d'Enfants Niger**\nThis is the national association of SOS Children's Villages operating in Niger. While the international organization is headquartered in Vienna, Austria, the Niger national association operates with some administrative autonomy within the country and maintains offices in Niamey for coordinating local programs supporting children without parental care.\n\n**Association Nigérienne de Défense des Droits de l'Homme (ANDDH)**\nThe Nigerien Association for the Defense of Human Rights is a prominent local nonprofit organization headquartered in Niamey, Niger. Founded in the early 1990s, it focuses on human rights advocacy, monitoring, and education throughout Niger.\n\n**Réseau des Organisations pour la Transparence et l'Analyse Budgétaire (ROTAB)**\nThe Network of Organizations for Transparency and Budget Analysis is a coalition of Nigerien civil society organizations headquartered in Niamey. It works on budget transparency, good governance, and accountability in Niger's public finance management.\n\n**Alternative Espaces Citoyens (AEC)**\nAlternative Espaces Citoyens is a Nigerien nonprofit organization based in Niamey that focuses on civic education, democratic governance, and youth empowerment. It has been active in promoting citizen participation in Niger's political processes.\n\n**Timidria**\nTimidria is a prominent anti-slavery organization headquartered in Niamey, Niger. Founded in 1991, it works to combat slavery and discrimination against descendants of slaves in Niger, providing legal assistance and advocacy for affected communities.",
+      "nuggets": [],
+      "importance": [],
+      "error": "missing required fields for assignment-only run"
+    },
+    {
+      "qid": "177__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the tv show that was written by Ed Burns?",
+      "passage": "I need to identify TV shows written by Ed Burns and then list all directors who worked on those shows.\n\nEd Burns is a filmmaker who created and wrote two major television series: **\"The Wire\"** (2002-2008) and **\"Generation Kill\"** (2008). Let me provide a comprehensive list of directors who worked on these shows:\n\n## Directors of The Wire:\n\n**Clark Johnson** - Directed the pilot episode and multiple other episodes throughout the series. He also appeared as Detective Augustus Haynes in Season 5.\n\n**Ed Bianchi** - Directed numerous episodes across multiple seasons of The Wire, becoming one of the show's most frequent directors.\n\n**Steve Shill** - Directed several episodes throughout the series run, contributing to multiple seasons.\n\n**Joe Chappelle** - Directed multiple episodes across different seasons of The Wire, working extensively on the show.\n\n**Agnieszka Holland** - Polish director who helmed several episodes of The Wire, bringing an international perspective to the series.\n\n**Brad Anderson** - Directed episodes in the later seasons of The Wire.\n\n**Ernest Dickerson** - Veteran television director who directed multiple episodes of the series.\n\n**Tim Van Patten** - Directed several episodes of The Wire, also known for his work on other HBO series.\n\n**Seith Mann** - Directed episodes in the later seasons of The Wire.\n\n**Dan Attias** - Directed multiple episodes throughout the series run.\n\n**Clement Virgo** - Canadian director who directed episodes of The Wire.\n\n**Anthony Hemingway** - Directed episodes in the final season of The Wire.\n\n**Dominic West** - The actor who played Jimmy McNulty also directed one episode in Season 5.\n\n## Directors of Generation Kill:\n\n**Susanna White** - Co-directed the miniseries, helming multiple episodes of this seven-part HBO production.\n\n**Simon Cellan Jones** - Co-directed Generation Kill alongside Susanna White, directing several episodes of the miniseries.\n\nThese directors collectively brought Ed Burns' writing to life across his two major television projects.",
+      "nuggets": [
+        "Dan Attias directed the episode of The Wire written by Ed Burns.",
+        "David Platt directed the episode of The Wire written by Ed Burns.",
+        "Rob Bailey directed the episode of The Wire written by Ed Burns.",
+        "Clark Johnson directed the series premiere of The Wire.",
+        "Joe Chappelle directed an episode of The Wire with a story by Ed Burns.",
+        "Brad Anderson directed an episode of The Wire with a story by Ed Burns.",
+        "Ed Bianchi directed an episode of The Wire with a story by Ed Burns.",
+        "Ernest Dickerson directed an episode of The Wire with a story by Ed Burns.",
+        "Tim Van Patten directed an episode of The Wire with a story by Ed Burns.",
+        "Elodie Keene directed an episode of The Wire with a story by Ed Burns.",
+        "Robert F. Colesberry directed an episode of The Wire with a story by Ed Burns.",
+        "Gloria Muzio directed an episode of The Wire with a story by Ed Burns.",
+        "Clement Virgo directed an episode of The Wire with a story by Ed Burns.",
+        "Steve Shill directed an episode of The Wire with a story by Ed Burns.",
+        "Peter Medak directed an episode of The Wire with a story by Ed Burns.",
+        "Seith Mann directed an episode of The Wire with a story by Ed Burns.",
+        "Jim McKay directed an episode of The Wire with a story by Ed Burns.",
+        "Anthony Hemingway directed an episode of The Wire with a story by Ed Burns.",
+        "Christine Moore directed an episode of The Wire with a story by Ed Burns.",
+        "Agnieszka Holland directed an episode of The Wire with a story by Ed Burns.",
+        "Alex Zakrzewski directed an episode of The Wire with a story by Ed Burns."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "not_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.5714285714285714,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.5714285714285714,
+        "nuggets_total": 21,
+        "nuggets_vital": 3,
+        "nuggets_okay": 18,
+        "support_count": 12,
+        "partial_support_count": 0,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "194__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the movie that Robert Thom wrote the script for?",
+      "passage": "# Directors of Films Written by Robert Thom\n\n**George Cukor** directed *Wild in the Country* (1961), a drama starring Elvis Presley. Robert Thom wrote the screenplay for this film about a troubled young man with literary talent who becomes involved with three different women.\n\n**Roger Corman** directed *The Wild Angels* (1966), a biker exploitation film starring Peter Fonda and Nancy Sinatra. Thom wrote the screenplay for this influential counterculture film that helped establish the outlaw biker movie genre.\n\n**Richard Rush** directed *The Savage Seven* (1968), another biker film written by Robert Thom. This film dealt with conflicts between a motorcycle gang and a Native American community.\n\n**Otto Preminger** directed *Crazy Quilt* (1966), though this film had limited release. Thom contributed to the screenplay for this experimental drama.\n\n**Stuart Rosenberg** directed *Move* (1970), a comedy-drama starring Elliott Gould. Robert Thom wrote the screenplay for this film about a playwright dealing with personal and professional upheaval.\n\n**Jack Smight** directed *The Illustrated Man* (1969), based on Ray Bradbury's short story collection. Thom adapted the screenplay, weaving together several of Bradbury's science fiction tales starring Rod Steiger.\n\n**Richard Sarafian** directed *Fragment of Fear* (1970), a psychological thriller. Thom wrote the screenplay for this British film about a reformed drug addict investigating his aunt's murder.\n\n**Paul Wendkos** directed *Angel, Angel, Down We Go* (also known as *Cult of the Damned*, 1969). Thom both wrote the screenplay and co-produced this counterculture drama about a wealthy family corrupted by a rock singer and his entourage.",
+      "nuggets": [
+        "Ranald MacDougall directed The Subterraneans, which Robert Thom wrote the script.",
+        "Paul Bartel directed Death Race 2000, which Robert Thom was hired to adapt.",
+        "Ranald MacDougall directed 'The Subterraneans', which Robert Thom wrote the script."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 3,
+        "nuggets_vital": 2,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "173__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the TV show that Alison Schapker worked on as a screenwriter?",
+      "passage": "# Directors of TV Shows Where Alison Schapker Worked as a Screenwriter\n\n**Miguel Sapochnik**\nMiguel Sapochnik directed episodes of *Westworld*, where Alison Schapker served as a writer and executive producer. He directed notable episodes including \"The Bicameral Mind\" (Season 1 finale) and won an Emmy for his work on the series.\n\n**Jonathan Nolan**\nJonathan Nolan co-created *Westworld* with Lisa Joy and directed multiple episodes of the series. He directed the pilot episode and several other key episodes throughout the show's run.\n\n**Richard J. Lewis**\nRichard J. Lewis directed episodes of *Alias*, one of the early shows where Schapker worked as a writer. He directed multiple episodes across different seasons of the spy drama series.\n\n**Ken Olin**\nKen Olin directed numerous episodes of *Alias*, where Schapker was a writer and producer. He was one of the primary directors on the series and directed episodes throughout its five-season run.\n\n**Jack Bender**\nJack Bender directed episodes of *Alias* during Schapker's tenure as a writer on the show. He was a frequent director on the series and also worked on other J.J. Abrams productions.\n\n**Lawrence Trilling**\nLawrence Trilling directed episodes of *Alias* while Schapker was writing for the series. He directed multiple episodes and was also an executive producer on the show.\n\n**Frederick E.O. Toye**\nFrederick E.O. Toye directed episodes of *Fringe*, where Schapker worked as a writer and co-executive producer. He was one of the regular directors on the science fiction series.\n\n**Akiva Goldsman**\nAkiva Goldsman directed episodes of *Fringe* during Schapker's time as a writer on the show. He also served as an executive producer on the series.\n\n**Brad Anderson**\nBrad Anderson directed multiple episodes of *Fringe*, including the pilot episode. He was one of the key directors during the show's run while Schapker was writing for it.\n\n**Joe Chappelle**\nJoe Chappelle directed numerous episodes of *Fringe* throughout its five-season run. He was one of the most frequent directors on the series during Schapker's tenure.\n\n**Paul A. Edwards**\nPaul A. Edwards directed episodes of *Fringe* while Schapker was part of the writing staff. He directed multiple episodes across different seasons.\n\n**Jeannot Szwarc**\nJeannot Szwarc directed episodes of *Alias* during the period when Schapker was writing for the show. He was an experienced television director who worked on multiple episodes.\n\n**Vincenzo Natali**\nVincenzo Natali directed episodes of *Westworld*, particularly in later seasons when Schapker had risen to showrunner status. He is known for his distinctive visual style in science fiction.\n\n**Stephen Williams**\nStephen Williams directed episodes of *Westworld* and *Lost*, both shows where Schapker worked as a writer. He is a prolific television director with extensive experience in genre television.\n\n**Tarik Saleh**\nTarik Saleh directed episodes of *Westworld* during Schapker's time as writer and executive producer on the series. He brought a cinematic approach to his episodes.\n\n**Uta Briesewitz**\nUta Briesewitz directed episodes of *Westworld* while Schapker was part of the creative team. She is known for her work on prestige television dramas.\n\n**Craig Zisk**\nCraig Zisk directed episodes of *Westworld* during the show's run. He has extensive experience directing episodes of high-profile television series.\n\n**Anna Foerster**\nAnna Foerster directed episodes of *Westworld* in later seasons when Schapker was serving as showrunner. She is known for her work in both television and film.\n\n**Helen Shaver**\nHelen Shaver directed episodes of *Alias* while Schapker was writing for the series. She is an accomplished director who has worked on numerous television dramas.\n\n**Daniel Attias**\nDaniel Attias directed episodes of *Alias* during Schapker's tenure as a writer. He is an experienced television director with credits on many major series.",
+      "nuggets": [
+        "David Straiton directed an episode of Fringe that Alison Schapker wrote.",
+        "Jesse Warn directed an episode of The Flash that Alison Schapker wrote.",
+        "Joe Chappelle directed an episode of Fringe that Alison Schapker co-wrote.",
+        "Brad Anderson directed an episode that Alison Schapker co-wrote.",
+        "Jack Bender directed an episode that Alison Schapker co-wrote.",
+        "Dennis Smith directed an episode of Fringe that Alison Schapker wrote.",
+        "P. J. Pesce directed an episode that Alison Schapker wrote.",
+        "Thomas Yatsko directed an episode that Alison Schapker co-wrote."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.375,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.375,
+        "nuggets_total": 8,
+        "nuggets_vital": 6,
+        "nuggets_okay": 2,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "346__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What film was directed by Terence Young and written by Richard Maibaum?",
+      "passage": "Based on the passages and my encyclopedic knowledge, here are the James Bond films that were both directed by Terence Young AND written by Richard Maibaum:\n\n**Dr. No (1962)**\nThis was the first James Bond film, starring Sean Connery. Richard Maibaum co-wrote the screenplay with Johanna Harwood and Berkely Mather, while Terence Young directed. The film introduced audiences to the cinematic James Bond and established many conventions of the franchise.\n\n**From Russia with Love (1963)**\nThe second Bond film, also starring Sean Connery, was directed by Terence Young with a screenplay by Richard Maibaum and Johanna Harwood. This film was a critical and commercial success, earning over $78 million worldwide and cementing the Bond franchise's popularity.\n\n**Thunderball (1965)**\nThe fourth Bond film in the Eon series was the third and final Bond film directed by Terence Young. Richard Maibaum co-wrote the screenplay with John Hopkins. The film featured extensive underwater sequences and became a major box office success.\n\nThese three films represent the complete collaboration between director Terence Young and screenwriter Richard Maibaum in the James Bond franchise. Young directed only these three Bond films (the first, second, and fourth in the series), and Maibaum contributed to the screenplay of all three, making this the complete list of their joint directorial-writing efforts.",
+      "nuggets": [
+        "From Russia with Love was directed by Terence Young and written by Richard Maibaum.",
+        "Dr. No was directed by Terence Young and adapted by Richard Maibaum.",
+        "Thunderball was directed by Terence Young and written by Richard Maibaum.",
+        "Zarak was directed by Terence Young and written by Richard Maibaum.",
+        "The Red Beret was directed by Terence Young and written by Richard Maibaum.",
+        "Tank Force was directed by Terence Young and written by Richard Maibaum."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.4,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.4,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "757__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What geographic entity can be associated with Las Vegas?",
+      "passage": "# Geographic Entities Associated with Las Vegas\n\n**Clark County, Nevada**\nClark County is the primary county in which Las Vegas is located and serves as the county seat. The county encompasses the Las Vegas metropolitan area and includes over 2.2 million residents, representing 70% of Nevada's population.\n\n**Paradise, Nevada**\nParadise is an unincorporated town in Clark County that contains a significant portion of the Las Vegas Strip. Many major casinos and resorts, including the former Hard Rock Hotel and Casino, are technically located in Paradise rather than the city of Las Vegas proper.\n\n**Nevada**\nNevada is the U.S. state in which Las Vegas is located. Las Vegas is Nevada's largest city and serves as the state's primary economic and cultural center.\n\n**Mojave Desert**\nLas Vegas is situated within the Mojave Desert, which defines the city's arid climate and desert landscape. The desert environment has significantly influenced the region's development and water management challenges.\n\n**Las Vegas Valley**\nThe Las Vegas Valley is the metropolitan basin area that contains Las Vegas and surrounding communities. This valley is surrounded by mountain ranges and encompasses the entire urban area.\n\n**Spring Mountains**\nThe Spring Mountains are a mountain range located west of Las Vegas, providing a dramatic backdrop to the city. Mount Charleston, the range's highest peak, is a popular recreation area for Las Vegas residents.\n\n**Lake Mead**\nLake Mead is a massive reservoir on the Colorado River located southeast of Las Vegas, created by Hoover Dam. It serves as a crucial water source for the Las Vegas metropolitan area and a major recreational destination.\n\n**Colorado River**\nThe Colorado River flows near Las Vegas and is the primary water source for the city through Lake Mead. The river forms part of Nevada's border with Arizona.\n\n**Henderson, Nevada**\nHenderson is Nevada's second-largest city and is located immediately southeast of Las Vegas within the Las Vegas metropolitan area. It is part of the continuous urban development of the Las Vegas Valley.\n\n**North Las Vegas, Nevada**\nNorth Las Vegas is a separate incorporated city located north of Las Vegas proper. It is the third-largest city in Nevada and part of the Las Vegas metropolitan area.\n\n**Winchester, Nevada**\nWinchester is an unincorporated town in Clark County that borders Las Vegas to the east. Like Paradise, it contains portions of what is commonly considered \"Las Vegas.\"\n\n**Enterprise, Nevada**\nEnterprise is an unincorporated community in Clark County located southwest of Las Vegas. It is part of the Las Vegas metropolitan area's suburban development.\n\n**Summerlin**\nSummerlin is a major planned community on the western edge of Las Vegas. It represents one of the largest master-planned communities in the United States.\n\n**Southwestern United States**\nLas Vegas is a major city within the Southwestern United States region, which includes Arizona, New Mexico, and portions of surrounding states. It is one of the region's largest metropolitan areas alongside Phoenix and Albuquerque.\n\n**Great Basin**\nLas Vegas is located near the southern edge of the Great Basin, a large hydrographic region characterized by internal drainage. The city sits at the transition between the Great Basin and Mojave Desert.\n\n**Nellis Air Force Base**\nNellis Air Force Base is a major U.S. Air Force installation located northeast of Las Vegas in Clark County. It is one of the largest military installations in the region.\n\n**Hoover Dam**\nHoover Dam is located approximately 30 miles southeast of Las Vegas on the Colorado River. This iconic structure is closely associated with Las Vegas's development and water supply.\n\n**Las Vegas Strip**\nThe Las Vegas Strip is the famous 4.2-mile stretch of Las Vegas Boulevard known for its concentration of resort hotels and casinos. While commonly associated with Las Vegas, most of the Strip is actually located in unincorporated Paradise and Winchester.\n\n**Fremont Street**\nFremont Street is located in downtown Las Vegas and represents the historic heart of the city. The Fremont Street Experience is a major tourist attraction in the original Las Vegas townsite.\n\n**Red Rock Canyon National Conservation Area**\nRed Rock Canyon is located approximately 15 miles west of Las Vegas and features dramatic red rock formations. It is a popular destination for hiking and rock climbing for Las Vegas residents and visitors.\n\n**Las Vegas Wash**\nThe Las Vegas Wash is a 12-mile-long channel that drains the Las Vegas Valley into Lake Mead. It serves as the primary drainage system for the metropolitan area.\n\n**Sunrise Manor, Nevada**\nSunrise Manor is an unincorporated community in Clark County located east of Las Vegas. It is one of the most populous unincorporated communities in the United States.\n\n**Boulder City, Nevada**\nBoulder City is a city in Clark County located near Hoover Dam, approximately 26 miles southeast of Las Vegas. It was originally built to house workers constructing Hoover Dam and is one of only two places in Nevada that prohibits gambling.",
+      "nuggets": [
+        "Red Rock Canyon National Conservation Area is located west of Las Vegas.",
+        "Tule Springs Fossil Beds National Monument is a national monument near Las Vegas.",
+        "Mount Charleston Wilderness is located west of Las Vegas in Nevada.",
+        "Spring Mountains National Recreation Area is west of Las Vegas, Nevada.",
+        "Desert National Wildlife Range is located north of Las Vegas, Nevada."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "108__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Where did someone who played in Temple of the Dog go to school?",
+      "passage": "# Schools Attended by Temple of the Dog Members\n\n**San Dieguito High School (Encinitas, California)**\nEddie Vedder attended San Dieguito High School in Encinitas, California, graduating in 1983. This was during his formative years before he moved to Chicago and eventually joined Pearl Jam and Temple of the Dog.\n\n**Shorewood High School (Shoreline, Washington)**\nChris Cornell attended Shorewood High School in Shoreline, Washington, though he dropped out before graduating. He later earned his GED while working various jobs before pursuing music full-time.\n\n**Christ the King Catholic School (Seattle, Washington)**\nChris Cornell attended this Catholic elementary school in Seattle during his childhood. This was part of his early education in the Seattle area before high school.\n\n**San Diego City College**\nEddie Vedder briefly attended San Diego City College after high school. He took some classes there while working various jobs in the San Diego area before fully committing to music.\n\n**Roosevelt High School (Seattle, Washington)**\nStone Gossard, who played rhythm guitar in Temple of the Dog, attended Roosevelt High School in Seattle. He graduated from there before pursuing his music career with Green River and later Mother Love Bone.\n\n**Northwest School (Seattle, Washington)**\nJeff Ament, who played bass in Temple of the Dog, attended Northwest School in Seattle for a period. This private school in Seattle was part of his educational background before his music career took off.\n\n**University of Montana**\nJeff Ament attended the University of Montana in Missoula, where he studied art. He was involved in the local music scene there before moving to Seattle to pursue music more seriously.\n\n**Bellevue Christian School (Washington)**\nMike McCready, who played lead guitar in Temple of the Dog, attended Bellevue Christian School in Washington state during his youth before his professional music career began.",
+      "nuggets": [
+        "Cornell attended Shorewood High School.",
+        "Cornell attended Christ the King, a Catholic elementary school.",
+        "Vedder attended San Dieguito High School.",
+        "Gossard attended the Northwest School.",
+        "Ament attended the University of Montana.",
+        "Ament attended Big Sandy High School.",
+        "McCready attended Roosevelt High School."
+      ],
+      "importance": [
+        "vital",
+        "okay",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.6,
+      "astrict": 0.5714285714285714,
+      "scores": {
+        "vstrict": 0.6,
+        "astrict": 0.5714285714285714,
+        "nuggets_total": 7,
+        "nuggets_vital": 5,
+        "nuggets_okay": 2,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "444__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "The Arsenal F.C. won which year's FA Cup Final?",
+      "passage": "# Arsenal F.C. FA Cup Final Victories\n\nBased on the passages and comprehensive records, Arsenal has won the FA Cup **14 times**, making them the most successful club in the competition's history. Here are ALL the years Arsenal won the FA Cup Final:\n\n**1930** - Arsenal won their first FA Cup, defeating Huddersfield Town 2-0 at Wembley Stadium. This was the beginning of their dominance in English football during the 1930s.\n\n**1936** - Arsenal defeated Sheffield United 1-0 in the final. This victory came during their period of sustained success under manager Herbert Chapman and his successor George Allison.\n\n**1950** - Arsenal beat Liverpool 2-0 at Wembley Stadium. This was their first FA Cup triumph in the post-World War II era.\n\n**1971** - Arsenal defeated Liverpool 2-1 after extra time at Wembley. This victory was part of Arsenal's first-ever league and FA Cup double.\n\n**1979** - Arsenal won a dramatic final against Manchester United 3-2, with all goals coming in the last five minutes of the match. This is known as the \"Five Minute Final.\"\n\n**1993** - Arsenal defeated Sheffield Wednesday 2-1 in a replay after the first match ended 1-1. Both matches were played at Wembley Stadium.\n\n**1998** - Arsenal beat Newcastle United 2-0 at Wembley, as mentioned in the passages. This completed Arsenal's second league and FA Cup double under Arsène Wenger.\n\n**2002** - Arsenal defeated Chelsea 2-0 in the final at the Millennium Stadium in Cardiff. This was the first major final contested between the two London rivals.\n\n**2003** - Arsenal beat Southampton 1-0 at the Millennium Stadium. Robert Pires scored the only goal of the match.\n\n**2005** - Arsenal defeated Manchester United 5-4 on penalties after a 0-0 draw, as detailed in the passages. This was the first FA Cup Final decided by a penalty shootout.\n\n**2014** - Arsenal beat Hull City 3-2 after extra time at Wembley Stadium. This ended Arsenal's nine-year trophy drought.\n\n**2015** - Arsenal defeated Aston Villa 4-0 at Wembley, becoming the first team to win back-to-back FA Cups since 2002-2003.\n\n**2017** - Arsenal beat Chelsea 2-1 at Wembley Stadium, as mentioned in the passages. This was their second victory over Chelsea in an FA Cup Final.\n\n**2020** - Arsenal defeated Chelsea 2-1 at Wembley Stadium in a match played behind closed doors due to COVID-19, as detailed in the passages. This was Arsenal's record-extending 14th FA Cup title.",
+      "nuggets": [
+        "Arsenal won the 1971 FA Cup Final against Liverpool."
+      ],
+      "importance": [
+        "vital"
+      ],
+      "assignment": [
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 1,
+        "nuggets_vital": 1,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "296__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What movie helmed by Gautham Menon featured music written by A. R. Rahman?",
+      "passage": "# Films Directed by Gautham Vasudev Menon with Music by A. R. Rahman\n\n**Vinnaithaandi Varuvaayaa (2010)**\nThis Tamil romantic drama stars Silambarasan and Trisha Krishnan in lead roles. The film's soundtrack composed by A. R. Rahman became a massive hit, with songs like \"Omana Penne\" and \"Hosanna\" achieving cult status. The film explores the complex relationship between an aspiring filmmaker and a Malayali Christian girl.\n\n**Ekk Deewana Tha (2012)**\nThis is the Hindi remake of Vinnaithaandi Varuvaayaa, starring Prateik Babbar and Amy Jackson. A. R. Rahman composed the music for this version as well, adapting some songs from the original Tamil version while creating new compositions. The film retained the core romantic storyline but was set in Mumbai.\n\n**Yennai Arindhaal (2015)**\nThis Tamil action thriller stars Ajith Kumar, Trisha Krishnan, and Anushka Shetty. A. R. Rahman composed the soundtrack, which included popular tracks like \"Adhaaru Adhaaru\" and \"Unakkenna Venum Sollu.\" The film follows a police officer's life across different time periods and his battle against a criminal mastermind.\n\n**Achcham Yenbadhu Madamaiyada (2016)**\nThis Tamil romantic action thriller stars Silambarasan and Manjima Mohan. A. R. Rahman provided the music, creating memorable songs like \"Thalli Pogathey\" and \"Rasaali.\" The film follows a young man's road trip that takes an unexpected turn when he falls in love and encounters dangerous criminals.\n\n**Enai Noki Paayum Thota (2019)**\nThis Tamil romantic action thriller stars Dhanush and Megha Akash. A. R. Rahman composed the soundtrack, which was highly anticipated due to the Menon-Rahman-Dhanush combination. The film deals with a college student who falls in love with a woman with a mysterious past involving the film industry.\n\nResponse: **Vinnaithaandi Varuvaayaa (2010)**\nThis Tamil romantic drama stars Silambarasan and Trisha Krishnan, telling the story of an aspiring filmmaker's love for a Malayali Christian girl. A. R. Rahman's soundtrack became iconic, featuring hits like \"Hosanna\" and \"Omana Penne\" that achieved cult status across South India.\n\n**Ekk Deewana Tha (2012)**\nThis is the Hindi remake of Vinnaithaandi Varuvaayaa, starring Prateik Babbar and Amy Jackson. A. R. Rahman composed the music for this version as well, adapting some tracks from the Tamil original while creating new compositions for the Mumbai-set romantic drama.\n\n**Yennai Arindhaal (2015)**\nThis Tamil action thriller features Ajith Kumar, Trisha Krishnan, and Anushka Shetty in a story spanning different time periods. A. R. Rahman's soundtrack included popular songs like \"Adhaaru Adhaaru\" and \"Unakkenna Venum Sollu,\" complementing the film's narrative about a police officer battling a criminal mastermind.\n\n**Achcham Yenbadhu Madamaiyada (2016)**\nThis Tamil romantic action thriller stars Silambarasan and Manjima Mohan in a road trip narrative that turns dangerous. A. R. Rahman created memorable tracks including \"Thalli Pogathey\" and \"Rasaali,\" which became chartbusters and enhanced the film's romantic and thrilling elements.\n\n**Enai Noki Paayum Thota (2019)**\nThis Tamil romantic action thriller features Dhanush and Megha Akash in a story about a college student who falls for a woman with a mysterious past. A. R. Rahman's soundtrack was highly anticipated given the collaboration between Menon, Rahman, and Dhanush, delivering songs that complemented the film's dark romantic tone.",
+      "nuggets": [
+        "Vinnaithaandi Varuvaayaa was directed by Gautham Menon with music by A. R. Rahman.",
+        "Ye Maaya Chesave was directed by Gautham Menon and features A. R. Rahman's music.",
+        "Ekk Deewana Tha was directed by Gautham Menon with A. R. Rahman's soundtrack.",
+        "Achcham Yenbadhu Madamaiyada was helmed by Gautham Menon with A. R. Rahman composing.",
+        "Sahasam Swasaga Sagipo was directed by Gautham Menon and features A. R. Rahman's music."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "not_support"
+      ],
+      "vstrict": 0.6,
+      "astrict": 0.6,
+      "scores": {
+        "vstrict": 0.6,
+        "astrict": 0.6,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "1022__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What are the different parts of competitions won by Mercedes?",
+      "passage": "# Competitions Won by Mercedes\n\nBased on the question about competitions won by Mercedes (referring to Mercedes-Benz in motorsport, particularly Formula One), here are the different parts/components of competitions they have won:\n\n**Formula One World Constructors' Championships**\nMercedes has won eight consecutive World Constructors' Championship titles from 2014 to 2021 under team principal Toto Wolff. This represents the team championship in Formula One, awarded to the constructor with the most points accumulated by their drivers throughout the season.\n\n**Formula One World Drivers' Championships**\nMercedes drivers have won multiple World Drivers' Championship titles during the team's dominant era. Lewis Hamilton won six of his seven titles while driving for Mercedes (2014, 2015, 2017, 2018, 2019, 2020), and Nico Rosberg won one title in 2016.\n\n**Formula E World Teams' Championships**\nMercedes-EQ won two Formula E World Teams' Championship titles in the all-electric racing series. This demonstrates Mercedes' success beyond traditional Formula One racing in emerging electric motorsport categories.\n\n**Individual Grand Prix Race Wins**\nMercedes has accumulated numerous individual race victories in Formula One. Lewis Hamilton alone has won 105 Formula One races, with the majority coming during his time with Mercedes since 2013.\n\n**Pole Positions**\nMercedes has secured countless pole positions in Formula One qualifying sessions. Lewis Hamilton holds the record with 104 pole positions, most achieved with Mercedes, demonstrating the team's qualifying pace superiority.\n\n**Podium Finishes**\nMercedes drivers have achieved hundreds of podium finishes (top-three results) in Formula One races. Hamilton alone has 203 podium finishes, with the majority coming during the Mercedes era of dominance.\n\n**Fastest Laps**\nMercedes has won numerous fastest lap awards during races, which are awarded to the driver who completes the quickest single lap during a Grand Prix. This demonstrates both car performance and driver skill.\n\n**24 Hours Nürburgring Category Wins**\nToto Wolff, now Mercedes team principal, won his category in the 1994 24 Hours Nürburgring. Mercedes has also had success in this endurance racing event through various programs.\n\n**World Sportscar Championship Races**\nMercedes (as Sauber Mercedes) won races in the World Sportscar Championship, including victories with Michael Schumacher as a driver in 1990 before his Formula One career.\n\n**Triple Crown Components (Monaco Grand Prix)**\nMcLaren-Mercedes partnership contributed to wins at the Monaco Grand Prix, one component of motorsport's Triple Crown. Mercedes engines powered McLaren to numerous Monaco victories during their partnership.\n\n**Sprint Race Wins**\nMercedes has won Formula One sprint races, the shorter Saturday races introduced in recent seasons that determine grid positions and award points. These are distinct competition formats within the modern F1 calendar.\n\n**Constructor Points Records**\nMercedes has set records for total constructor points in single seasons during their period of dominance. These point totals represent cumulative success across all races in a championship season.",
+      "nuggets": [
+        "Mercedes won the World Constructors' Championship multiple times.",
+        "Mercedes drivers won the World Drivers' Championship title.",
+        "Lewis Hamilton won the World Drivers' Championship as a Mercedes driver."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 3,
+        "nuggets_vital": 2,
+        "nuggets_okay": 1,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "1015__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "In which institutes did the students of James D. Watson study?",
+      "passage": "# Institutes Where Students of James D. Watson Studied\n\n**Harvard University**\nMany of Watson's doctoral and postdoctoral students studied at Harvard, where Watson was a faculty member in the Biology Department from 1956 to 1976. During his tenure, he supervised numerous graduate students who conducted their doctoral research at this institution.\n\n**Cold Spring Harbor Laboratory**\nWatson served as director from 1968 onwards, and numerous students and researchers trained under his mentorship at this institution. The laboratory became a major center for molecular biology research under his leadership, attracting students from around the world.\n\n**University of Cambridge (Cavendish Laboratory)**\nSeveral of Watson's early collaborators and students had connections to Cambridge, where Watson himself worked with Francis Crick. Students who worked with Watson often had training or collaborative relationships with Cambridge researchers.\n\n**Massachusetts Institute of Technology (MIT)**\nMany of Watson's students went on to study or conduct postdoctoral research at MIT, which has strong connections to Harvard and Cold Spring Harbor in molecular biology research. The proximity and collaborative nature of Boston-area institutions meant frequent exchange of students.\n\n**Stanford University**\nSeveral molecular biologists who trained under Watson pursued further studies or postdoctoral positions at Stanford, particularly in its renowned biochemistry and genetics programs. Stanford was a major hub for molecular biology during Watson's active teaching years.\n\n**University of California, Berkeley**\nBerkeley's molecular biology program attracted many students from Watson's circle, as it was one of the premier institutions for genetics and molecular biology research during the 1960s-1980s.\n\n**California Institute of Technology (Caltech)**\nCaltech's biology division had strong ties to the molecular biology community that Watson was central to, and several of his students pursued advanced training there. The institution was particularly strong in molecular genetics and biochemistry.\n\n**Yale University**\nYale's molecular biophysics and biochemistry programs attracted students from Watson's network, and there were collaborative relationships between Harvard/Cold Spring Harbor and Yale during Watson's career.\n\n**Rockefeller University**\nThis research institution in New York had close ties to Cold Spring Harbor Laboratory and attracted many students and postdocs from Watson's group for advanced training in molecular biology.\n\n**University of Chicago**\nWatson's own alma mater remained connected to his network, and some of his students had undergraduate or graduate training there before or after working with Watson.\n\n**Indiana University Bloomington**\nWhere Watson himself received his doctorate, this institution continued to be part of the network of schools where Watson's students trained, particularly in genetics and microbiology.\n\n**Princeton University**\nPrinceton's molecular biology program attracted students from Watson's circle, and there were collaborative relationships between the institutions in the molecular biology field.\n\n**Columbia University**\nColumbia's biological sciences programs had connections to Watson's network, and several students associated with his work studied or conducted research there.\n\n**Johns Hopkins University**\nThe strong molecular biology and genetics programs at Johns Hopkins attracted students from Watson's sphere of influence during his active years in research and teaching.\n\n**University of Wisconsin-Madison**\nKnown for its biochemistry and genetics programs, Wisconsin was another institution where students connected to Watson's work pursued their studies, particularly in the 1960s-1970s.",
+      "nuggets": [
+        "Capecchi studied at Harvard after joining James D. Watson's lab there.",
+        "Sharp studied at Union College, majoring in chemistry and mathematics.",
+        "Sharp completed his PhD at the University of Illinois at Urbana-Champaign.",
+        "Sharp did postdoctoral training at the California Institute of Technology.",
+        "Davis completed his PhD at Caltech before his postdoc with Watson.",
+        "Davis did a postdoctoral fellowship at Harvard University working with Watson.",
+        "Tooze worked as a postdoctoral researcher with Watson at Harvard University.",
+        "Capecchi came to MIT as a graduate student before joining Watson's lab.",
+        "Capecchi received his bachelor's degree from Antioch College in Ohio.",
+        "Tooze studied at Jesus College, Cambridge, earning a BA in 1961.",
+        "Birney completed his BA at the University of Oxford as a Balliol College student.",
+        "Birney completed his PhD at the Sanger Institute.",
+        "Birney was a postgraduate student at St John's College, Cambridge."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "support",
+        "partial_support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.5714285714285714,
+      "astrict": 0.38461538461538464,
+      "scores": {
+        "vstrict": 0.5714285714285714,
+        "astrict": 0.38461538461538464,
+        "nuggets_total": 13,
+        "nuggets_vital": 7,
+        "nuggets_okay": 6,
+        "support_count": 5,
+        "partial_support_count": 2,
+        "not_support_count": 6
+      }
+    },
+    {
+      "qid": "151__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the TV programs that were written by John Swartzwelder?",
+      "passage": "# Directors of TV Programs Written by John Swartzwelder\n\n**Bob Anderson**\nBob Anderson directed \"The Lastest Gun in the West,\" a thirteenth season episode of The Simpsons written by John Swartzwelder. Anderson was a long-time director on The Simpsons, helming numerous episodes throughout the series' run.\n\n**Mark Kirkland**\nMark Kirkland directed \"The Old Man and the Lisa,\" an eighth season episode written by John Swartzwelder. Kirkland is one of the most prolific directors in The Simpsons history, having directed over 80 episodes of the series.\n\n**Jim Reardon**\nJim Reardon directed multiple episodes written by John Swartzwelder, including \"Dog of Death\" from season three and \"Homer's Enemy\" from season eight. Reardon was a key director during The Simpsons' golden age and also worked as a storyboard artist on the show.\n\n**Wes Archer**\nWes Archer co-directed \"The Crepes of Wrath\" (with Milton Gray), which was co-written by John Swartzwelder along with George Meyer, Sam Simon, and Jon Vitti. Archer was one of the original directors on The Simpsons and directed many early episodes.\n\n**Milton Gray**\nMilton Gray co-directed \"The Crepes of Wrath\" alongside Wes Archer. This was one of the early episodes of The Simpsons that featured Swartzwelder's writing contributions.\n\n**David Silverman**\nDavid Silverman directed numerous episodes of The Simpsons written by John Swartzwelder throughout the series' long run. He also directed The Simpsons Movie and was one of the show's supervising directors.\n\n**Rich Moore**\nRich Moore directed several episodes written by John Swartzwelder during his tenure on The Simpsons in the 1990s. Moore later went on to direct Disney animated films including Wreck-It Ralph and Zootopia.\n\n**Jeffrey Lynch**\nJeffrey Lynch directed multiple episodes written by John Swartzwelder during the early and middle seasons of The Simpsons. Lynch was a regular director on the show throughout the 1990s.\n\n**Carlos Baeza**\nCarlos Baeza directed several episodes written by John Swartzwelder during his time as a director on The Simpsons. Baeza worked on the show during multiple seasons in the 1990s and 2000s.\n\n**Steven Dean Moore**\nSteven Dean Moore directed numerous episodes written by John Swartzwelder throughout his extensive career on The Simpsons. Moore is one of the longest-serving directors on the series, having directed over 50 episodes.\n\n**Mike B. Anderson**\nMike B. Anderson directed multiple episodes written by John Swartzwelder during the later seasons of The Simpsons. Anderson became one of the show's primary directors in the 2000s and 2010s.\n\n**Matthew Nastuk**\nMatthew Nastuk directed several episodes written by John Swartzwelder during his tenure on The Simpsons. Nastuk worked as a director on the show during the late 1990s and 2000s.\n\n**Swinton O. Scott III**\nSwinton O. Scott III directed episodes written by John Swartzwelder during his time on The Simpsons. Scott worked on the show during the late 1990s and early 2000s.\n\n**Neil Affleck**\nNeil Affleck directed episodes written by John Swartzwelder during the early-to-mid 1990s. Affleck was one of the directors who worked on The Simpsons during its classic era.\n\n**Susie Dietter**\nSusie Dietter directed episodes written by John Swartzwelder during her time on The Simpsons in the early 1990s. Dietter was one of the few female directors to work on the show during its early seasons.",
+      "nuggets": [
+        "Michael Polcino directed a Simpsons episode written by John Swartzwelder.",
+        "David Silverman directed the first episode written by John Swartzwelder.",
+        "Jeffrey Lynch directed a Simpsons episode written by John Swartzwelder.",
+        "Jim Reardon directed a Simpsons episode written by John Swartzwelder.",
+        "Wesley Archer directed a Simpsons episode written by John Swartzwelder.",
+        "Pete Michels directed a Simpsons episode written by John Swartzwelder.",
+        "Rich Moore directed a Simpsons episode written by John Swartzwelder.",
+        "Lance Kramer directed an episode written by John Swartzwelder.",
+        "Mike B. Anderson directed an episode written by John Swartzwelder.",
+        "Mark Kirkland directed an episode written by John Swartzwelder.",
+        "Steven Dean Moore directed an episode written by John Swartzwelder.",
+        "Shaun Cashman directed an episode written by John Swartzwelder.",
+        "Susie Dietter directed an episode written by John Swartzwelder.",
+        "Swinton O. Scott III directed an episode written by John Swartzwelder.",
+        "Bob Anderson directed an episode written by John Swartzwelder.",
+        "Chuck Sheetz directed an episode written by John Swartzwelder.",
+        "Nancy Kruse directed an episode written by John Swartzwelder.",
+        "Mark Ervin directed an episode written by John Swartzwelder.",
+        "Matthew Nastuk directed an episode written by John Swartzwelder.",
+        "Neil Affleck directed an episode written by John Swartzwelder."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "support",
+        "support",
+        "partial_support",
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "support"
+      ],
+      "vstrict": 0.55,
+      "astrict": 0.55,
+      "scores": {
+        "vstrict": 0.55,
+        "astrict": 0.55,
+        "nuggets_total": 20,
+        "nuggets_vital": 20,
+        "nuggets_okay": 0,
+        "support_count": 11,
+        "partial_support_count": 1,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "6__wikitables_composition__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What was the municipality of Estavayer in Switzerland formerly called?",
+      "passage": "I need to address this question about the municipality of Estavayer in Switzerland and its former names.\n\n**Estavayer-le-Lac**\n\nThe municipality of Estavayer in Switzerland was formerly called Estavayer-le-Lac. This was the official name of the municipality until January 1, 2017, when it merged with several neighboring municipalities. The name \"Estavayer-le-Lac\" (meaning \"Estavayer by the Lake\") referenced its location on the shores of Lake Neuchâtel in the canton of Fribourg.\n\n**Staviacum**\n\nIn historical Latin documents and medieval records, Estavayer was referred to as Staviacum. This Latin form of the name appears in various historical texts and charters from the medieval period. The modern name Estavayer evolved from this Latin designation.\n\n**Stavia**\n\nAnother historical Latin variant used for Estavayer was Stavia. This shortened Latin form also appears in medieval documentation and represents an earlier naming convention for the settlement.\n\n**Note:** Unlike typical list questions expecting numerous entities, this question asks about the former names of a specific municipality. The historical record shows that Estavayer has had a limited number of official names throughout its history - primarily the recent official name \"Estavayer-le-Lac\" and historical Latin variants. The current municipality is simply called \"Estavayer\" following the 2017 merger that created a larger administrative unit.",
+      "nuggets": [
+        "Estavayer was formerly called Estavayer-le-Lac"
+      ],
+      "importance": [
+        "vital"
+      ],
+      "assignment": [
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 1,
+        "nuggets_vital": 1,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "877__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who was a member of the Continental Navy?",
+      "passage": "# Members of the Continental Navy\n\n**Esek Hopkins**\nEsek Hopkins was appointed as the first Commander-in-Chief of the Continental Navy in 1775. He commanded the fleet's first major operation in 1776, leading an expedition to the Bahamas, and his flagship was USS Alfred.\n\n**John Paul Jones**\nOften called the \"Father of the American Navy,\" John Paul Jones was one of the most famous Continental Navy officers. He commanded several ships including USS Ranger and USS Bonhomme Richard, and won the famous Battle of Flamborough Head in 1779.\n\n**Silas Talbot**\nSilas Talbot served as an officer in both the Continental Army and Continental Navy during the Revolutionary War. He later commanded USS Constitution from 1799 to 1801 and was a member of the Society of the Cincinnati.\n\n**Nicholas Biddle**\nNicholas Biddle was a Continental Navy captain who commanded USS Randolph. He was killed in action in 1778 when his ship exploded during battle with HMS Yarmouth off Barbados.\n\n**John Barry**\nJohn Barry, known as the \"Father of the American Navy\" alongside Jones, commanded several Continental Navy ships including USS Lexington, USS Raleigh, and USS Alliance. He won the final naval battle of the Revolutionary War in 1783.\n\n**Lambert Wickes**\nLambert Wickes commanded USS Reprisal and conducted successful raids against British shipping in European waters. He worked closely with Benjamin Franklin while operating from French ports and was lost at sea in 1777.\n\n**Gustavus Conyngham**\nGustavus Conyngham was a highly successful Continental Navy captain who commanded USS Revenge. He captured dozens of British merchant vessels and was known as the \"Dunkirk Pirate\" by the British.\n\n**Joshua Barney**\nJoshua Barney served in the Continental Navy from age 15, eventually commanding several vessels. He was captured multiple times by the British but escaped and continued fighting throughout the war.\n\n**Samuel Nicholas**\nSamuel Nicholas was the first commissioned officer of the Continental Marines, the naval infantry force of the Continental Navy. He recruited the first Marines in Philadelphia in 1775 and led them in several amphibious operations.\n\n**Abraham Whipple**\nAbraham Whipple was a Continental Navy commodore who commanded USS Providence and USS Columbus. He led successful raids against British shipping and participated in Hopkins' Bahamas expedition.\n\n**John Manley**\nJohn Manley commanded several Continental Navy vessels including USS Hancock. He was one of the most successful American naval commanders, capturing numerous British prizes during the war.\n\n**Dudley Saltonstall**\nDudley Saltonstall commanded USS Trumbull and later led the disastrous Penobscot Expedition in 1779. He was court-martialed and dismissed from service after that failed operation.\n\n**Hoysted Hacker**\nHoysted Hacker served as a Continental Navy officer and commanded USS Providence under John Paul Jones. He later commanded several other vessels during the war.\n\n**Thomas Truxtun**\nThomas Truxtun served in the Continental Navy as a privateer captain and later became a prominent officer in the United States Navy. He commanded USS Constellation during the Quasi-War with France.\n\n**James Nicholson**\nJames Nicholson was the senior captain of the Continental Navy and commanded USS Trumbull and USS Virginia. He was the highest-ranking naval officer by seniority during much of the war.\n\n**Seth Harding**\nSeth Harding commanded USS Defence and later USS Confederacy. He successfully captured several British vessels and fought numerous engagements during the Revolutionary War.\n\n**John Paul**\nJohn Paul (before adding \"Jones\" to his name) served on Continental Navy vessels in the early stages of the war before his famous exploits under his full adopted name.\n\n**Thomas Thompson**\nThomas Thompson commanded USS Raleigh and participated in several naval operations. He was later court-martialed for losing his ship but was acquitted.\n\n**Hector McNeill**\nHector McNeill commanded USS Boston and participated in various naval operations. He served alongside John Manley in several engagements against British forces.\n\n**Samuel Tucker**\nSamuel Tucker commanded USS Boston and USS Hancock during the war. He successfully transported John Adams to France in 1778 and captured numerous British prizes.",
+      "nuggets": [
+        "John Paul Jones was a member of the Continental Navy.",
+        "Esek Hopkins was a member of the Continental Navy.",
+        "Alexander Murray was a member of the Continental Navy.",
+        "Silas Talbot was a member of the Continental Navy.",
+        "Lambert Wickes was a captain in the Continental Navy.",
+        "David Hawley was a captain in the Continental Navy.",
+        "John Burroughs Hopkins was a captain of the Continental Navy.",
+        "Richard Wickes was an officer in the Continental Navy.",
+        "Dudley Saltonstall was a member of the Continental Navy."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.5555555555555556,
+      "astrict": 0.5555555555555556,
+      "scores": {
+        "vstrict": 0.5555555555555556,
+        "astrict": 0.5555555555555556,
+        "nuggets_total": 9,
+        "nuggets_vital": 9,
+        "nuggets_okay": 0,
+        "support_count": 5,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "124__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What director directed a movie that Herb Jaffe produced?",
+      "passage": "# Directors Who Directed Movies Produced by Herb Jaffe\n\n**John Milius**\nJohn Milius directed *The Wind and the Lion* (1975), which was produced by Herb Jaffe for Metro-Goldwyn-Mayer. This epic historical adventure film starred Sean Connery and Candice Bergen and was Milius' second feature film as a director.\n\n**Norman Jewison**\nNorman Jewison directed *Moonstruck* (1987), a romantic comedy produced by Herb Jaffe. The film starred Cher and Nicolas Cage and won multiple Academy Awards, including Best Actress for Cher.\n\n**John Badham**\nJohn Badham directed *Blue Thunder* (1983), an action thriller produced by Herb Jaffe. The film starred Roy Scheider as a police helicopter pilot who uncovers a conspiracy involving a high-tech surveillance helicopter.\n\n**Irvin Kershner**\nIrvin Kershner directed *The Eyes of Laura Mars* (1978), a supernatural thriller produced by Jon Peters with Herb Jaffe involved in production. The film starred Faye Dunaway as a fashion photographer who has visions of murders.\n\n**J. Lee Thompson**\nJ. Lee Thompson directed *The White Buffalo* (1977), a Western film produced by Herb Jaffe. The film starred Charles Bronson as Wild Bill Hickok hunting a legendary white buffalo.\n\n**Michael Winner**\nMichael Winner directed *The Mechanic* (1972), an action thriller produced by Herb Jaffe and Robert Chartoff. The film starred Charles Bronson as a professional hitman and featured Jan-Michael Vincent.\n\n**Tom Gries**\nTom Gries directed *Breakheart Pass* (1975), a Western mystery film produced by Herb Jaffe. The film starred Charles Bronson and was based on the novel by Alistair MacLean.\n\n**Michael Crichton**\nMichael Crichton directed *Westworld* (1973), a science fiction thriller produced by Paul N. Lazarus III with Herb Jaffe's involvement. The film starred Yul Brynner as a malfunctioning android in a futuristic theme park.",
+      "nuggets": [
+        "Tom Holland directed Fright Night produced by Herb Jaffe",
+        "John Milius directed The Wind and the Lion produced by Herb Jaffe",
+        "Nicholas Meyer directed Time After Time produced by Herb Jaffe",
+        "Karel Reisz directed Who'll Stop the Rain produced by Herb Jaffe",
+        "Penelope Spheeris directed Dudes produced by Herb Jaffe"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "143__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who  composed the software, art, etc. that was produced by Nasir Hussain?",
+      "passage": "I need to clarify that the Wikipedia passages provided do not contain any information about Nasir Hussain or anyone who composed software, art, or other works produced by him. The passages discuss topics like Al-Qaeda, clip art, FIGlet, pixel art, Blender software, and other unrelated subjects.\n\nBased on my encyclopedic knowledge, **Nasir Hussain** was a prominent Indian film director, producer, and screenwriter in Bollywood cinema. Here are the key composers and artists who worked on productions by Nasir Hussain:\n\n**O.P. Nayyar**\nO.P. Nayyar composed music for several early Nasir Hussain films including \"Tumsa Nahin Dekha\" (1957) and \"Phir Wohi Dil Laya Hoon\" (1963). He was known for his distinctive rhythmic style and created many memorable songs for Hussain's romantic films.\n\n**R.D. Burman (Rahul Dev Burman)**\nR.D. Burman was the most frequent collaborator with Nasir Hussain, composing music for numerous films including \"Teesri Manzil\" (1966), \"Baharon Ke Sapne\" (1967), \"Pyar Ka Mausam\" (1969), \"Caravan\" (1971), \"Yaadon Ki Baaraat\" (1973), \"Hum Kisise Kum Naheen\" (1977), and \"Zabardast\" (1985). Their partnership produced some of Bollywood's most iconic soundtracks.\n\n**Anu Malik**\nAnu Malik composed music for later Nasir Hussain productions including \"Manzil Manzil\" (1984) and worked on films produced by Hussain's banner in the 1980s and 1990s.\n\n**Rajesh Roshan**\nRajesh Roshan composed music for \"Qayamat Se Qayamat Tak\" (1988), one of Nasir Hussain's most successful productions. This film launched the careers of Aamir Khan and Juhi Chawla and featured a highly popular soundtrack.\n\n**Usha Khanna**\nUsha Khanna, one of the few female music directors in Bollywood, composed music for \"Dil Deke Dekho\" (1959), an early Nasir Hussain production starring Shammi Kapoor and Asha Parekh.\n\n**Majrooh Sultanpuri**\nMajrooh Sultanpuri was a prolific lyricist who wrote songs for many Nasir Hussain films across different decades, collaborating with various music directors on Hussain's productions.\n\n**Anand Bakshi**\nAnand Bakshi wrote lyrics for several Nasir Hussain films, contributing to the memorable songs that became hallmarks of Hussain's cinema.\n\n**Shankar-Jaikishan**\nThe legendary composer duo Shankar-Jaikishan worked on some Nasir Hussain productions, contributing their signature orchestral style to his films.",
+      "nuggets": [
+        "Rahul Dev Burman composed music for a film produced by Nasir Hussain.",
+        "Anand-Milind composed the soundtrack for Qayamat Se Qayamat Tak, produced by Nasir Hussain.",
+        "Shankar Jaikishan served as music directors on a Nasir Hussain production.",
+        "Jatin Lalit composed the music for Jo Jeeta Wohi Sikandar, produced by Nasir Hussain.",
+        "O. P. Nayyar was the music director on a Nasir Hussain film."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.6,
+      "astrict": 0.6,
+      "scores": {
+        "vstrict": 0.6,
+        "astrict": 0.6,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "40__wikitables_composition__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which Family Computer game featured the character Mario?",
+      "passage": "# Family Computer Games Featuring Mario\n\n**Donkey Kong** (1983)\nThis arcade port for the Famicom featured Mario's first appearance under that name, where he must rescue Pauline from the giant ape Donkey Kong by climbing girders and avoiding barrels. This was one of the earliest games to establish Mario as Nintendo's mascot character.\n\n**Donkey Kong Jr.** (1983)\nIn this Famicom port, Mario appears as the antagonist who has captured Donkey Kong, and the player controls Donkey Kong's son who must rescue his father. This remains one of the few games where Mario plays a villainous role.\n\n**Mario Bros.** (1983)\nThis arcade port was the first game to feature \"Mario\" in the title and introduced Luigi as Mario's brother. Players control the brothers as they defeat creatures emerging from pipes in the sewers of New York.\n\n**Super Mario Bros.** (1985)\nThis landmark platformer for the Famicom revolutionized video games and established the Super Mario series. Mario must traverse the Mushroom Kingdom to rescue Princess Toadstool from Bowser through side-scrolling stages.\n\n**Wrecking Crew** (1985)\nMario appears as a demolition worker who must destroy all designated walls on each stage while avoiding enemies. This puzzle-action game showcased Mario in a different role outside of platforming.\n\n**Super Mario Bros. 2** (1986, Japan)\nReleased only in Japan initially, this direct sequel to Super Mario Bros. featured significantly increased difficulty and introduced elements like poison mushrooms and wind effects. It was later released internationally as Super Mario Bros.: The Lost Levels.\n\n**Super Mario Bros. 3** (1988)\nThis highly acclaimed platformer introduced the world map system, numerous power-ups including the Super Leaf and Tanooki Suit, and featured Mario traveling through eight worlds to save the Mushroom Kingdom. It became one of the best-selling Famicom games.\n\n**Dr. Mario** (1990)\nThis puzzle game featured Mario as a doctor who must eliminate viruses by matching colored capsules. The game combined falling-block puzzle mechanics with the Mario franchise.\n\n**Yume Kōjō: Doki Doki Panic** (1987)\nWhile not originally a Mario game, this Famicom Disk System title was later adapted into Super Mario Bros. 2 for Western markets. The original Japanese version featured different characters but the same gameplay mechanics.\n\n**Super Mario USA** (1992)\nThis was the Japanese Famicom release of the Western Super Mario Bros. 2, bringing the Doki Doki Panic-based game back to Japan with Mario characters. It completed the circle of the game's unusual development history.\n\n**Famicom Grand Prix: F-1 Race** (1987)\nMario appeared in this racing game, marking an early example of Mario appearing in sports and racing titles on the Famicom.\n\n**Famicom Grand Prix II: 3D Hot Rally** (1988)\nThis racing game sequel featured Mario as a playable character in rally racing events, continuing his appearances in non-platforming genres on the Famicom.\n\n**Golf** (1984)\nMario appeared as the golfer character in this early Famicom sports game, which would later inspire the Mario Golf series.\n\n**Tennis** (1984)\nMario appeared as a tennis player in this Famicom sports title, predating the dedicated Mario Tennis series by many years.\n\n**Pinball** (1984)\nMario appeared in this Famicom pinball game, where he must rescue Pauline in a bonus stage that recreates elements from Donkey Kong.",
+      "nuggets": [
+        "Pinball was released for the Family Computer Disk System.",
+        "Mario Bros. was released for the Family Computer Disk System.",
+        "Super Mario Bros. 2 was released for Family Computer Disk System"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 3,
+        "nuggets_vital": 2,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "359__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Ian Brenna is the screenwriter and Brad Falchuk is the director of what motion picture?",
+      "passage": "I need to clarify that based on my knowledge, there appears to be an error or confusion in the question as stated. I cannot find any verified information about a screenwriter named \"Ian Brenna\" or any motion pictures where Ian Brenna wrote the screenplay and Brad Falchuk directed.\n\n**Brad Falchuk** is a well-known television writer, director, and producer, primarily known for his work on TV series rather than motion pictures. He co-created shows like *Glee*, *American Horror Story*, and *Pose* with Ryan Murphy.\n\nThe Wikipedia passages provided do not contain relevant information about this question. They mention:\n- **Ian Shelton** (vocalist of Militarie Gun)\n- **Ian MacKaye** (guitarist of Fugazi)\n- **Brenna Hassett** (bioarchaeologist)\n\nNone of these individuals match \"Ian Brenna\" as a screenwriter, and none are connected to Brad Falchuk film projects.\n\n**Possible interpretations:**\n1. The name may be misspelled or conflated\n2. This may refer to a television movie or pilot rather than a theatrical motion picture\n3. The question may contain incorrect information\n\nWithout being able to verify the existence of screenwriter \"Ian Brenna\" or any collaborative film work with Brad Falchuk as director, I cannot provide a list of motion pictures that meet these specific criteria. If you could clarify the names or provide additional context, I would be happy to provide a comprehensive answer.",
+      "nuggets": [
+        "Ian Brennan wrote and Brad Falchuk directed the Glee episode Hell-O.",
+        "Ian Brennan wrote and Brad Falchuk directed the Glee episode Audition.",
+        "Ian Brennan wrote and Brad Falchuk directed the Glee episode I Do.",
+        "Ian Brennan wrote and Brad Falchuk directed The Sue Sylvester Shuffle.",
+        "Ian Brennan co-wrote and Brad Falchuk directed The glee episode Quarterback."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "286__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which movie did P. Bhaskaran that also featured music composed by V. Dakshinamoorthy?",
+      "passage": "# Films Directed by P. Bhaskaran with Music by V. Dakshinamoorthy\n\n**Jeevitha Nouka (1951)**\nThis early Malayalam film featured P. Bhaskaran in a creative role and had music composed by V. Dakshinamoorthy. It was one of the early collaborations between these two prominent figures in Malayalam cinema.\n\n**Snehaseema (1954)**\nDirected by P. Bhaskaran, this film featured V. Dakshinamoorthy's musical compositions. The film explored themes of love and relationships, typical of the era's Malayalam cinema.\n\n**Bharya (1962)**\nThis was one of P. Bhaskaran's notable directorial ventures with music by V. Dakshinamoorthy. The film dealt with marital relationships and social themes prevalent in 1960s Kerala society.\n\n**Bhargavi Nilayam (1964)**\nA landmark Malayalam horror film directed by A. Vincent with story and screenplay by Vaikom Muhammad Basheer, though P. Bhaskaran was involved in the production. V. Dakshinamoorthy composed the haunting music that became iconic in Malayalam cinema.\n\n**Kadalpalam (1969)**\nDirected by P. Bhaskaran, this film featured V. Dakshinamoorthy's music. The collaboration showcased both artists' maturity in their respective crafts during the late 1960s.\n\n**Asuravithu (1968)**\nThis P. Bhaskaran directorial venture had music composed by V. Dakshinamoorthy. The film was part of the prolific output from both artists during this productive period.\n\n**Kaliyalla Kalyanam (1968)**\nDirected by P. Bhaskaran with music by V. Dakshinamoorthy, this film explored social themes through the lens of marriage and family relationships.\n\n**Vilakku Vangiya Veena (1971)**\nThis P. Bhaskaran-directed film featured V. Dakshinamoorthy's musical score. The collaboration continued the partnership between these two veterans of Malayalam cinema.",
+      "nuggets": [
+        "Mattoru Seetha was directed by P. Bhaskaran with music by V. Dakshinamoorthy.",
+        "Veendum Prabhatham was directed by P. Bhaskaran and scored by V. Dakshinamoorthy.",
+        "Muthassi was directed by P. Bhaskaran and had music by V. Dakshinamoorthy.",
+        "Udayam was directed by P. Bhaskaran with musical score by V. Dakshinamoorthy.",
+        "Arakkallan Mukkalkkallan was directed by P. Bhaskaran and scored by V. Dakshinamoorthy.",
+        "Thacholi Marumakan Chandu was directed by P. Bhaskaran with music by V. Dakshinamoorthy.",
+        "Vilakku Vangiya Veena was directed by P. Bhaskaran and scored by V. Dakshinamoorthy.",
+        "Sreemad Bhagavad Geetha was directed by P. Bhaskaran with music by V. Dakshinamoorthy.",
+        "Jagadguru Aadisankaran was directed by P. Bhaskaran and scored by V. Dakshinamoorthy."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.1111111111111111,
+      "astrict": 0.1111111111111111,
+      "scores": {
+        "vstrict": 0.1111111111111111,
+        "astrict": 0.1111111111111111,
+        "nuggets_total": 9,
+        "nuggets_vital": 9,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "955__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the series that were produced by Pine-Thomas Productions?",
+      "passage": "I need to identify directors who worked on films produced by Pine-Thomas Productions between 1940-1957.\n\n**William Berke**\nWilliam Berke directed multiple Pine-Thomas productions including \"Danger Woman\" (1946), \"Desperate\" (1947), and \"Jungle Jim\" (1948). He was a prolific B-movie director who worked extensively with the studio.\n\n**Ray Enright**\nRay Enright directed \"The Man from Colorado\" (1948) and \"Coroner Creek\" (1948) for Pine-Thomas Productions. He was an experienced director who transitioned from silent films to talkies.\n\n**John Farrow**\nJohn Farrow directed \"Calcutta\" (1947) and \"Beyond Glory\" (1948) for Pine-Thomas. He was an Australian-American director known for his work in film noir and adventure films.\n\n**George Marshall**\nGeorge Marshall directed \"Variety Girl\" (1947) for Pine-Thomas Productions. He was a veteran Hollywood director with a career spanning over five decades.\n\n**William C. Thomas**\nWilliam C. Thomas, one of the co-producers, also directed several Pine-Thomas films including \"The Missourians\" (1950). He occasionally stepped into the director's chair for the company he co-founded.\n\n**Lesley Selander**\nLesley Selander directed numerous Pine-Thomas westerns including \"The Cariboo Trail\" (1950) and \"Crosswinds\" (1951). He was a prolific director of B-westerns and action films.\n\n**Lewis R. Foster**\nLewis R. Foster directed \"Tropic Zone\" (1953) and \"Jamaica Run\" (1953) for Pine-Thomas. He was both a screenwriter and director who worked on various genres.\n\n**William H. Pine**\nWilliam H. Pine, the other co-producer, occasionally directed Pine-Thomas productions. Like his partner Thomas, he sometimes took on directing duties for their economical productions.\n\n**John Rawlins**\nJohn Rawlins directed several Pine-Thomas films including \"Rogue's Regiment\" (1948). He was known for his work on action and adventure B-movies.\n\n**Edwin L. Marin**\nEdwin L. Marin directed \"The Cariboo Trail\" (1950) and other Pine-Thomas westerns. He was an experienced director who worked across multiple studios during Hollywood's golden age.",
+      "nuggets": [
+        "Frank McDonald directed Submarine Alert, which was produced by Pine-Thomas Productions.",
+        "Robert Stevens directed The Big Caper for Pine-Thomas Productions.",
+        "William H. Pine directed Dynamite, a film made for the company.",
+        "Lew Landers directed Hot Cargo, a Pine-Thomas Productions film.",
+        "William Berke directed The Navy Way for Pine-Thomas Productions.",
+        "Lewis R. Foster directed Hong Kong for Pine-Thomas Productions.",
+        "Robert Emmett Tansey directed Shaggy for Pine-Thomas Productions.",
+        "Edward Ludwig directed The Blazing Forest for Pine-Thomas Productions.",
+        "Robert Parrish directed Lucy Gallant, the last Pine-Thomas film at Paramount.",
+        "William C. Thomas directed Big Town for Pine-Thomas Productions."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 1,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "750__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What buildings did William Thomas design?",
+      "passage": "# Buildings Designed by William Thomas\n\n**St. Michael's Cathedral Basilica, Toronto** - Completed in 1848, this Gothic Revival Roman Catholic cathedral is one of William Thomas's most significant ecclesiastical works in Toronto. The cathedral features a tall spire and remains an important landmark in downtown Toronto.\n\n**Brock's Monument, Queenston Heights** - Thomas designed the second and current monument (completed 1856) commemorating Major General Sir Isaac Brock. This 56-meter tall column stands on the Niagara Escarpment and is a prominent memorial to the War of 1812 hero.\n\n**St. Lawrence Hall, Toronto** - Completed in 1850, this Renaissance Revival building served as Toronto's premier public meeting place and concert hall. It features an impressive third-floor Great Hall and remains a significant heritage building in the St. Lawrence Market area.\n\n**St. Paul's Anglican Church, Toronto** - Built in 1841-1842, this Gothic Revival church on Bloor Street East was one of Thomas's early Toronto commissions. The church showcases his skill in ecclesiastical Gothic architecture.\n\n**The Seventh Post Office, Toronto** - Designed in 1851-1853, this building served as Toronto's main post office and featured Thomas's characteristic Italianate styling. It was located on Toronto Street and represented his work in civic architecture.\n\n**Don Jail, Toronto** - Completed in 1864, this imposing Romanesque Revival prison was one of Thomas's major institutional works. The radial-plan jail served Toronto for over a century and is now a heritage building.\n\n**Oakham House, Toronto** - Built around 1848, this brick residence is one of the oldest surviving buildings in downtown Toronto. It demonstrates Thomas's residential design work and is now part of Ryerson University campus.\n\n**St. George the Martyr Church, Toronto** - This Gothic Revival Anglican church was designed by Thomas and built in 1844-1845. Located in what is now the Grange Park area, it served the growing Anglican community.\n\n**Commercial Bank of the Midland District, Kingston** - Thomas designed this bank building in Kingston, Ontario, showcasing his work in commercial architecture. The building reflected the prosperity of mid-19th century Upper Canada.\n\n**Residence for John Spread Baldwin, Toronto** - Thomas designed this substantial private residence for a prominent Toronto citizen, demonstrating his work in domestic architecture for the city's elite.\n\n**Yorkville Town Hall, Toronto** - Before Yorkville was annexed by Toronto, Thomas designed its town hall building, serving the independent village's civic needs in the mid-19th century.\n\n**Various commercial buildings on King Street and Yonge Street, Toronto** - Thomas designed numerous commercial structures along Toronto's main business thoroughfares during the 1840s-1850s, contributing significantly to the city's Victorian streetscape.",
+      "nuggets": [
+        "William Thomas designed St. Michael's Cathedral.",
+        "William Thomas designed St. Paul's Cathedral.",
+        "William Thomas designed the Old City Hall.",
+        "William Thomas designed St. Paul's Presbyterian Church.",
+        "William Thomas designed St. Matthew's Church."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "74__wikitables_composition__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What is the title of an English song used in the Singstar series that was released after 1991?",
+      "passage": "# English Songs Used in the SingStar Series Released After 1991\n\n**\"I Want It All\" by Queen**\nReleased in 1989, this song appears in SingStar but was actually released before 1991, so it does not qualify for this list. However, it demonstrates Queen's presence in the SingStar catalog.\n\n**\"Waterloo\" by ABBA**\nThis 1974 Eurovision-winning song is featured in SingStar games, but predates 1991 and therefore doesn't meet the criteria.\n\nBased on the passages provided, specific post-1991 English songs in SingStar are not explicitly listed. However, drawing from encyclopedic knowledge of the SingStar series and its extensive catalog of over 1,600 downloadable songs including 569 English-language tracks, here are songs that meet the criteria:\n\n**\"Since U Been Gone\" by Kelly Clarkson**\nReleased in 2004, this pop-rock anthem became one of the most popular SingStar tracks. It features powerful vocals perfect for the game's scoring system.\n\n**\"Mr. Brightside\" by The Killers**\nThis 2003 indie rock classic is a staple in SingStar playlists. Its anthemic chorus and energetic delivery make it a fan favorite.\n\n**\"Toxic\" by Britney Spears**\nReleased in 2004, this dance-pop hit appears in multiple SingStar editions. Its distinctive melody and vocal range provide an engaging challenge.\n\n**\"Take On Me\" by a-ha**\nWhile the original is from 1985, various re-recordings and the song's continued popularity led to its inclusion in post-1991 SingStar releases.\n\n**\"I Will Survive\" by Gloria Gaynor**\nOriginally from 1978, this disco classic has been featured in numerous SingStar games released after 1991, making it accessible to modern players.\n\n**\"Don't Stop Me Now\" by Queen**\nReleased in 1978 but featured in SingStar games after 1991, this energetic track showcases Freddie Mercury's vocal range.\n\n**\"Livin' on a Prayer\" by Bon Jovi**\nThis 1986 rock anthem appears in SingStar catalogs, though the original release predates 1991.\n\n**\"Wannabe\" by Spice Girls**\nReleased in 1996, this pop phenomenon is featured in SingStar. Its group vocals and catchy melody make it ideal for multiplayer sessions.\n\n**\"Crazy\" by Gnarls Barkley**\nThis 2006 soul-pop fusion hit appears in SingStar playlists. Its unique vocal styling provides an interesting challenge.\n\n**\"Rehab\" by Amy Winehouse**\nReleased in 2006, this neo-soul track is featured in SingStar games. Its jazz-influenced vocals showcase Winehouse's distinctive style.\n\n**\"Umbrella\" by Rihanna**\nThis 2007 pop hit appears in SingStar catalogs. Its memorable hook and vocal runs make it a popular choice.\n\n**\"Rolling in the Deep\" by Adele**\nReleased in 2010, this powerful ballad is featured in SingStar. Adele's vocal intensity provides a challenging experience.\n\n**\"Somebody That I Used to Know\" by Gotye**\nThis 2011 alternative pop hit appears in SingStar playlists. Its duet format works well for the game's multiplayer mode.\n\n**\"Poker Face\" by Lady Gaga**\nReleased in 2008, this electropop track is featured in SingStar games. Its catchy chorus and dance-pop style make it accessible.\n\n**\"Use Somebody\" by Kings of Leon**\nThis 2008 alternative rock song appears in SingStar catalogs. Its building intensity and vocal range provide variety.",
+      "nuggets": [
+        "Chasing Pavements is an English song in the Singstar series released in 2008.",
+        "Someone Like You is an English song in the Singstar series released in 2011.",
+        "Never Ever is an English song in the Singstar series released in 1997.",
+        "You Know You Like It is an English song in the Singstar series released in 2013.",
+        "Dumb is an English song in the Singstar series released in 2004.",
+        "Ironic is an English song in the Singstar series released in 1996.",
+        "Complicated is an English song in the Singstar series released in 2002.",
+        "Kings and Queens is an English song in the Singstar series released in 2009.",
+        "Whats Up is an English song in the Singstar series released after 1992.",
+        "Youre Supposed to Be My Friend is an English song in the Singstar series released in 2006.",
+        "All Night Long is an English song in the Singstar series released in 2010."
+      ],
+      "importance": [
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 11,
+        "nuggets_vital": 0,
+        "nuggets_okay": 11,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 11
+      }
+    },
+    {
+      "qid": "316__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What is the name of the film that has V. Ravichandran as its director, and Hamsalekha as its composer?",
+      "passage": "# Films Directed by V. Ravichandran with Music by Hamsalekha\n\n**Premaloka** (1987)\nThis was Ravichandran's breakthrough film where he served as director, producer, and lead actor. Hamsalekha composed the music for this romantic drama, which became a massive commercial success and established Ravichandran as a major force in Kannada cinema.\n\n**Ranadheera** (1988)\nAn action drama directed by Ravichandran with music composed by Hamsalekha. The film featured Ravichandran in the lead role and was known for its technical excellence and lavish production values.\n\n**Anjada Gandu** (1988)\nDirected by Ravichandran with Hamsalekha as the music director. This film continued Ravichandran's successful collaboration with Hamsalekha and was well-received by audiences.\n\n**Ramachaari** (1991)\nA romantic action film directed by Ravichandran with music by Hamsalekha. The film became one of the biggest hits of Ravichandran's career and the Hamsalekha soundtrack was particularly celebrated.\n\n**Mane Devru** (1993)\nDirected by Ravichandran with Hamsalekha composing the music. This family drama showcased Ravichandran's versatility as a filmmaker and featured memorable songs by Hamsalekha.\n\n**Putnanja** (1995)\nA film directed by Ravichandran with music by Hamsalekha. The collaboration between the director and composer continued to produce commercially successful films during this period.\n\n**Yaare Neenu Cheluve** (1998)\nDirected by Ravichandran with Hamsalekha as the music composer. This romantic film featured the successful pairing of Ravichandran's direction with Hamsalekha's melodious compositions.\n\n**Preethsod Thappa** (1998)\nA romantic drama directed by Ravichandran with music by Hamsalekha. The film continued the long-standing professional relationship between the director and the music composer.",
+      "nuggets": [
+        "Kindari Jogi was directed by Ravichandran and composed by Hamsalekha.",
+        "Premaloka was directed by Ravichandran with music composed by Hamsalekha.",
+        "Chinna was directed by Ravichandran and had music composed by Hamsalekha.",
+        "Mane Devru was directed by Ravichandran with soundtrack composed by Hamsalekha.",
+        "Ranadheera was directed by Ravichandran and had music composed by Hamsalekha.",
+        "Preethsod Thappa was directed by Ravichandran with songs composed by Hamsalekha.",
+        "Mommaga was directed by Ravichandran and had songs composed by Hamsalekha.",
+        "Putnanja was directed by Ravichandran and had music composed by Hamsalekha.",
+        "Shanti Kranti was directed by Ravichandran with music composed by Hamsalekha.",
+        "Kalavida was directed by Ravichandran and had music composed by Hamsalekha.",
+        "Cheluva was directed by Ravichandran with score composed by Hamsalekha.",
+        "Sipayi was directed by Ravichandran with music composed by Hamsalekha.",
+        "Nattukku Oru Nallavan was directed by Ravichandran with music by Hamsalekha.",
+        "Gopi Krishna was directed by Ravichandran and had music composed by Hamsalekha."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.35714285714285715,
+      "astrict": 0.35714285714285715,
+      "scores": {
+        "vstrict": 0.35714285714285715,
+        "astrict": 0.35714285714285715,
+        "nuggets_total": 14,
+        "nuggets_vital": 14,
+        "nuggets_okay": 0,
+        "support_count": 5,
+        "partial_support_count": 0,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "587__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Dacia makes what automobile model?",
+      "passage": "# Dacia Automobile Models\n\n**Dacia Sandero**\nThe Sandero is a subcompact car/supermini produced since 2007, currently in its third generation. It has been Europe's best-selling car for several years and is also marketed as the Renault Sandero in various markets including Russia, Latin America, and Africa.\n\n**Dacia Logan**\nThe Logan is a family of automobiles produced since 2004 as the successor to the Dacia 1310 and Solenza. It has been manufactured as a sedan, station wagon, and pick-up, with over 4 million sales worldwide as of 2018.\n\n**Dacia Duster**\nThe Duster is a subcompact crossover SUV produced since 2010, currently in its third generation. It is marketed as the Renault Duster in many markets and was rebadged as the Nissan Terrano in some regions.\n\n**Dacia Jogger**\nThe Jogger is a compact MPV/station wagon launched in 2021, based on the Sandero platform. It offers seven-seat capacity and is positioned as an affordable family vehicle combining SUV styling with practical space.\n\n**Dacia Spring**\nThe Spring is Dacia's first all-electric vehicle, launched in 2021. It is a small city car/A-segment crossover and is marketed as one of the most affordable electric vehicles in Europe.\n\n**Dacia Dokker**\nThe Dokker is a panel van and leisure activity vehicle produced from 2012 to 2021. It was based on the Logan MCV platform and offered as both a commercial van and a passenger MPV variant.\n\n**Dacia Lodgy**\nThe Lodgy is a compact MPV produced from 2012 to 2022, offering five or seven-seat configurations. It was based on the Logan/Sandero platform and designed as a spacious family vehicle.\n\n**Dacia Logan MCV (Multi Convivial Vehicle)**\nThe Logan MCV is the station wagon variant of the Logan sedan, offering increased cargo space. It has been produced since 2006 and is marketed as the Lada Largus in Russia.\n\n**Dacia Duster Oroch**\nThe Duster Oroch is a four-door double cab pick-up truck launched in 2015 in South America. It is based on the Duster platform and marketed as the Renault Duster Oroch.\n\n**Dacia Duster Pick-Up**\nThe Duster Pick-Up is a single cab pick-up variant introduced in 2020. It offers commercial vehicle functionality based on the Duster SUV platform.\n\n**Dacia Logan Pick-Up**\nThe Logan Pick-Up is a light commercial pick-up truck variant of the Logan. It has been produced at various plants including Nissan's facility in South Africa, where it was marketed as the Nissan NP200.\n\n**Dacia Sandero Stepway**\nThe Sandero Stepway is a crossover variant of the Sandero with raised suspension and SUV-styled body cladding. It has been offered since the first generation and provides a more rugged appearance and capability.\n\n**Dacia Bigster**\nThe Bigster is a larger C-segment SUV announced for production starting in 2025. It will be positioned above the Duster as Dacia's flagship SUV model, offering more space and premium features.\n\n**Dacia 1310**\nThe 1310 was produced from 1969 to 2004 and was based on the Renault 12. It was Dacia's main model for decades and the predecessor to the Logan, representing Romania's automotive industry during the communist era.\n\n**Dacia Solenza**\nThe Solenza was a budget sedan produced from 2003 to 2005 as a modernized version of the 1310. It served as a transitional model before the launch of the Logan.",
+      "nuggets": [
+        "Dacia makes the Sandero, a subcompact car.",
+        "Dacia makes the Duster, a compact crossover SUV.",
+        "Dacia makes the Logan, a small family car.",
+        "Dacia makes the Dokker, a panel van and leisure activity vehicle.",
+        "Dacia makes the Lodgy, a compact multi-purpose vehicle.",
+        "Dacia makes the 1300, a medium-sized family car.",
+        "Dacia makes the 1310, a saloon model in the 1300 series.",
+        "Dacia makes the Nova, a subcompact car.",
+        "Dacia makes the SupeRNova, a subcompact car.",
+        "Dacia makes the Solenza, a subcompact liftback automobile.",
+        "Dacia makes the 1100, produced under licence from Renault.",
+        "Dacia makes the Pick-Up, a range of pick-up trucks.",
+        "Dacia makes the Lastun, a small city car also known as the Dacia 500.",
+        "Dacia makes the Bigster, a concept SUV."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "partial_support",
+        "support",
+        "support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "partial_support"
+      ],
+      "vstrict": 0.6666666666666666,
+      "astrict": 0.2857142857142857,
+      "scores": {
+        "vstrict": 0.6666666666666666,
+        "astrict": 0.2857142857142857,
+        "nuggets_total": 14,
+        "nuggets_vital": 6,
+        "nuggets_okay": 8,
+        "support_count": 4,
+        "partial_support_count": 5,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "413__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What movie was a Warwick Films production and had John Gilling as its director?",
+      "passage": "Based on the question about Warwick Films productions directed by John Gilling, here are the films that meet both criteria:\n\n**The Gamma People** (1956)\nThis science fiction film was produced by Warwick Films and directed by John Gilling. It starred Paul Douglas and Eva Bartok in a story about a fictional European country where a mad scientist conducts experiments on children.\n\n**Odongo** (1956)\nThis adventure film was a Warwick Films production directed by John Gilling. Set in Africa, it starred Rhonda Fleming and Macdonald Carey in a story involving wildlife and adventure.\n\n**The Bandit of Zhobe** (1959)\nThis adventure film set on the Indian frontier was produced by Warwick Films and directed by John Gilling. It starred Victor Mature and Anne Aubrey in a tale of conflict in British India.\n\n**Idle on Parade** (1959)\nAlso known as \"Idol on Parade,\" this musical comedy was a Warwick Films production directed by John Gilling. It starred Anthony Newley as a rock and roll singer who gets drafted into the army.\n\n**The Flesh and the Fiends** (1960)\nThis horror film was produced by Warwick Films (in association with Triad Productions) and directed by John Gilling. It starred Peter Cushing and Donald Pleasence in a story based on the Burke and Hare murders in 19th century Edinburgh.\n\nThese five films represent the collaboration between Warwick Films (the production company founded by Irving Allen and Albert R. Broccoli) and director John Gilling during the 1950s and early 1960s.",
+      "nuggets": [
+        "Idol on Parade is a Warwick Films production directed by John Gilling.",
+        "The Bandit of Zhobe was produced for Warwick Films and directed by John Gilling.",
+        "The Man Inside was a Warwick Film Productions movie directed by John Gilling.",
+        "Odongo is a Warwick Films film directed by John Gilling.",
+        "The Gamma People was a Warwick film directed by John Gilling.",
+        "High Flight was a Warwick Films production directed by John Gilling."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "not_support"
+      ],
+      "vstrict": 0.8,
+      "astrict": 0.6666666666666666,
+      "scores": {
+        "vstrict": 0.8,
+        "astrict": 0.6666666666666666,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "141__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Martin Rackin produced software directed by whom?",
+      "passage": "# Directors of Films Produced by Martin Rackin\n\n**Norman Taurog**\nNorman Taurog directed multiple films produced by Martin Rackin, including \"G.I. Blues\" (1960) and \"Blue Hawaii\" (1961), both starring Elvis Presley. Taurog was a prolific director who won an Academy Award and specialized in musical comedies.\n\n**Michael Curtiz**\nMichael Curtiz directed \"The Proud Rebel\" (1958), which was produced by Martin Rackin. Curtiz was a legendary director best known for \"Casablanca\" and worked extensively in Hollywood's golden age.\n\n**John Sturges**\nJohn Sturges directed \"The Magnificent Seven\" (1960), produced by Martin Rackin. This iconic Western became one of the most celebrated films of the genre and launched Sturges into the top tier of action directors.\n\n**Henry Hathaway**\nHenry Hathaway directed \"North to Alaska\" (1960), produced by Martin Rackin and starring John Wayne. Hathaway was known for his Westerns and adventure films throughout his long career.\n\n**Andrew V. McLaglen**\nAndrew V. McLaglen directed \"The Way West\" (1967), produced by Martin Rackin. McLaglen specialized in Westerns and adventure films, often working with major stars like John Wayne and James Stewart.\n\n**Richard Thorpe**\nRichard Thorpe directed \"The Scorpio Letters\" (1967), a TV movie produced by Martin Rackin. Thorpe had a long career at MGM directing numerous films across various genres.\n\n**Don Siegel**\nDon Siegel directed \"Rough Cut\" (1980), one of the later films produced by Martin Rackin. Siegel was known for his crime thrillers and action films, including several Clint Eastwood collaborations.\n\n**Norman Panama**\nNorman Panama directed \"The Road to Hong Kong\" (1962), produced by Martin Rackin. This was the final \"Road\" picture featuring Bing Crosby and Bob Hope in their famous comedy series.",
+      "nuggets": [
+        "Stagecoach was produced by Martin Rackin and directed by Gordon Douglas.",
+        "Top Secret Affair was produced by Martin Rackin and directed by H. C. Potter.",
+        "Rough Night in Jericho was a Rackin production directed by Arnold Laven.",
+        "The Revengers was a Rackin production directed by Daniel Mann.",
+        "The Helen Morgan Story was directed by Michael Curtiz and produced by Rackin.",
+        "Darby's Rangers was directed by William Wellman and produced by Rackin."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 4,
+        "nuggets_okay": 2,
+        "support_count": 0,
+        "partial_support_count": 1,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "438__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Michael Schumacher won which Belgian Grand Prix?",
+      "passage": "Based on the passages and my encyclopedic knowledge, here are ALL the Belgian Grand Prix races won by Michael Schumacher:\n\n**1992 Belgian Grand Prix**\nThis was Schumacher's first-ever Formula One Grand Prix victory, driving for Benetton-Ford. It was the first Grand Prix win for a German driver since Jochen Mass in 1975 and marked the beginning of Schumacher's record-breaking career.\n\n**1995 Belgian Grand Prix**\nSchumacher won this race driving for Benetton-Renault. This victory came during his second World Championship-winning season.\n\n**1996 Belgian Grand Prix**\nSchumacher won driving for Ferrari, his second win of the season. He had crashed heavily in Friday practice but recovered to qualify third before taking the victory.\n\n**1997 Belgian Grand Prix**\nSchumacher won driving for Ferrari, extending his Drivers' Championship lead over Jacques Villeneuve to 11 points. This was the first Formula One race to start behind a Safety Car.\n\n**2001 Belgian Grand Prix**\nSchumacher won this race for Ferrari at Spa-Francorchamps during his fourth World Championship-winning season.\n\n**2002 Belgian Grand Prix**\nSchumacher won from pole position driving for Ferrari, with teammate Rubens Barrichello finishing second. This was his tenth victory of the season and the 63rd of his career, breaking Nigel Mansell's record for most wins in a single season.\n\n**2004 Belgian Grand Prix**\nSchumacher won this race for Ferrari during his seventh and final World Championship-winning season.\n\nIn total, Michael Schumacher won the Belgian Grand Prix **six times** (1992, 1995, 1996, 1997, 2001, 2002, 2004), making him the most successful driver at this circuit in Formula One history.",
+      "nuggets": [
+        "Michael Schumacher won 1992 Belgian Grand Prix",
+        "Michael Schumacher won 1995 Belgian Grand Prix",
+        "Michael Schumacher won 1996 Belgian Grand Prix",
+        "Michael Schumacher won 1997 Belgian Grand Prix",
+        "Michael Schumacher won 2001 Belgian Grand Prix",
+        "Michael Schumacher won 2002 Belgian Grand Prix"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 6,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "121__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed a movie that Aamir Khan produced?",
+      "passage": "# Directors of Movies Produced by Aamir Khan\n\n**Ashutosh Gowariker**\nDirected *Lagaan* (2001), the first film released by Aamir Khan Productions. The film was nominated for the Academy Award for Best Foreign Language Film and became a landmark in Indian cinema.\n\n**Reema Kagti**\nDirected *Talaash: The Answer Lies Within* (2012), a psychological thriller produced by Aamir Khan Productions and Excel Entertainment. The film starred Aamir Khan alongside Kareena Kapoor and Rani Mukerji.\n\n**Nitesh Tiwari**\nDirected *Dangal* (2016), a biographical sports drama produced by Aamir Khan Productions. The film became one of the highest-grossing Indian films of all time and was a massive success in China.\n\n**Advait Chandan**\nDirected *Secret Superstar* (2017), a musical drama produced by Aamir Khan Productions. He also directed *Laal Singh Chaddha* (2022), the official Hindi remake of Forrest Gump, also produced by Aamir Khan Productions.\n\n**Kiran Rao**\nDirected *Dhobi Ghat* (2010), also known as *Mumbai Diaries*, a drama film produced by Aamir Khan Productions. She also directed *Laapataa Ladies* (2024), a comedy-drama produced by the same banner.\n\n**R. S. Prasanna**\nDirected *Sitaare Zameen Par* (2025), a sports comedy-drama produced by Aamir Khan Productions. The film is a spiritual successor to *Taare Zameen Par* and an official remake of the Spanish film *Champions*.\n\n**Vir Das and Kavi Shastri**\nCo-directed *Happy Patel: Khatarnak Jasoos* (2026), a spy action comedy film produced under Aamir Khan Productions. The film marked Imran Khan's return to cinema after over a decade.\n\n**Rajkumar Hirani**\nDirected *PK* (2014), a satirical comedy-drama co-produced by Aamir Khan Productions and Rajkumar Hirani Films. The film became one of the highest-grossing Indian films and addressed themes of religious superstition.\n\n**Amole Gupte**\nDirected *Taare Zameen Par* (2007) in collaboration with Aamir Khan, who is credited as the primary director. Gupte was the creative director and writer who developed the original concept for this film produced by Aamir Khan Productions.\n\n**Vijay Krishna Acharya**\nDirected *Thugs of Hindostan* (2018), an action-adventure film produced by Yash Raj Films in association with Aamir Khan Productions. The film was one of the most expensive Indian films ever made.",
+      "nuggets": [
+        "Ashutosh Gowariker directed Lagaan, which Aamir Khan produced.",
+        "Nitesh Tiwari directed Dangal, which Aamir Khan produced.",
+        "Kiran Rao directed Dhobi Ghat, which Aamir Khan produced.",
+        "Abbas Tyrewala directed Jaane Tu Ya Jaane Na, produced by Aamir Khan.",
+        "Anusha Rizvi directed Peepli Live, produced by Aamir Khan Productions.",
+        "Abhinay Deo directed Delhi Belly, produced by Aamir Khan Productions.",
+        "Advait Chandan directed Secret Superstar, produced by Aamir Khan."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.6,
+      "astrict": 0.5714285714285714,
+      "scores": {
+        "vstrict": 0.6,
+        "astrict": 0.5714285714285714,
+        "nuggets_total": 7,
+        "nuggets_vital": 5,
+        "nuggets_okay": 2,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "209__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed a movie written by Herman Raucher?",
+      "passage": "# Directors of Movies Written by Herman Raucher\n\n**Robert Mulligan**\nRobert Mulligan directed *Summer of '42* (1971), a coming-of-age romance film based on Herman Raucher's memoirs and screenplay. The film was nominated for four Academy Awards and became a major commercial and critical success.\n\n**Melvin Van Peebles**\nMelvin Van Peebles directed *Watermelon Man* (1970), written by Herman Raucher. This comedy starred Godfrey Cambridge as a bigoted white insurance salesman who wakes up to find he has become Black.\n\n**Robert Ellis Miller**\nRobert Ellis Miller directed *Sweet November* (1968), written by Herman Raucher. The romantic comedy-drama starred Sandy Dennis and Anthony Newley and was originally conceived as a stage play before being adapted as a screenplay.\n\n**Paul Bogart**\nPaul Bogart directed *Class of '44* (1973), the sequel to *Summer of '42*, also written by Herman Raucher. The film continued Raucher's autobiographical story, following his character's first year in college during World War II.\n\n**Pat O'Connor**\nPat O'Connor directed *Sweet November* (2001), a remake based on the 1968 film written by Herman Raucher. The film starred Keanu Reeves and Charlize Theron and was loosely adapted from Raucher's original screenplay.\n\n**Peter Bogdanovich**\nPeter Bogdanovich directed *What's Up, Doc?* (1972), which was very loosely based on Herman Raucher's 1971 novel *A Glimpse of Tiger*. The screwball comedy starred Barbra Streisand and Ryan O'Neal and became the third highest-grossing film of 1972.",
+      "nuggets": [
+        "Melvin Van Peebles directed Watermelon Man, which was written by Herman Raucher.",
+        "Charles Jarrott directed The Other Side of Midnight with a screenplay by Herman Raucher.",
+        "Max Baer Jr. directed Ode to Billy Joe with a screenplay by Herman Raucher.",
+        "Pat O'Connor directed Sweet November, based on a film written by Herman Raucher."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.5,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.5,
+        "nuggets_total": 4,
+        "nuggets_vital": 3,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "273__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What entity is operated either by V/Line or Metro Trains Melbourne?",
+      "passage": "# Entities Operated by V/Line or Metro Trains Melbourne\n\n## Metro Trains Melbourne Operations\n\n**Cranbourne line**\nThe Cranbourne line is a metropolitan railway line in Melbourne that runs from Flinders Street station through the southeastern suburbs to Cranbourne. It is one of the 16 lines operated by Metro Trains Melbourne.\n\n**Pakenham line**\nThe Pakenham line extends from the Melbourne CBD to Pakenham in the outer southeastern suburbs. It shares tracks with the Cranbourne line through much of its route and is operated by Metro Trains Melbourne.\n\n**Frankston line**\nThe Frankston line runs from Flinders Street to Frankston along Port Phillip Bay. It is one of Melbourne's busiest metropolitan lines operated by Metro Trains Melbourne.\n\n**Werribee line**\nThe Werribee line serves the western suburbs of Melbourne, running from Flinders Street to Werribee. Metro Trains Melbourne operates this line as part of the metropolitan network.\n\n**Williamstown line**\nThe Williamstown line branches from the Werribee line at Newport and terminates at Williamstown. It is operated by Metro Trains Melbourne and serves the western suburbs.\n\n**Sunbury line**\nThe Sunbury line runs from Flinders Street through the northwestern suburbs to Sunbury. Metro Trains Melbourne operates this line, which shares tracks with other lines through the City Loop.\n\n**Craigieburn line**\nThe Craigieburn line extends from the Melbourne CBD to Craigieburn in the northern suburbs. It is operated by Metro Trains Melbourne and is one of the network's major lines.\n\n**Upfield line**\nThe Upfield line runs from Flinders Street to Upfield in the northern suburbs. Metro Trains Melbourne operates this shorter metropolitan line.\n\n**Mernda line**\nThe Mernda line extends from the CBD to Mernda in the northeastern suburbs. It was extended from South Morang in 2018 and is operated by Metro Trains Melbourne.\n\n**Hurstbridge line**\nThe Hurstbridge line runs from Flinders Street to Hurstbridge in the northeastern outer suburbs. Metro Trains Melbourne operates this line through the Yarra Valley region.\n\n**Glen Waverley line**\nThe Glen Waverley line serves the eastern suburbs, running from Burnley to Glen Waverley. It is operated by Metro Trains Melbourne as part of the metropolitan network.\n\n**Belgrave line**\nThe Belgrave line runs from Flinders Street through the eastern suburbs to Belgrave in the Dandenong Ranges. Metro Trains Melbourne operates this scenic line.\n\n**Lilydale line**\nThe Lilydale line extends from the CBD to Lilydale in the outer eastern suburbs. It shares tracks with the Belgrave line for much of its route and is operated by Metro Trains Melbourne.\n\n**Alamein line**\nThe Alamein line is a short branch line running from Camberwell to Alamein in the eastern suburbs. Metro Trains Melbourne operates this line.\n\n**Sandringham line**\nThe Sandringham line runs from Flinders Street to Sandringham along Port Phillip Bay. It is operated by Metro Trains Melbourne and serves the bayside suburbs.\n\n**Stony Point line**\nThe Stony Point line runs from Frankston to Stony Point on the Mornington Peninsula. While part of the metropolitan network, it operates as a diesel shuttle service under Metro Trains Melbourne.\n\n**City Loop**\nThe City Loop is an underground rail system in Melbourne's CBD connecting multiple platforms at key stations. Metro Trains Melbourne operates services through this critical infrastructure.\n\n**Flinders Street station**\nFlinders Street station is Melbourne's central railway station and the busiest on the network. Metro Trains Melbourne operates services through this iconic heritage-listed station.\n\n## V/Line Operations\n\n**Geelong line**\nThe Geelong line connects Melbourne's Southern Cross station to Geelong, Victoria's second-largest city. V/Line operates regular passenger services on this major regional route.\n\n**Ballarat line**\nThe Ballarat line runs from Southern Cross station to Ballarat in central Victoria. V/Line operates this historic route that was part of Victoria's gold rush railway network.\n\n**Bendigo line**\nThe Bendigo line connects Melbourne to Bendigo in central Victoria. V/Line operates frequent services on this important regional corridor.\n\n**Seymour line**\nThe Seymour line runs from Southern Cross to Seymour, with some services continuing to Shepparton. V/Line operates this line serving the Goulburn Valley region.\n\n**Traralgon line**\nThe Traralgon line extends from Southern Cross through Gippsland to Traralgon. V/Line operates this line serving the Latrobe Valley and eastern Victoria.\n\n**Warrnambool line**\nThe Warrnambool line runs from Southern Cross to Warrnambool on Victoria's southwest coast. V/Line operates this long-distance regional service.\n\n**Albury line**\nThe Albury line connects Melbourne to Albury on the New South Wales border. V/Line operates services on this interstate route along the Main Southern railway line.\n\n**Echuca line**\nThe Echuca line runs from Southern Cross to Echuca on the Murray River. V/Line operates this service to the historic river port town.\n\n**Swan Hill line**\nThe Swan Hill line extends from Southern Cross to Swan Hill in northwestern Victoria. V/Line operates this service through the Mallee region.\n\n**Maryborough line**\nThe Maryborough line connects Melbourne to Maryborough in central Victoria. V/Line operates this service through the historic goldfields region.\n\n**Ararat line**\nThe Ararat line runs from Southern Cross to Ararat in western Victoria. V/Line operates this service through the Grampians region.\n\n**Southern Cross station**\nSouthern Cross station is Melbourne's main regional and interstate railway terminus. V/Line operates all its Melbourne services from this major transport hub.",
+      "nuggets": [
+        "Broadmeadows railway station is operated by both Metro Trains and V/Line.",
+        "Dandenong railway station is serviced by Metro Trains and V/Line.",
+        "Caulfield railway station is served by Metro Trains and V/Line.",
+        "Essendon railway station is serviced by Metro Trains and V/Line.",
+        "Footscray railway station is serviced by Metro Trains and V/Line.",
+        "North Melbourne railway station is serviced by Metro Trains and V/Line.",
+        "Pakenham railway station is served by Metro Trains and V/Line.",
+        "Sunbury railway station is served by Metro Trains and V/Line.",
+        "Berwick railway station is serviced by Metro Trains and V/Line.",
+        "Clayton railway station is serviced by Metro Trains and V/Line."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "partial_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 2,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "324__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which movie with a score by V. Dakshinamoorthy was directed by A. B. Rag?",
+      "passage": "I need to identify all movies that were both scored by V. Dakshinamoorthy and directed by A. B. Raj (assuming \"A. B. Rag\" refers to A. B. Raj, a Malayalam film director).\n\n**Rarichan Enna Pauran** (1956)\nThis Malayalam film was directed by A. B. Raj and featured music composed by V. Dakshinamoorthy. It was one of the early collaborations between this director-composer duo in Malayalam cinema.\n\n**Minnaminungu** (1957)\nDirected by A. B. Raj with music by V. Dakshinamoorthy, this Malayalam film showcased their continued partnership. The film was part of the golden era of Malayalam cinema in the late 1950s.\n\n**Bharya** (1962)\nThis significant Malayalam film was directed by A. B. Raj and had a musical score by V. Dakshinamoorthy. The film is noted for its family drama themes and memorable songs.\n\n**Bhargavi Nilayam** (1964)\nDirected by A. B. Raj with music composed by V. Dakshinamoorthy, this is considered a landmark Malayalam horror film. The haunting musical score by Dakshinamoorthy perfectly complemented the film's supernatural themes.\n\n**Kadathukaran** (1965)\nThis Malayalam film featured the director-composer combination of A. B. Raj and V. Dakshinamoorthy. It continued their successful collaboration in the Malayalam film industry during the 1960s.\n\n**Kalyaana Rathriyil** (1966)\nDirected by A. B. Raj with music by V. Dakshinamoorthy, this film was part of their extensive filmography together. The collaboration between these two artists was prolific during this period of Malayalam cinema.",
+      "nuggets": [
+        "Kannur Deluxe was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Lottery Ticket was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Danger Biscuit was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Ezhuthatha Kadha was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Nirthasala was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Marunnattil Oru Malayali was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Football Champion was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Sasthram Jayichu Manushyan Thottu was directed by A. B. Raj with score by V. Dakshinamoorthy.",
+        "Prasaadam was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Kaduvaye Pidicha Kiduva was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Prarthana was directed by A. B. Raj with a score by V. Dakshinamoorthy.",
+        "Kanalkattakal was directed by A. B. Raj with a score by V. Dakshinamoorthy."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 12,
+        "nuggets_vital": 12,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 12
+      }
+    },
+    {
+      "qid": "408__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which movie written by Gautham Menon had its score or soundtrack composed by Harris Jayaraj?",
+      "passage": "# Movies Written by Gautham Menon with Music by Harris Jayaraj\n\n**Minnale (2001)**\nThis was Gautham Menon's directorial debut and Harris Jayaraj's debut as a music composer. The soundtrack featured nine songs and became a massive hit, with \"Vaseegara\" becoming a chartbuster that launched both their careers.\n\n**Kaakha Kaakha (2003)**\nThis cop action thriller marked the second collaboration between Menon and Jayaraj. The film was critically acclaimed and commercially successful, with Harris Jayaraj composing a memorable soundtrack that complemented the intense police drama.\n\n**Vettaiyaadu Vilaiyaadu (2006)**\nThis crime thriller featured Kamal Haasan and had music composed by Harris Jayaraj. The soundtrack was well-received and included popular tracks that enhanced the film's investigative narrative.\n\n**Pachaikili Muthucharam (2007)**\nThis psychological thriller written and directed by Menon featured music by Harris Jayaraj. The film explored themes of infidelity and paranoia, with Jayaraj's score adding to the tense atmosphere.\n\n**Vaaranam Aayiram (2008)**\nThis romantic drama won the National Film Award for Best Feature Film in Tamil and featured an acclaimed soundtrack by Harris Jayaraj. This was their last collaboration for several years before reuniting for Yennai Arindhaal.\n\n**Yennai Arindhaal (2015)**\nThis action thriller marked the reunion of Menon and Jayaraj after a seven-year gap following Vaaranam Aayiram. The soundtrack featured seven songs and received positive critical reception upon its release.\n\n**Dhruva Natchathiram (unreleased)**\nThis spy action film written, directed and produced by Gautham Menon features music by Harris Jayaraj. The soundtrack was released in October 2023 with five songs, though the film itself remains unreleased as of the passages' timeframe.",
+      "nuggets": [
+        "Kaakha Kaakha was written by Gautham Menon and scored by Harris Jayaraj.",
+        "Minnale had its story written by Gautham Menon and soundtrack by Harris Jayaraj.",
+        "Vettaiyaadu Vilaiyaadu was written by Gautham Menon with music by Harris Jayaraj.",
+        "Rehnaa Hai Terre Dil Mein was written by Gautham Menon with score by Harris Jayaraj.",
+        "Yennai Arindhaal was co-written by Gautham Menon with music by Harris Jayaraj."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "partial_support",
+        "not_support",
+        "partial_support"
+      ],
+      "vstrict": 0.4,
+      "astrict": 0.4,
+      "scores": {
+        "vstrict": 0.4,
+        "astrict": 0.4,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 2,
+        "partial_support_count": 2,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "463__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which athletic contest did Lisa Raymond and Samantha Stosur emerge victorious in?",
+      "passage": "# Athletic Contests Won by Lisa Raymond and Samantha Stosur\n\n**2005 US Open Women's Doubles**\nLisa Raymond and Samantha Stosur won the 2005 US Open women's doubles championship, defeating Elena Dementieva and Flavia Pennetta in the final. This was their first Grand Slam title together as a partnership.\n\n**2006 French Open Women's Doubles**\nThe pair captured the 2006 French Open women's doubles title at Roland Garros. This victory marked their second consecutive Grand Slam championship together.\n\n**2006 US Open Women's Doubles**\nRaymond and Stosur successfully defended their US Open title in 2006, winning their third Grand Slam doubles championship as a team. This demonstrated their dominance on hard courts during this period.\n\n**2006 WTA Tour Championships Doubles**\nThe duo won the season-ending WTA Tour Championships (now known as the WTA Finals) in doubles competition in 2006. This prestigious title capped off their highly successful year together.\n\n**2007 Italian Open (Rome) Doubles**\nRaymond and Stosur won the Tier I Italian Open doubles title in Rome in 2007. This was one of several Premier-level tournaments they captured during their partnership.\n\n**2007 Zurich Open Doubles**\nThe pair won the Zurich Open doubles championship in 2007, adding another Tier I title to their collection. This tournament was one of the most prestigious events on the women's tour.\n\n**Multiple WTA Tour-level Doubles Titles (2005-2008)**\nThroughout their partnership from 2005 to 2008, Raymond and Stosur won numerous additional WTA Tour-level doubles titles at various tournaments worldwide. Their partnership was one of the most successful on the women's tour during this era, accumulating over 10 titles together.",
+      "nuggets": [
+        "Raymond and Stosur won the 2005 Fortis Championships Luxembourg doubles title.",
+        "Raymond and Stosur won the 2006 Toray Pan Pacific Open doubles title.",
+        "Raymond and Stosur won the 2006 Pacific Life Open Women's Doubles title.",
+        "Raymond and Stosur won the 2006 NASDAQ-100 Open Women's Doubles title.",
+        "Raymond and Stosur won the 2006 Family Circle Cup doubles title.",
+        "Raymond and Stosur won the 2006 Porsche Tennis Grand Prix doubles title.",
+        "Raymond and Stosur won the 2006 Cellular South Cup doubles title.",
+        "Raymond and Stosur won the 2006 Generali Ladies Linz doubles title.",
+        "Raymond and Stosur won the 2005 Pilot Pen Tennis Women's Doubles title.",
+        "Raymond and Stosur won the 2007 Hastings Direct International Championships doubles.",
+        "Raymond and Stosur won the 2007 Toray Pan Pacific Open doubles title."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 11,
+        "nuggets_vital": 11,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 11
+      }
+    },
+    {
+      "qid": "936__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which individual was involved in the 1924 British Mount Everest Expedition?",
+      "passage": "# Individuals Involved in the 1924 British Mount Everest Expedition\n\n**George Mallory**\nGeorge Mallory was one of the most famous members of the 1924 expedition and disappeared near the summit on June 8, 1924. He was an experienced climber who had participated in the 1921 and 1922 Everest expeditions. His fate remained a mystery until his body was discovered in 1999.\n\n**Andrew \"Sandy\" Irvine**\nAndrew Irvine was Mallory's climbing partner who also disappeared on June 8, 1924, during their summit attempt. He was the youngest member of the climbing team at age 22. Whether he and Mallory reached the summit before their deaths remains one of mountaineering's greatest mysteries.\n\n**Edward Norton**\nColonel Edward Norton was the expedition leader and reached an altitude of 28,126 feet (8,573 m) without supplemental oxygen on June 4, 1924. This remained the altitude record without oxygen for nearly 30 years. He suffered severe snow blindness during his attempt.\n\n**Howard Somervell**\nDr. Howard Somervell was a surgeon and climber who accompanied Norton on the June 4 summit attempt. He reached approximately 28,000 feet before turning back. He was also the expedition's medical officer.\n\n**Noel Odell**\nNoel Odell was a geologist and climber who was the last person to see Mallory and Irvine alive on June 8, 1924. He reported seeing two figures high on the mountain, though the exact location has been debated. He also made a solo climb to search for the missing climbers.\n\n**John de Vars Hazard**\nCaptain John Hazard was a member of the climbing team who participated in establishing high camps. He was involved in the support efforts for the summit attempts.\n\n**John Noel**\nCaptain John Noel was the expedition's official photographer and filmmaker. He documented the expedition with both still photography and motion pictures. His film \"The Epic of Everest\" became a historic record of the expedition.\n\n**Geoffrey Bruce**\nCaptain Geoffrey Bruce was a climber who had also participated in the 1922 expedition. He was involved in the high-altitude support work and establishing camps.\n\n**Bentley Beetham**\nBentley Beetham was a naturalist, photographer, and climber on the expedition. He was also an accomplished ornithologist who collected specimens during the expedition.\n\n**Edward Shebbeare**\nEdward Shebbeare served as the expedition's transport officer. He was responsible for organizing the logistics and supplies for the expedition.\n\n**Richard Hingston**\nMajor Richard Hingston was the expedition's medical officer and naturalist. He conducted scientific research during the expedition.\n\n**John Macdonald**\nJohn Macdonald served as a support member of the expedition team. He was involved in the lower-altitude logistics and camp establishment.\n\n**Karma Paul**\nKarma Paul was the chief interpreter for the expedition. He facilitated communication between the British climbers and the Sherpa porters and local Tibetan officials.\n\nAdditionally, numerous Sherpa porters and support staff were integral to the expedition, though their individual names are less well-documented in historical records. The expedition employed dozens of Sherpas who carried loads to high camps and provided essential support for the summit attempts.",
+      "nuggets": [
+        "George Mallory was part of the 1924 British Mount Everest Expedition.",
+        "Andrew Sandy Irvine was part of the 1924 British Mount Everest Expedition.",
+        "Bentley Beetham was part of the 1924 British Mount Everest Expedition.",
+        "John de Vars Hazard was part of the 1924 British Mount Everest Expedition.",
+        "Edward Oswald Shebbeare was part of the 1924 British Mount Everest Expedition.",
+        "Charles Granville Bruce was part of the 1924 British Mount Everest Expedition.",
+        "Edward Norton was part of the 1924 British Mount Everest Expedition.",
+        "Howard Somervell was part of the 1924 British Mount Everest Expedition",
+        "Geoffrey Bruce was part of the 1924 British Mount Everest Expedition.",
+        "Noel Odell was part of the 1924 British Mount Everest Expedition."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 0.9,
+      "astrict": 0.9,
+      "scores": {
+        "vstrict": 0.9,
+        "astrict": 0.9,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 9,
+        "partial_support_count": 0,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "971__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed the movie where Michael Goldenberg was its screenwriter?",
+      "passage": "Based on the question about who directed movies where Michael Goldenberg was the screenwriter, here are the directors:\n\n**David Yates**\nDavid Yates directed Harry Potter and the Order of the Phoenix (2007), for which Michael Goldenberg wrote the screenplay. This was the fifth film in the Harry Potter series and marked Goldenberg's only screenplay contribution to the franchise.\n\n**Kenneth Branagh**\nKenneth Branagh directed Peter's Friends (1992), an early screenplay by Michael Goldenberg. The film was a British comedy-drama about a group of friends reuniting for a New Year's Eve weekend.\n\n**Jon Amiel**\nJon Amiel directed The Core (2003), for which Michael Goldenberg wrote the screenplay. This science fiction disaster film starred Aaron Eckhart and Hilary Swank in a story about scientists attempting to restart Earth's core.\n\n**Gary Ross**\nGary Ross directed the fantasy adventure film Peter Pan (2003 version was in development with Goldenberg's script, though the final 2003 film directed by P.J. Hogan used a different screenplay). Goldenberg wrote an earlier draft of a Peter Pan adaptation.\n\n**Francis Lawrence**\nFrancis Lawrence directed Constantine (2005), based on a screenplay that Michael Goldenberg worked on during development, though the final credited screenplay was by Kevin Brodbin and Frank Cappello.\n\n**Brad Silberling**\nBrad Silberling directed Contact (1997 - though the passages indicate this was directed by Robert Zemeckis). Goldenberg did uncredited rewrites on various projects during this period.\n\n**Joe Johnston**\nJoe Johnston worked with material that Goldenberg contributed to during the development of various fantasy projects in the 1990s and 2000s.",
+      "nuggets": [
+        "P.J. Hogan directed Peter Pan, which Michael Goldenberg co-wrote.",
+        "David Yates directed Harry Potter and the Order of the Phoenix, written by Goldenberg.",
+        "Michael Goldenberg directed Bed of Roses, a film he also wrote.",
+        "Martin Campbell directed Green Lantern, a script that Goldenberg rewrote.",
+        "Robert Zemeckis directed Contact, a film Goldenberg rewrote the script for."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "partial_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 3,
+        "nuggets_okay": 2,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "246__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "A National Institute of Dramatic Art alumni has what citizenship?",
+      "passage": "# National Institute of Dramatic Art (NIDA) Alumni Citizenships\n\nBased on the question about citizenships held by NIDA alumni, here are the entities:\n\n**Australian citizenship**\nMany NIDA graduates hold Australian citizenship, as NIDA is Australia's premier drama school located in Sydney. The majority of its alumni are Australian citizens who trained domestically.\n\n**British citizenship**\nHugo Weaving, a prominent NIDA alumnus mentioned in the passages, retains British citizenship despite living in Australia since 1976. He was born in Nigeria and trained at NIDA in Sydney.\n\n**Malaysian citizenship**\nJason Keng-Kwin Chan was born in Malaysia before becoming an Australian actor. He trained at NIDA and later became known for his role in Power Rangers: Ninja Storm.\n\n**American citizenship**\nMel Gibson, who studied acting at NIDA, was born in Peekskill, New York and holds American citizenship. He moved to Australia at age 12 but retained his American nationality.\n\n**New Zealand citizenship**\nPamela Stephenson was born in New Zealand before moving to Australia in 1953 and studying at NIDA. She later also acquired Australian and British citizenship.\n\n**Dual Australian-British citizenship**\nSeveral NIDA alumni hold both Australian and British citizenship, including Pamela Stephenson who acquired multiple citizenships throughout her career.\n\n**Dual Australian-American citizenship**\nSome NIDA graduates like Mel Gibson hold both Australian and American citizenship, having been born in one country and naturalized or raised in the other.",
+      "nuggets": [
+        "Mel Gibson is an American NIDA alumnus.",
+        "Devon Terrell is an American-Australian NIDA graduate.",
+        "Bojana Novakovic is a Serbian-Australian NIDA graduate.",
+        "Daniella Rahme is a Lebanese actress who studied at NIDA.",
+        "Jason Chan is a Malaysian-born Australian actor who graduated from NIDA.",
+        "Shai Alexander is a Ukrainian-born Australian actor trained at NIDA.",
+        "A NIDA graduate holds United Kingdom citizenship."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.42857142857142855,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.42857142857142855,
+        "nuggets_total": 7,
+        "nuggets_vital": 6,
+        "nuggets_okay": 1,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "77__wikitables_composition__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What is an island that is part of the Mutton Bird Islands in Tasmania?",
+      "passage": "# Islands that are Part of the Mutton Bird Islands Group in Tasmania\n\n**East Pyramids**\nThe East Pyramids comprise a group of three steep, rocky unpopulated islets located approximately 2 kilometres south of where Port Davey meets the Southern Ocean. These 6.69-hectare islets are explicitly identified as one of the eight islands in the Mutton Bird Islands Group and are part of the Southwest National Park and Tasmanian Wilderness World Heritage Site.\n\n**Flat Witch Island**\nFlat Witch Island is one of the eight islands comprising the Mutton Bird Islands Group. It is located in the waters off the south-western coast of Tasmania near Port Davey and is part of the Southwest National Park.\n\n**Sugarloaf Rock**\nSugarloaf Rock is a small rocky island that forms part of the Mutton Bird Islands Group. It is situated in the Southern Ocean off Tasmania's south-western coast and is included within the Southwest National Park.\n\n**Needle Rocks**\nNeedle Rocks is one of the islands in the Mutton Bird Islands Group. This rocky formation is located in the waters near Port Davey in south-western Tasmania and is protected as part of the Southwest National Park.\n\n**The Mewstone**\nThe Mewstone is a prominent island within the Mutton Bird Islands Group, located off the south-western coast of Tasmania. It is a distinctive pyramidal rock formation that rises dramatically from the Southern Ocean and is part of the Tasmanian Wilderness World Heritage Site.\n\n**Eddystone Rock**\nEddystone Rock is one of the eight islands that comprise the Mutton Bird Islands Group. This rocky island is situated in the Southern Ocean off Tasmania's south-western coast near Port Davey.\n\n**Maatsuyker Island**\nMaatsuyker Island is the southernmost island of the Mutton Bird Islands Group and one of the southernmost points of Australia. It features a lighthouse and is located off the south-western coast of Tasmania within the Southwest National Park.\n\n**De Witt Island**\nDe Witt Island is part of the Mutton Bird Islands Group, located off the south-western coast of Tasmania. It is one of the eight islands in this group and is included within the Southwest National Park and Tasmanian Wilderness World Heritage Site.",
+      "nuggets": [
+        "East Pyramids is one of the eight islands in the Mutton Bird Islands group.",
+        "Ketchem Island is part of the Mutton Bird Island group in Tasmania.",
+        "Sugarloaf rock is one of the eight islands in the Mutton Bird Islands group.",
+        "Sugarmouse Island is one of the eight islands in the Mutton Bird Islands group.",
+        "Wendar Island is one of the eight islands in the Mutton Bird Islands group.",
+        "Wild Wind islets are one of the eight islands in the Mutton Bird Islands group."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.16666666666666666,
+      "astrict": 0.16666666666666666,
+      "scores": {
+        "vstrict": 0.16666666666666666,
+        "astrict": 0.16666666666666666,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "310__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What film directed by M. Krishnan Nair had its music composed by V. Dakshinamoorthy?",
+      "passage": "I need to identify films directed by M. Krishnan Nair that had music composed by V. Dakshinamoorthy. While the passages mention one film directed by M. Krishnan Nair (Kadal from 1968), it had music by M. B. Sreenivasan, not V. Dakshinamoorthy. Let me provide a comprehensive list from my knowledge of Malayalam cinema.\n\n**Jeevitha Nouka (1951)**\nThis was one of the early collaborations between director M. Krishnan Nair and music composer V. Dakshinamoorthy. The film was a significant work in early Malayalam cinema and helped establish both artists' reputations in the industry.\n\n**Nirmala (1948)**\nAn early Malayalam film directed by M. Krishnan Nair with music by V. Dakshinamoorthy. This film was part of the formative period of Malayalam cinema when the industry was still developing its distinctive style.\n\n**Vellinakshatram (1949)**\nThis film featured M. Krishnan Nair's direction and V. Dakshinamoorthy's musical compositions. It was released during a crucial period in Malayalam cinema's evolution.\n\n**Nalla Thanka (1950)**\nAnother collaboration between M. Krishnan Nair and V. Dakshinamoorthy, this film contributed to the growing Malayalam film industry in the early 1950s.\n\n**Chandrika (1950)**\nDirected by M. Krishnan Nair with music by V. Dakshinamoorthy, this film was part of their productive partnership during the early years of Malayalam cinema.\n\n**Sthreedhanam (1951)**\nThis film showcased the director-composer duo's work during a period when Malayalam cinema was establishing its narrative and musical conventions.\n\n**Navalokam (1951)**\nAnother film from their collaboration, featuring V. Dakshinamoorthy's music under M. Krishnan Nair's direction during the early 1950s.",
+      "nuggets": [
+        "Kavyamela is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy.",
+        "Ashokavanam was directed by M. Krishnan Nair and scored by V. Dakshinamoorthy.",
+        "Padunna Puzha was directed by M. Krishnan Nair with music by V. Dakshinamoorthy.",
+        "Cochin Express was directed by M. Krishnan Nair and scored by V. Dakshinamoorthy.",
+        "Neela Sari was directed by M. Krishnan Nair with music by V. Dakshinamoorthy.",
+        "Thaalappoli was directed by M. Krishnan Nair and scored by V. Dakshinamoorthy.",
+        "Pinchu Hridhayam was directed by M. Krishnan Nair and scored by V. Dakshinamoorthy.",
+        "Viyarppinte Vila was directed by M. Krishnan Nair with music by V. Dakshinamoorthy.",
+        "Bharthavu was directed by M. Krishnan Nair with music by V. Dakshinamoorthy.",
+        "Sabarimala Sree Dharmashastha was directed by M. Krishnan Nair and scored by V. Dakshinamoorthy."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 10
+      }
+    },
+    {
+      "qid": "120__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who directed a movie that Bonnie Curtis produced?",
+      "passage": "# Directors of Films Produced by Bonnie Curtis\n\n**Arie Posin**\nArie Posin directed *The Chumscrubber* (2005), a comedy-drama film that Bonnie Curtis produced alongside Lawrence Bender. The film premiered at the Sundance Film Festival and featured an ensemble cast led by Jamie Bell.\n\n**Steven Spielberg**\nSteven Spielberg directed *Minority Report* (2002), which Bonnie Curtis produced. This science fiction thriller starred Tom Cruise and was based on a Philip K. Dick short story, becoming a critical and commercial success.\n\n**Steven Spielberg**\nSpielberg also directed *Saving Private Ryan* (1998), for which Bonnie Curtis served as an associate producer. The World War II epic won five Academy Awards and is considered one of the greatest war films ever made.\n\n**Steven Spielberg**\nSpielberg directed *The Lost World: Jurassic Park* (1997), with Bonnie Curtis working as associate producer. This sequel to Jurassic Park continued the franchise's exploration of dinosaur-filled islands.\n\n**Robert Zemeckis**\nRobert Zemeckis directed *The Polar Express* (2004), which Bonnie Curtis produced. This animated Christmas film used motion-capture technology and starred Tom Hanks in multiple roles.\n\n**J.J. Abrams**\nJ.J. Abrams directed *Super 8* (2011), produced by Bonnie Curtis among others. This science fiction thriller was set in 1979 and paid homage to Spielberg's early films.\n\n**Tate Taylor**\nTate Taylor directed *The Help* (2011), which Bonnie Curtis produced. The film, based on Kathryn Stockett's novel, received critical acclaim and multiple Academy Award nominations including Best Picture.\n\n**Colin Trevorrow**\nColin Trevorrow directed *Jurassic World* (2015), with Bonnie Curtis serving as executive producer. This reboot of the Jurassic Park franchise became one of the highest-grossing films of all time.\n\n**J.A. Bayona**\nJ.A. Bayona directed *Jurassic World: Fallen Kingdom* (2018), with Bonnie Curtis as executive producer. This sequel continued the rebooted Jurassic franchise with Chris Pratt and Bryce Dallas Howard.\n\n**Colin Trevorrow**\nTrevorrow returned to direct *Jurassic World Dominion* (2022), with Bonnie Curtis again serving as executive producer. This film brought together cast members from both the original and new Jurassic trilogies.",
+      "nuggets": [
+        "Steven Spielberg directed A.I. Artificial Intelligence, which Bonnie Curtis produced.",
+        "Rodrigo Garcia directed Albert Nobbs, which Bonnie Curtis produced.",
+        "Arie Posin directed The Face of Love, which Bonnie Curtis produced.",
+        "Daniel Espinosa directed Life, which Bonnie Curtis produced.",
+        "Robin Swicord directed Wakefield, which Bonnie Curtis produced."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "300__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What did Suseenthiran direct that used compositions of D. Imman?",
+      "passage": "# Films Directed by Suseenthiran with Music by D. Imman\n\n**Paayum Puli (2015)**\nThis action thriller film starred Vishal and Kajal Aggarwal in lead roles. D. Imman composed the music for this film, which was produced by Vendhar Movies and released on September 4, 2015.\n\n**Naan Mahaan Alla (2010)**\nThis action thriller marked one of Suseenthiran's early directorial ventures and featured Karthi in the lead role. D. Imman provided the musical score for this film, which was a commercial success.\n\n**Azhagarsamiyin Kuthirai (2011)**\nThis drama film featured Appukutty and Saranya Mohan in lead roles. D. Imman composed the music for this Suseenthiran-directed film, which received critical acclaim for its realistic portrayal of rural life.\n\n**Rajapattai (2011)**\nThis action comedy film starred Vikram in the lead role with Deeksha Seth as the female lead. D. Imman composed the music for this Suseenthiran-directed venture, which was released in 2011.\n\n**Pandianadu (2013)**\nThis action drama featured Vishal and Lakshmi Menon in the lead roles. D. Imman composed the music for this film directed by Suseenthiran, which dealt with themes of rural politics and violence.",
+      "nuggets": [
+        "Suseenthiran directed Pandiya Naadu with music composed by D. Imman.",
+        "Suseenthiran directed Paayum Puli with music composed by D. Imman.",
+        "Suseenthiran directed Kennedy Club with music composed by D. Imman.",
+        "Suseenthiran directed Jeeva with music composed by D. Imman.",
+        "Suseenthiran directed Maaveeran Kittu with musical score by D. Imman.",
+        "Suseenthiran directed Nenjil Thunivirundhal with music composed by D. Imman."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "428__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What song was composed by Bonnie McKee and Max Martin?",
+      "passage": "# Songs Composed by Bonnie McKee and Max Martin\n\n**\"Dynamite\" by Taio Cruz**\nThis 2010 hit was co-written by Bonnie McKee and Max Martin along with Benny Blanco and Dr. Luke. The song became Cruz's second number-one single on the UK Singles Chart and reached number two on the US Billboard Hot 100, selling over 5.7 million copies in the U.S. and Canada.\n\n**\"Roar\" by Katy Perry**\nReleased in August 2013 as the lead single from Perry's album Prism, this power pop anthem was co-written by McKee and Martin with Dr. Luke and Cirkut. It topped charts in over a dozen countries and became the fifth-best-selling single worldwide in 2013, with 15 million copies sold globally.\n\n**\"Part of Me\" by Katy Perry**\nThis 2012 dance-pop track from Teenage Dream: The Complete Confection was written by Perry, Dr. Luke, Max Martin, and Bonnie McKee. The empowerment anthem became another chart-topping hit for Perry and showcased the successful songwriting partnership between McKee and Martin.\n\n**\"Teenage Dream\" by Katy Perry**\nThe title track from Perry's 2010 album was co-written by McKee and Martin with Perry, Dr. Luke, and Benny Blanco. This nostalgic pop song became one of Perry's signature hits and reached number one on the Billboard Hot 100.\n\n**\"California Gurls\" by Katy Perry featuring Snoop Dogg**\nReleased in 2010, this summer anthem was written by McKee, Martin, Dr. Luke, Benny Blanco, and Snoop Dogg. The song topped the Billboard Hot 100 for six consecutive weeks and became one of the best-selling singles of 2010.\n\n**\"Hold It Against Me\" by Britney Spears**\nThis 2011 lead single from Femme Fatale was co-written by McKee and Martin with Dr. Luke and Billboard. The electropop track debuted at number one on the Billboard Hot 100, becoming Spears' fourth number-one single.\n\n**\"Last Friday Night (T.G.I.F.)\" by Katy Perry**\nAnother collaboration from the Teenage Dream album, this 2011 single was written by McKee, Martin, Dr. Luke, and Perry. The party anthem became Perry's fifth consecutive number-one single from the album, tying a record previously held by Michael Jackson.\n\n**\"Waking Up in Vegas\" by Katy Perry**\nFrom Perry's 2008 album One of the Boys, this song was co-written by McKee and Martin with Perry and Desmond Child. The upbeat pop-rock track reached the top ten in multiple countries and became one of Perry's early hits.",
+      "nuggets": [
+        "Last Friday Night was co-written by Bonnie McKee and Max Martin.",
+        "Birthday was co-written by Bonnie McKee and Max Martin.",
+        "Part of Me was written by Bonnie McKee and Max Martin.",
+        "Wide Awake was co-written by Bonnie McKee and Max Martin.",
+        "Teenage Dream was written with Max Martin and Bonnie McKee."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.6,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.6,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "449__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Which FA Cup Final was won by the Tottenham Hotspur F.C.?",
+      "passage": "# FA Cup Finals Won by Tottenham Hotspur F.C.\n\n**1901 FA Cup Final**\nTottenham Hotspur won their first FA Cup in 1901, defeating Sheffield United 3-1 in a replay after the initial match ended 2-2. This victory made them the only non-League club to win the FA Cup since the formation of the Football League in 1888.\n\n**1921 FA Cup Final**\nTottenham defeated Wolverhampton Wanderers 1-0 at Stamford Bridge. This was their second FA Cup triumph and came during their time in the Second Division, making them the first club from outside the top division to win the FA Cup since the Football League's expansion.\n\n**1961 FA Cup Final**\nSpurs beat Leicester City 2-0 at Wembley Stadium. This victory completed the famous League and FA Cup Double in the 1960-61 season, making Tottenham the first club in the 20th century to achieve this feat.\n\n**1962 FA Cup Final**\nTottenham successfully defended their FA Cup title by defeating Burnley 3-1 at Wembley. This made them the first club since Newcastle United in 1952 to retain the trophy.\n\n**1967 FA Cup Final**\nSpurs defeated Chelsea 2-1 at Wembley in the first all-London FA Cup final. This match is considered the beginning of the intense rivalry between Chelsea and Tottenham, and featured goals from Jimmy Robertson and Frank Saul for Tottenham.\n\n**1981 FA Cup Final**\nTottenham beat Manchester City 3-2 in a replay after the initial match ended 1-1. Ricky Villa scored one of the most famous goals in FA Cup final history with a memorable solo run in the replay at Wembley.\n\n**1982 FA Cup Final**\nSpurs defeated Queens Park Rangers 1-0 in a replay after a 1-1 draw. Glenn Hoddle scored the winning penalty in the replay, giving Tottenham back-to-back FA Cup victories.\n\n**1991 FA Cup Final**\nTottenham beat Nottingham Forest 2-1 in the final at Wembley. Paul Gascoigne's performance in the semi-final against Arsenal is remembered, though he was injured early in the final itself, with goals from Paul Stewart and Des Walker (own goal) securing the victory.",
+      "nuggets": [
+        "Tottenham Hotspur won the 1961 FA Cup Final",
+        "Tottenham Hotspur won the 1962 FA Cup Final",
+        "Tottenham Hotspur won the 1921 FA Cup Final",
+        "Tottenham Hotspur won the 1991 FA Cup Final"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 4,
+        "nuggets_vital": 4,
+        "nuggets_okay": 0,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "871__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What rivalry featured the football team from Washington D.C.?",
+      "passage": "# Football Team Rivalries Featuring Washington D.C.\n\n**Dallas Cowboys rivalry**\nThe Washington Commanders (formerly Washington Football Team/Redskins) and Dallas Cowboys have one of the NFL's most intense and storied rivalries. This NFC East division rivalry dates back to 1960 and is fueled by geographic proximity, frequent playoff implications, and contrasting team cultures. The rivalry is often considered one of the greatest in all of professional sports.\n\n**Philadelphia Eagles rivalry**\nThe Washington-Philadelphia rivalry is another fierce NFC East division matchup that has existed since 1934. The proximity of the two cities (about 140 miles apart) and frequent meetings have created deep animosity between the fanbases. This rivalry intensified particularly during the 1980s and 1990s when both teams were highly competitive.\n\n**New York Giants rivalry**\nWashington and the New York Giants have maintained a heated rivalry since 1932 as NFC East division opponents. The rivalry has featured numerous playoff-deciding games and memorable moments throughout NFL history. The geographic and cultural differences between the nation's capital and New York City add extra intensity to this matchup.\n\n**Baltimore Ravens rivalry (Battle of the Beltway)**\nThough not a division rivalry, Washington and the Baltimore Ravens compete in the \"Battle of the Beltway,\" named after the I-495 Capital Beltway. This intrastate Maryland-D.C. area rivalry began when the Ravens franchise was established in 1996. The proximity of the two cities (about 40 miles) creates natural competition for fans in the region.\n\n**Pittsburgh Steelers rivalry**\nWashington and Pittsburgh have developed a rivalry based on geographic proximity and historical significance, though they are in different conferences. The teams have met in important games throughout history, and the relatively short distance between the cities creates natural fan overlap and competition.",
+      "nuggets": [
+        "The Cowboys-Washington rivalry features the Washington Football Team.",
+        "The Eagles-Washington rivalry features the Washington Football Team.",
+        "The Giants-Washington rivalry features the Washington Football Team."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 3,
+        "nuggets_vital": 3,
+        "nuggets_okay": 0,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "509__wikitables_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What are the different geological fracture zones ?",
+      "passage": "# Geological Fracture Zones\n\n**Clarion Fracture Zone**\nLocated in the eastern Pacific Ocean between Hawaii and Mexico, the Clarion fracture zone is one of the five major lineations of the northern Pacific floor. It was discovered by the Scripps Institution of Oceanography in 1954 and forms part of the Clarion-Clipperton Zone.\n\n**Clipperton Fracture Zone**\nAlso discovered in 1954, the Clipperton fracture zone runs parallel to the Clarion fracture zone in the eastern Pacific. Together with the Clarion zone, it defines the boundaries of the Clarion-Clipperton Zone, an area rich in polymetallic nodules.\n\n**Mendocino Fracture Zone**\nOne of the most prominent fracture zones in the northeastern Pacific Ocean, extending westward from Cape Mendocino, California. It marks a major transform fault boundary and creates a significant topographic feature on the ocean floor.\n\n**Pioneer Fracture Zone**\nLocated in the eastern Pacific Ocean, this fracture zone runs roughly east-west and is one of the major lineations of the northern Pacific floor. It lies between the Clarion and Mendocino fracture zones.\n\n**Murray Fracture Zone**\nSituated in the northeastern Pacific Ocean, the Murray fracture zone is another of the five major fracture zones of the northern Pacific. It extends westward from the coast of North America and represents an ancient transform fault.\n\n**Molokai Fracture Zone**\nLocated in the central Pacific Ocean near the Hawaiian Islands, this fracture zone is a significant geological feature. It represents a transform fault that offsets segments of the mid-ocean ridge system.\n\n**Romanche Fracture Zone**\nOne of the most prominent fracture zones in the Atlantic Ocean, located near the equator. It is the deepest point in the Atlantic Ocean outside of trenches, reaching depths of approximately 7,760 meters.\n\n**Charlie-Gibbs Fracture Zone**\nA major fracture zone in the North Atlantic Ocean that offsets the Mid-Atlantic Ridge. It consists of two main transform faults and represents a significant discontinuity in the ocean floor.\n\n**Vema Fracture Zone**\nLocated in the South Atlantic Ocean, this fracture zone offsets the Mid-Atlantic Ridge. It is named after the research vessel Vema and represents a major transform fault boundary.\n\n**Atlantis Fracture Zone**\nSituated in the Atlantic Ocean along the Mid-Atlantic Ridge, this fracture zone is known for its deep valleys and significant topographic relief. It has been extensively studied for its geological and biological features.\n\n**Kane Fracture Zone**\nA major fracture zone in the central Atlantic Ocean that offsets the Mid-Atlantic Ridge. It extends for hundreds of kilometers and creates significant topographic features on the ocean floor.\n\n**Oceanographer Fracture Zone**\nLocated in the North Atlantic Ocean, this fracture zone offsets segments of the Mid-Atlantic Ridge. It is characterized by deep valleys and steep escarpments.\n\n**Fifteen-Twenty Fracture Zone**\nSituated in the North Atlantic Ocean at approximately 15°20'N latitude, this fracture zone offsets the Mid-Atlantic Ridge. It represents a transform fault boundary between oceanic plates.\n\n**Blanco Fracture Zone**\nLocated off the coast of Oregon in the northeastern Pacific Ocean, this fracture zone connects segments of the Juan de Fuca Ridge. It is an active transform fault zone with associated seismic activity.\n\n**Sovanco Fracture Zone**\nSituated off the coast of British Columbia, Canada, this fracture zone offsets the Juan de Fuca Ridge system. It represents a transform fault boundary in the northeastern Pacific.\n\n**Eltanin Fracture Zone**\nLocated in the South Pacific Ocean, this is one of the longest fracture zones in the world. It offsets the Pacific-Antarctic Ridge and extends for thousands of kilometers.\n\n**Udintsev Fracture Zone**\nSituated in the southeastern Pacific Ocean, this fracture zone offsets the Pacific-Antarctic Ridge. It is named after Russian oceanographer Gleb Udintsev.\n\n**Heezen Fracture Zone**\nLocated in the South Atlantic Ocean, this fracture zone is named after geologist Bruce Heezen. It represents a transform fault that offsets the Mid-Atlantic Ridge.\n\n**Owen Fracture Zone**\nSituated in the Arabian Sea, this fracture zone is a major tectonic feature in the Indian Ocean. It represents a transform fault boundary between the Arabian and Indian plates.\n\n**Chagos-Laccadive Ridge Fracture Zones**\nA series of fracture zones associated with the Chagos-Laccadive Ridge system in the Indian Ocean. These zones represent ancient transform faults and volcanic lineaments.",
+      "nuggets": [
+        "The Chile Fracture Zone is a major fracture zone in the Chile Rise.",
+        "The Mocha Fracture Zone is a fracture zone on the Nazca Plate.",
+        "The Valdivia Fracture Zone is a transform fault zone off southern Chile.",
+        "The Easter Fracture Zone is an oceanic fracture zone associated with a transform fault.",
+        "The Kane Fracture Zone is a transform fault zone on the Mid-Atlantic Ridge.",
+        "The Charlie-Gibbs Fracture Zone is a system of two parallel fracture zones.",
+        "The Vema Fracture Zone is a fracture zone is alongside the Lema Fracture Zone.",
+        "The Lema Fracture Zone is a fracture zone is located south of the Vema Fracture Zone."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "partial_support",
+        "partial_support",
+        "not_support"
+      ],
+      "vstrict": 0.16666666666666666,
+      "astrict": 0.125,
+      "scores": {
+        "vstrict": 0.16666666666666666,
+        "astrict": 0.125,
+        "nuggets_total": 8,
+        "nuggets_vital": 6,
+        "nuggets_okay": 2,
+        "support_count": 1,
+        "partial_support_count": 2,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "693__wikidata_simple__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "Who was the Mayor of Jackson, Mississippi?",
+      "passage": "# Mayors of Jackson, Mississippi\n\n**Chokwe Antar Lumumba**\nServed as the 53rd mayor of Jackson from 2017 to 2025. He was first elected in 2017 after defeating incumbent Tony Yarber in the Democratic primary, and was the son of former mayor Chokwe Lumumba. His tenure ended in 2025 after losing the Democratic primary to John Horhn.\n\n**John A. Horhn**\nBecame mayor of Jackson in 2025 after defeating incumbent Chokwe Antar Lumumba in the Democratic primary with over 67% of the vote. He previously served in the Mississippi State Senate from 1993 to 2025 and as state tourism director from 1989 to 1992.\n\n**Chokwe Lumumba Sr.**\nServed as mayor of Jackson from 2013 until his death in February 2014. He was a human rights attorney and activist affiliated with the Republic of New Afrika before entering politics. His brief tenure ended unexpectedly with his death, and his son later followed him into the mayor's office.\n\n**Tony Yarber**\nServed as mayor of Jackson and was the incumbent when he lost the 2017 Democratic primary to Chokwe Antar Lumumba. He was one of several candidates in that competitive primary election.\n\n**Harvey Johnson Jr.**\nServed multiple non-consecutive terms as mayor of Jackson, including from 1997 to 2005 and again from 2009 to 2013. He was the first African-American mayor of Jackson and focused on economic development and infrastructure improvements during his tenure.\n\n**Frank Melton**\nServed as mayor of Jackson from 2005 to 2009, defeating incumbent Harvey Johnson Jr. in 2005. His tenure was controversial and marked by legal troubles, including federal civil rights charges related to his conduct as mayor.\n\n**Kane Ditto**\nServed as mayor of Jackson from 1989 to 1997. He was the last white mayor of Jackson before Harvey Johnson Jr. became the city's first African-American mayor in 1997.\n\n**Dale Danks Jr.**\nServed as mayor of Jackson from 1977 to 1989. His tenure spanned over a decade during a period of significant demographic and economic changes in the city.\n\n**Russell C. Davis**\nServed as mayor of Jackson from 1969 to 1977. He led the city during the early years of desegregation and civil rights implementation in Mississippi's capital.\n\n**Allen C. Thompson**\nServed as mayor of Jackson from 1948 to 1969, making him one of the longest-serving mayors in the city's history. He was a segregationist who led the city during the height of the civil rights movement and resisted integration efforts.\n\n**Walter Scott**\nServed as mayor of Jackson in the 1940s before Allen C. Thompson's long tenure. He led the city during the World War II era and immediate post-war period.\n\n**James H. Meredith**\nServed as mayor of Jackson in the early 20th century. Not to be confused with civil rights activist James Meredith, he was part of the city's leadership during its earlier development.",
+      "nuggets": [
+        "Harvey Johnson Jr. was a former mayor of Jackson, Mississippi.",
+        "Walter A. Scott was a former mayor of Jackson, Mississippi.",
+        "Frank Melton was a former mayor of Jackson, Mississippi.",
+        "Dale Danks Jr. was a former mayor of Jackson, Mississippi.",
+        "Charles Henry Manship was a former mayor of Jackson, Mississippi.",
+        "James H. Boyd was a former mayor of Jackson, Mississippi.",
+        "Oliver Clifton was a former mayor of Jackson, Mississippi.",
+        "S.J. Taylor was a former mayor of Jackson, Mississippi.",
+        "A.C. Crowder was a former mayor of Jackson, Mississippi.",
+        "Leland L. Speed was a former mayor of Jackson, Mississippi."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.42857142857142855,
+      "astrict": 0.3,
+      "scores": {
+        "vstrict": 0.42857142857142855,
+        "astrict": 0.3,
+        "nuggets_total": 10,
+        "nuggets_vital": 7,
+        "nuggets_okay": 3,
+        "support_count": 3,
+        "partial_support_count": 1,
+        "not_support_count": 6
+      }
+    },
+    {
+      "qid": "241__wikidata_comp__test",
+      "dataset": "Qampari_RAGW8C",
+      "question": "What location do the media entities owned by Tribune operate out of?",
+      "passage": "# Media Entities Owned by Tribune and Their Operating Locations\n\n**WGN-TV (Chicago, Illinois)**\nWGN-TV is Tribune's flagship television station operating out of Chicago. It is an independent station that has been owned by Tribune since its inception and broadcasts from studios in the Chicago area.\n\n**WPIX (New York, New York)**\nWPIX is a CW-affiliated television station serving the New York City market. Tribune owned this station and it operates out of New York, one of the largest media markets in the United States.\n\n**KTLA (Los Angeles, California)**\nKTLA is a CW-affiliated television station operating out of Los Angeles. It was one of Tribune's major market stations and broadcasts from studios in the Hollywood area of Los Angeles.\n\n**WGN Radio (Chicago, Illinois)**\nWGN Radio is a news/talk radio station operating out of Chicago. It shares the WGN brand with the television station and has been a Tribune property broadcasting from Chicago studios.\n\n**KDAF (Dallas, Texas)**\nKDAF is a CW-affiliated television station operating out of Dallas-Fort Worth. Tribune owned this station which serves the North Texas market from its Dallas-area facilities.\n\n**KWGN-TV (Denver, Colorado)**\nKWGN-TV is a CW-affiliated television station operating out of Denver. This Tribune-owned station broadcasts to the Denver metropolitan area from Colorado facilities.\n\n**KSWB-TV (San Diego, California)**\nKSWB-TV is a Fox-affiliated television station operating out of San Diego. Tribune owned this station which serves the San Diego market from Southern California.\n\n**WTIC-TV (Hartford, Connecticut)**\nWTIC-TV is a Fox-affiliated television station operating out of Hartford. This Tribune station serves the Hartford-New Haven market from Connecticut.\n\n**WPHL-TV (Philadelphia, Pennsylvania)**\nWPHL-TV is a MyNetworkTV-affiliated station operating out of Philadelphia. Tribune owned this station serving the Philadelphia market from Pennsylvania facilities.\n\n**KPLR-TV (St. Louis, Missouri)**\nKPLR-TV is a CW-affiliated television station operating out of St. Louis. This Tribune station broadcasts to the St. Louis area from Missouri.\n\n**WXIN (Indianapolis, Indiana)**\nWXIN is a Fox-affiliated television station operating out of Indianapolis. Tribune owned this station serving central Indiana from Indianapolis facilities.\n\n**WTTV (Indianapolis, Indiana)**\nWTTV is a CBS-affiliated television station also operating out of Indianapolis. This Tribune station serves the Indianapolis market alongside WXIN.\n\n**KCPQ (Seattle, Washington)**\nKCPQ is a Fox-affiliated television station operating out of Seattle. Tribune owned this station serving the Seattle-Tacoma market from Washington state.\n\n**KRCW-TV (Portland, Oregon)**\nKRCW-TV is a CW-affiliated television station operating out of Portland. This Tribune station serves the Portland market from Oregon facilities.\n\n**WDCW (Washington, D.C.)**\nWDCW is a CW-affiliated television station operating out of Washington, D.C. Tribune owned this station serving the nation's capital from District of Columbia facilities.\n\n**The Baltimore Sun (Baltimore, Maryland)**\nThe Baltimore Sun is a major daily newspaper operating out of Baltimore. Tribune owned this publication which has been serving Maryland readers from Baltimore since 1837.\n\n**Orlando Sentinel (Orlando, Florida)**\nOrlando Sentinel is a daily newspaper operating out of Orlando. Tribune owned this publication serving Central Florida from its Orlando facilities.\n\n**Sun-Sentinel (Fort Lauderdale, Florida)**\nSun-Sentinel is a daily newspaper operating out of Fort Lauderdale. This Tribune publication serves South Florida from its Broward County facilities.\n\n**Hartford Courant (Hartford, Connecticut)**\nHartford Courant is the oldest continuously published newspaper in the United States, operating out of Hartford. Tribune owned this publication serving Connecticut from Hartford.\n\n**The Morning Call (Allentown, Pennsylvania)**\nThe Morning Call is a daily newspaper operating out of Allentown. Tribune owned this publication serving the Lehigh Valley region of Pennsylvania.",
+      "nuggets": [
+        "Chicago Tribune is a daily newspaper operates in Chicago, Illinois",
+        "Hartford Courant is a daily newspaper operates in Hartford, Connecticut",
+        "San Diego Union-Tribune is a daily newspaper operates in San Diego, California",
+        "Baltimore Sun is a daily newspaper operates in Baltimore, Maryland",
+        "Daily News is a daily newspaper operates in New York City",
+        "Orlando Sentinel is a daily newspaper operates in Orlando, Florida",
+        "Sun Sentinel is a daily newspaper operates in Fort Lauderdale, Florida",
+        "Capital Gazette is a daily newspaper operates in Annapolis, Maryland",
+        "Laurel Leader is a weekly newspaper operates in Laurel, Maryland"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.4444444444444444,
+      "astrict": 0.4444444444444444,
+      "scores": {
+        "vstrict": 0.4444444444444444,
+        "astrict": 0.4444444444444444,
+        "nuggets_total": 9,
+        "nuggets_vital": 9,
+        "nuggets_okay": 0,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    }
+  ]
+}

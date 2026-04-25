@@ -1,0 +1,72 @@
+{
+  "notes": "Template aligned to 4 comparison units x 2 metrics x 3 aggregation levels.",
+  "type_iv_tolerance_abs": 0.1,
+  "comparison_units": {
+    "C1": [
+      "AA",
+      "E_M"
+    ],
+    "C2": [
+      "AA",
+      "M_M"
+    ],
+    "C3": [
+      "E_A",
+      "E_M"
+    ],
+    "C4": [
+      "M_A",
+      "M_M"
+    ]
+  },
+  "original_kendall": {
+    "C1": {
+      "Vstrict": {
+        "run": 0.81,
+        "topic_avg": 0.759,
+        "all_topic_run": 0.614
+      },
+      "Astrict": {
+        "run": 0.81,
+        "topic_avg": 0.789,
+        "all_topic_run": 0.765
+      }
+    },
+    "C2": {
+      "Vstrict": {
+        "run": 0.81,
+        "topic_avg": 0.691,
+        "all_topic_run": 0.611
+      },
+      "Astrict": {
+        "run": 0.714,
+        "topic_avg": 0.735,
+        "all_topic_run": 0.74
+      }
+    },
+    "C3": {
+      "Vstrict": {
+        "run": 0.714,
+        "topic_avg": 0.881,
+        "all_topic_run": 0.88
+      },
+      "Astrict": {
+        "run": 0.714,
+        "topic_avg": 0.851,
+        "all_topic_run": 0.865
+      }
+    },
+    "C4": {
+      "Vstrict": {
+        "run": 0.905,
+        "topic_avg": 0.848,
+        "all_topic_run": 0.885
+      },
+      "Astrict": {
+        "run": 0.714,
+        "topic_avg": 0.808,
+        "all_topic_run": 0.863
+      }
+    }
+  }
+}

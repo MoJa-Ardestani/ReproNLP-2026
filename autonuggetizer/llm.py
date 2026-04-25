@@ -1,7 +1,7 @@
 """
 LLM client wrapper — supports OpenAI, Gemini, Qwen, LLaMA, and Claude.
 
-Credentials are loaded from experiments/credentials.yaml (fill once, use forever).
+Credentials are loaded from credentials.yaml at the project root (fill once, use forever).
 Falls back to environment variables if the file is missing or a field is empty.
 """
 

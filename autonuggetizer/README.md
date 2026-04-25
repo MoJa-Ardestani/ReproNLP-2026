@@ -13,13 +13,9 @@ The package runs a three-stage pipeline over a dataset of questions + generated 
 
 ## Prerequisites
 
-**Working directory for all commands below:** `experiments/`
+**Working directory for all commands below:** the project root
 
-```bash
-cd experiments
-```
-
-**Credentials** — set in `experiments/credentials.yaml` or as environment variables:
+**Credentials** — set in `credentials.yaml` at the project root or as environment variables:
 
 | Provider | Env var |
 |----------|---------|
@@ -29,11 +25,11 @@ cd experiments
 | Azure OpenAI | `AZURE_OPENAI_API_KEY` |
 | Qwen | `DASHSCOPE_API_KEY` |
 
-**Data files** — each dataset needs a JSON file under `experiments/data/`:
+**Data files** — each dataset needs a JSON file under `data/`:
 
 ```
 data/reproducibility_Qampari_PARAM.json
-data/reproducibility_Qampari_RAGWG.json
+data/reproducibility_Qampari_RAGW4G.json
 data/reproducibility_Qampari_RAGW8G.json
 ... (one file per generation type)
 ```
@@ -45,7 +41,7 @@ data/reproducibility_Qampari_RAGW8G.json
 | Key | Base | Generation |
 |-----|------|------------|
 | `Qampari_PARAM` | Qampari | PARAM (GPT-4o, no retrieval) |
-| `Qampari_RAGWG` | Qampari | RAG Wikipedia + GPT-4o (4 passages) |
+| `Qampari_RAGW4G` | Qampari | RAG Wikipedia + GPT-4o (4 passages) |
 | `Qampari_RAGW8G` | Qampari | RAG Wikipedia + GPT-4o (8 passages) |
 | `Qampari_RAGW12G` | Qampari | RAG Wikipedia + GPT-4o (12 passages) |
 | `Qampari_RAGW4M` | Qampari | RAG Wikipedia + Gemini-2.5-flash (4 passages) |
@@ -106,7 +102,7 @@ python3 main_run_reproducibility.py --dataset Qampari_RAGW8G --provider gemini \
 
 **Output** lands in:
 ```
-experiments/results/reproducibility/<Dataset_KEY>/<YYYYMMDD_HHMMSS>/
+results/reproducibility/<Dataset_KEY>/<YYYYMMDD_HHMMSS>/
   <Dataset_KEY>_auto_nuggetization_auto_assignment.json
   run_config.json
   traces/   (only with --verbose)
@@ -170,7 +166,7 @@ python3 main_run_reproducibility.py \
 
 ## Adding a new dataset / generation type
 
-1. Place the data file at `experiments/data/reproducibility_<Base>_<TAG>.json`.
+1. Place the data file at `data/reproducibility_<Base>_<TAG>.json`.
 2. Add an entry to `DATASETS` in `autonuggetizer/reproducibility_datasets.py`:
 
 ```python

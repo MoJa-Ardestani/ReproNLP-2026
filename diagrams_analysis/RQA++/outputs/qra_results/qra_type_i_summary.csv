@@ -1,0 +1,7 @@
+qc,metric,agg_level,n_pairs,mean_cv_star
+Vstrict_run,Vstrict,run,4,14.538006317177539
+Astrict_run,Astrict,run,4,13.186025654604276
+Vstrict_topic_avg,Vstrict,topic_avg,4,40.36682918709052
+Astrict_topic_avg,Astrict,topic_avg,4,34.18222279842016
+Vstrict_all_topic_run,Vstrict,all_topic_run,4,51.1601909247627
+Astrict_all_topic_run,Astrict,all_topic_run,4,43.24462801296566

@@ -1,0 +1,2290 @@
+{
+  "score_aggregate": {
+    "n_valid_samples": 49,
+    "vstrict": {
+      "mean": 0.277843,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "astrict": {
+      "mean": 0.260228,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "total_counts": {
+      "nuggets_total": 360,
+      "nuggets_vital": 291,
+      "nuggets_okay": 69,
+      "support_count": 68,
+      "partial_support_count": 16,
+      "not_support_count": 276
+    }
+  },
+  "samples": [
+    {
+      "qid": "267__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who is the director for the film with music created by Sohail Sen?",
+      "passage": "Here are the directors for films with music created by Sohail Sen:\n\n**Mudassar Aziz**\nMudassar Aziz is an Indian film director and writer, known for his work in Hindi cinema. He directed the 2016 Hindi-language romantic comedy film *Happy Bhag Jayegi*, for which Sohail Sen composed the music. Aziz also wrote the screenplay for *Happy Bhag Jayegi*, which was produced by Aanand L. Rai and Krishika Lulla. The film, originally titled *Dolly Lahore Mein*, was conceived as a \"cross-border\" romantic comedy and starred Diana Penty in the eponymous role. Aziz also directed *Mere Husband Ki Biwi*, though the provided passages do not link Sohail Sen to the music of that particular film.\n\n**Rajaatesh Nayar**\nRajaatesh Nayar is an Indian film director. He directed the 2008 Hindi film *Sirf*, which marked Sohail Sen's debut as a film composer. Although the film \"went majorly unnoticed\" according to the provided context, it was the first project where Sen showcased his musical talent in Bollywood.\n\n**Ashutosh Gowariker**\nAshutosh Gowariker is a prominent Indian film director, screenwriter, and producer, known for directing epic historical dramas and other acclaimed films. He directed the 2009 film *What's Your Raashee?*, a romantic comedy-drama for which Sohail Sen composed the music. Sen's work in this film gained him significant fame as a Hindi film composer, marking a turning point in his career after his debut film went largely unnoticed.\n\n**Ali Abbas Zafar**\nAli Abbas Zafar is an Indian film director and screenwriter, primarily working in Hindi cinema. He directed two popular films for which Sohail Sen composed the soundtracks: *Mere Brother Ki Dulhan* and *Gunday*. Both films are noted for their popular music, contributing to Sohail Sen's recognition as a successful Bollywood composer.\n\n**Kabir Khan**\nKabir Khan is an Indian film director, screenwriter, and producer, known for directing action films and thrillers. He directed the blockbuster 2012 action spy film *Ek Tha Tiger*, for which Sohail Sen composed the music. The film's soundtrack was highly popular, further solidifying Sohail Sen's reputation as a composer of successful Bollywood scores.",
+      "nuggets": [
+        "Ashutosh Gowariker directed What's Your Raashee?",
+        "Ali Abbas Zafar directed Mere Brother Ki Dulhan",
+        "Anand Tiwari directed Love Per Square Foot",
+        "Muddassar Aziz directed Happy Phirr Bhag Jayegi",
+        "Sajid-Farhad directed Housefull 3",
+        "Sourabh Shrivastava directed Fraud Saiyaan"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.4,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.4,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "1__wikitables_composition__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which fatal accident involving a commercial aircraft took place in Michigan?",
+      "passage": "**Northwest Airlines Flight 255**\nNorthwest Airlines Flight 255 was a fatal commercial aircraft accident that occurred on August 16, 1987, in Romulus, Michigan, shortly after taking off from Detroit Metropolitan Wayne County Airport. The aircraft, a McDonnell Douglas MD-82, was bound for Phoenix, Arizona, with a stop in Santa Ana, California. All 157 passengers and 6 crew members on board perished in the crash, along with two people on the ground. The sole survivor was a four-year-old girl, Cecelia Cichan. The National Transportation Safety Board (NTSB) determined the probable cause of the accident to be the flight crew's failure to extend the aircraft's flaps and slats prior to takeoff, which are crucial for generating sufficient lift at low speeds. Contributing to the accident was the failure of the aircraft's takeoff warning system, which should have alerted the crew to the improper configuration. The crash remains one of the deadliest aviation accidents in Michigan's history.",
+      "nuggets": [
+        "Comair Flight 3272 crash site is in Michigan",
+        "Trans-Canada Air Lines Flight 304 had a incident over Flat Rock, Michigan.",
+        "Northwest Orient Airlines Flight 2501 crashed over Lake Michigan.",
+        "Capital Airlines Flight 67 crashed on final approach to Freeland, Michigan.",
+        "Northwest Airlines Flight 255 crashed in saginaw, Michigan"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 3,
+        "nuggets_okay": 2,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "221__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who composed works directed by A. Jagannathan?",
+      "passage": "**Deva**\nDeva is an Indian music composer who primarily works in Tamil cinema. He composed the music for the 1994 Indian Tamil-language drama film *Watchman Vadivel*, which was directed by A. Jagannathan. While the provided Wikipedia passages confirm that *Watchman Vadivel* was directed by A. Jagannathan, they do not specify the film's composer. Deva is known for his prolific work in the Tamil film industry, often referred to as the \"King of Gaana\" for his contributions to the Gaana music genre. His work on *Watchman Vadivel* is one of many films in his extensive career where he provided the musical score.",
+      "nuggets": [
+        "Ilaiyaraaja composed music for Vellai Roja",
+        "Anu Malik composed music for Tahqiqaat",
+        "G. Devarajan composed music for Kumara Vijayam",
+        "T. Rajendar composed music for Muthukkal Moondru",
+        "S. A. Rajkumar composed music for En Thangai",
+        "Gangai Amaran composed music for Karpoora Deepam",
+        "Deva composed music for Mill Thozhilali",
+        "M. S. Viswanathan composed music for A. Jagannathan's debut film"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 8,
+        "nuggets_vital": 7,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "662__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Don Hahn was executive producer of which movie?",
+      "passage": "Based on the provided Wikipedia passages, Don Hahn is identified as the director and producer of the 2009 documentary film *Waking Sleeping Beauty*. The passages do not explicitly state that he was an executive producer for any of the films mentioned. However, supplementing with encyclopedic knowledge as instructed, Don Hahn has served as an executive producer for several notable films.\n\nHere is a list of films for which Don Hahn was an executive producer:\n\n**Maleficent**\nDon Hahn served as an executive producer for the 2014 American fantasy film *Maleficent*. This live-action retelling of the villain's story from Walt Disney's 1959 animated *Sleeping Beauty* stars Angelina Jolie in the title role. While the provided passage mentions Jolie also serving as an executive producer, it does not list all executive producers. Hahn's involvement in this capacity highlights his continued influence and role in Disney's live-action adaptations and re-imaginings of classic tales, contributing to the film's development and production oversight.\n\n**Fantasia 2000**\nDon Hahn was an executive producer for *Fantasia 2000*, released in 1999. This animated film is a sequel to Walt Disney's 1940 classic *Fantasia*, featuring new animated segments set to classical music. Hahn also served as a producer for the film. His role as executive producer involved overseeing the ambitious project, which aimed to revive the spirit of the original *Fantasia* for a new generation, showcasing a blend of traditional animation and computer-generated imagery alongside renowned orchestral performances.\n\n**The Emperor's New Groove**\nDon Hahn served as an executive producer for the 2000 American animated comedy film *The Emperor's New Groove*. This film, known for its distinct comedic tone and departure from traditional Disney musical formats, tells the story of a selfish young emperor who is transformed into a llama. Hahn's executive producer credit signifies his involvement in guiding the film's creative direction and production, contributing to its unique style and successful reception as a humorous and fast-paced animated feature.\n\n**Atlantis: The Lost Empire**\nDon Hahn was an executive producer for the 2001 American animated science fantasy adventure film *Atlantis: The Lost Empire*. This film marked a departure from Disney's musical tradition, opting for a more action-adventure-oriented narrative inspired by Jules Verne. Hahn also held a producer credit for the film. His executive producer role was crucial in overseeing the ambitious production, which featured a distinctive visual style influenced by comic books and a complex storyline exploring the mythical lost city of Atlantis.\n\n**Lilo & Stitch**\nDon Hahn served as an executive producer for the 2002 American animated science fiction comedy-drama film *Lilo & Stitch*. Set in Hawaii, the film tells the story of a lonely young girl who adopts an alien creature. Known for its unique animation style, strong character development, and themes of family and belonging, *Lilo & Stitch* was a critical and commercial success. Hahn's executive producer role contributed to the film's creative vision and production, helping to bring its distinctive narrative and aesthetic to the screen.\n\n**Winnie the Pooh**\nDon Hahn was an executive producer for the 2011 American animated musical comedy film *Winnie the Pooh*. This film returned to the classic hand-drawn animation style and episodic storytelling of A.A. Milne's original stories, featuring beloved characters from the Hundred Acre Wood. Hahn also served as a producer for the film. His executive producer credit underscores his involvement in maintaining the integrity and charm of the Winnie the Pooh franchise, ensuring the film honored its literary roots while appealing to contemporary audiences.",
+      "nuggets": [
+        "Don Hahn was executive producer of Maleficent",
+        "Don Hahn was executive producer of The Emperor's New Groove",
+        "Don Hahn was executive producer of Oceans",
+        "Don Hahn was executive producer of African Cats"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.6666666666666666,
+      "astrict": 0.5,
+      "scores": {
+        "vstrict": 0.6666666666666666,
+        "astrict": 0.5,
+        "nuggets_total": 4,
+        "nuggets_vital": 3,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "703__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which nonprofit organization is headquartered in Niger?",
+      "passage": "Based on the provided Wikipedia passages, none of the listed nonprofit organizations are headquartered in Niger. The Organization of Islamic Capitals and Cities is headquartered in Mecca, Saudi Arabia; SOS Children's Villages in Vienna, Austria; and Initiative: Eau in Washington, D.C., U.S.A. The Free Wheelchair Mission's headquarters is not specified in the provided text, but it is not in Niger.\n\nTherefore, supplementing with encyclopedic knowledge, a prominent nonprofit organization headquartered in Niger is:\n\n**Niger Red Cross Society**\nThe Niger Red Cross Society (Croix-Rouge Nigérienne) is the national Red Cross society of Niger, headquartered in Niamey, the capital city. As an independent, voluntary aid society, it is an integral part of the International Red Cross and Red Crescent Movement, adhering to its fundamental principles of humanity, impartiality, neutrality, independence, voluntary service, unity, and universality. The society plays a crucial role in providing humanitarian assistance across Niger, particularly in areas such as disaster preparedness and response, health services, first aid training, and community development programs. It works to alleviate human suffering and protect life and health, often in collaboration with the International Federation of Red Cross and Red Crescent Societies (IFRC) and other international partners, while maintaining its national operational autonomy and headquarters within Niger.",
+      "nuggets": [],
+      "importance": [],
+      "error": "missing required fields for assignment-only run"
+    },
+    {
+      "qid": "177__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the tv show that was written by Ed Burns?",
+      "passage": "The provided Wikipedia passages do not mention any television show explicitly written by an individual named \"Ed Burns.\" The passages refer to \"Allan Burns\" as a co-creator of *The Mary Tyler Moore Show*, \"Ian Brennan\" as the creator and writer of *Monster: The Ed Gein Story*, and \"Bill Oakley and Josh Weinstein\" as writers for *Who Shot Mr. Burns?*. \"Ed Gein\" is the subject of a series, not a writer.\n\nHowever, drawing upon general encyclopedic knowledge, Edward \"Ed\" Burns is a notable American actor, director, producer, and writer who has indeed written and directed television series.\n\n**Edward Burns**\nEdward Burns is an American actor, film director, film producer, screenwriter, and author. He gained prominence in independent cinema with his debut film *The Brothers McMullen* (1995), which he wrote, directed, and starred in. Throughout his career, Burns has often taken on multiple roles in his projects, including writing and directing. In the realm of television, he created, wrote, and directed the crime drama series *Public Morals*. This series, set in 1960s New York City, followed a group of plainclothes police officers in the Public Morals Division and aired on TNT in 2015. As the primary creative force behind *Public Morals*, Edward Burns was responsible for both writing the show's scripts and directing its episodes, making him the director of the television show he wrote.",
+      "nuggets": [
+        "Dan Attias directed 'Transitions', from a story by Ed Burns",
+        "Rob Bailey directed 'Storm Warnings', from a story by Ed Burns",
+        "David Platt directed 'Alliances', from a story by Ed Burns",
+        "Clark Johnson directed 'The Target' from a story by Ed Burns",
+        "Peter Medak directed 'The Buys' from a story by Ed Burns",
+        "Brad Anderson directed 'The Cost' from a story by Ed Burns",
+        "Gloria Muzio directed 'Lessons' from a story by Ed Burns",
+        "Clement Virgo directed 'Old Cases' from a story by Ed Burns",
+        "Elodie Keene directed 'Hot Shots' from a story by Ed Burns",
+        "Steve Shill directed 'All Prologue' from a story by Ed Burns",
+        "Tim Van Patten directed 'Stray Rounds' from a story by Ed Burns",
+        "Robert F. Colesberry directed 'Port in a Storm' from a story by Ed Burns",
+        "Ed Bianchi directed 'Time After Time' from a story by Ed Burns",
+        "Christine Moore directed 'Soft Eyes' from a story by Ed Burns",
+        "Seith Mann directed 'Home Rooms' from a story by Ed Burns",
+        "Jim McKay directed 'Refugees' from a story by Ed Burns",
+        "Joe Chappelle directed 'More with Less' from a story by Ed Burns",
+        "Agnieszka Holland directed 'Corner Boys' from a story by Ed Burns",
+        "Alex Zakrzewski directed 'Know Your Place' from a story by Ed Burns",
+        "Anthony Hemingway directed 'Unto Others' from a story by Ed Burns",
+        "Ernest Dickerson directed 'Final Grades' from a story by Ed Burns"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 21,
+        "nuggets_vital": 4,
+        "nuggets_okay": 17,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 21
+      }
+    },
+    {
+      "qid": "194__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the movie that Robert Thom wrote the script for?",
+      "passage": "The provided Wikipedia passages do not contain information about Robert Thom or any movies for which he wrote the script. Therefore, the following information is supplemented from encyclopedic knowledge. Robert Thom was an American screenwriter, playwright, and novelist who wrote numerous film scripts. Several directors worked on films based on his screenplays.\n\n**Paul Bartel**\nPaul Bartel was an American actor, screenwriter, and director, known for his work in cult films. He directed the 1975 science fiction action film *Death Race 2000*, for which Robert Thom wrote the screenplay. The film, produced by Roger Corman, became a cult classic and is noted for its satirical take on a dystopian future where a cross-country car race involves scoring points by running over pedestrians. Thom's script contributed significantly to the film's unique blend of action, dark humor, and social commentary.\n\n**John Hough**\nJohn Hough is a British film and television director, recognized for his work in horror and fantasy genres. He directed the 1973 supernatural horror film *The Legend of Hell House*, based on the novel *Hell House* by Richard Matheson. Robert Thom adapted Matheson's novel into the screenplay for the film. *The Legend of Hell House* is a classic haunted house story, featuring a team of paranormal investigators attempting to determine the nature of a malevolent presence in a notoriously haunted mansion, with Thom's script crafting the suspense and character dynamics.\n\n**Roger Corman**\nRoger Corman is an influential American independent film producer and director, often referred to as \"The King of the Bs\" for his prolific output of low-budget, high-concept films. He directed the 1970 crime drama *Bloody Mama*, a biographical film about the Depression-era gangster Ma Barker and her sons. Robert Thom wrote the screenplay for *Bloody Mama*, which starred Shelley Winters as the titular character. Thom's script helped to define the film's gritty portrayal of the Barker gang's violent exploits and their dysfunctional family dynamics.\n\n**Barry Shear**\nBarry Shear was an American film and television director, known for his work across various genres, including crime dramas and counterculture films. He directed the 1968 satirical science fiction film *Wild in the Streets*, which explored themes of youth rebellion and political power. Robert Thom wrote the screenplay for *Wild in the Streets*, which depicts a scenario where a rock star becomes president and lowers the voting age to 14, forcing everyone over 30 into retirement camps. Thom's script captured the rebellious spirit of the late 1960s and offered a provocative vision of generational conflict.\n\n**Matt Cimber**\nMatt Cimber is an American film director, producer, and screenwriter, known for his work in exploitation films and independent cinema. He directed the 1976 horror film *The Witch Who Came from the Sea*, a psychological thriller with elements of supernatural horror. Robert Thom co-wrote the screenplay for this film with Cimber. *The Witch Who Came from the Sea* tells the story of a troubled woman who believes she is a witch and commits a series of murders, with Thom's contribution to the script delving into the protagonist's disturbed psyche and the film's unsettling atmosphere.",
+      "nuggets": [
+        "Barry Shear directed 'Wild in the Streets'",
+        "Paul Bartel directed 'Death Race 2000'",
+        "Roger Corman directed 'Bloody Mama'",
+        "Ranald MacDougall directed 'The Subterraneans'"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okey",
+        "okey"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "not_support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 0.75,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 0.75,
+        "nuggets_total": 4,
+        "nuggets_vital": 2,
+        "nuggets_okay": 2,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "173__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the TV show that Alison Schapker worked on as a screenwriter?",
+      "passage": "Alison Schapker worked as a screenwriter and co-showrunner on *The Morning Show*, an American comedy-drama television series. As a television series, *The Morning Show* has featured multiple directors across its seasons. The following are prominent directors who have helmed episodes of the show:\n\n**Mimi Leder**\nMimi Leder is an American film and television director and producer, and a key creative force behind *The Morning Show*. She directed multiple episodes of the series, including the pilot, which set the visual and narrative tone for the show. As an executive producer for the series, Leder has been instrumental in shaping its overall direction, which delves into the complexities of a network morning news program, exploring themes such as the #MeToo movement, workplace culture, and various contemporary political and social issues. Her directorial work is central to the series' critical examination of media ethics and power dynamics.\n\n**David Frankel**\nDavid Frankel is an American film and television director known for his work across various genres. He has directed several episodes of *The Morning Show*, the Apple TV+ series where Alison Schapker served as a screenwriter and co-showrunner. Frankel's contributions help to bring to life the intricate storylines and character developments that define the series. His directorial efforts are crucial in navigating the show's blend of drama and social commentary, as it addresses sensitive topics like allegations of sexual misconduct, the COVID-19 pandemic, and racial inequality within the high-stakes environment of broadcast journalism.\n\n**Lynn Shelton**\nLynn Shelton was an acclaimed American film director, screenwriter, and producer. Prior to her passing, she directed multiple episodes of *The Morning Show*, a series on which Alison Schapker worked as a screenwriter and co-showrunner. Shelton's distinctive directorial style, often characterized by its naturalism, improvisational feel, and focus on character-driven narratives, contributed significantly to the nuanced and authentic portrayal of the show's ensemble cast. Her work helped to imbue the series with emotional depth and a grounded approach to its exploration of timely and sensitive contemporary issues.\n\n**Tucker Gates**\nTucker Gates is an American television director and producer with an extensive resume in episodic television. He has directed several episodes of *The Morning Show*, the Apple TV+ series that Alison Schapker contributed to as a screenwriter and co-showrunner. Gates's involvement ensures the series maintains its high production quality and its ability to effectively tackle complex and often controversial subjects. His directorial efforts are vital in guiding the performances and visual storytelling, contributing to the dramatic intensity and compelling narrative that characterize the show's exploration of the media landscape and its societal impact.\n\n**Michelle MacLaren**\nMichelle MacLaren is a Canadian television director and executive producer, highly regarded for her work on critically acclaimed dramatic series. She has directed episodes for *The Morning Show*, the Apple TV+ series where Alison Schapker worked as a screenwriter and co-showrunner. MacLaren's directorial expertise brings a cinematic quality and a strong visual style to *The Morning Show*'s narrative. Her contributions are instrumental in crafting the compelling visual and dramatic elements of the series, enhancing its exploration of the competitive world of broadcast news and its engagement with significant societal issues.",
+      "nuggets": [
+        "David Straiton directed 'Fringe' episode written by Alison Schapker",
+        "Joe Chappelle directed 'Fringe' episode written by Alison Schapker",
+        "Brad Anderson directed 'Fringe' episode written by Alison Schapker",
+        "Dennis Smith directed 'Fringe' episode written by Alison Schapker",
+        "Jesse Warn directed 'The Flash' episode written by Alison Schapker",
+        "P. J. Pesce directed 'Fringe' episode written by Alison Schapker",
+        "Thomas Yatsko directed 'Fringe' episode written by Alison Schapker",
+        "Jack Bender directed episode written by Alison Schapker"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 8,
+        "nuggets_vital": 5,
+        "nuggets_okay": 3,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "346__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What film was directed by Terence Young and written by Richard Maibaum?",
+      "passage": "Here are the films that were directed by Terence Young and written by Richard Maibaum:\n\n**Dr. No**\n*Dr. No* is a 1962 spy film and holds the distinction of being the first film in the iconic James Bond series. It was directed by Terence Young and adapted for the screen by Richard Maibaum, Johanna Harwood, and Berkely Mather, based on Ian Fleming's 1958 novel. The film stars Sean Connery as James Bond, who is sent to Jamaica to investigate the disappearance of a fellow British agent. His investigation leads him to the underground lair of the titular villain, Dr. No, who is plotting to disrupt an early American space launch using a radio beam weapon. Produced by Harry Saltzman and Albert R. Broccoli of Eon Productions, *Dr. No* was a financial success upon its release on October 5, 1962, despite being made on a low budget.\n\n**From Russia with Love**\n*From Russia with Love* is a 1963 spy film, serving as the second installment in the James Bond series. It was directed by Terence Young and written by Richard Maibaum and Johanna Harwood, adapting Ian Fleming's 1957 novel of the same name. Sean Connery reprises his role as MI6 agent James Bond. In this film, Bond is dispatched to Istanbul to assist in the defection of Soviet consulate clerk Tatiana Romanova, only to find himself entangled in a plot by SPECTRE, which seeks to avenge Bond's previous actions against Dr. No. Following the success of *Dr. No*, United Artists doubled the budget for this sequel, allowing for location filming in Turkey, in addition to scenes shot at Pinewood Studios. *From Russia with Love* proved to be a critical and commercial blockbuster, significantly outperforming its predecessor with over $78 million in worldwide box-office receipts against a $2 million budget.\n\n**Thunderball**\n*Thunderball* is a 1965 spy film and the fourth entry in the James Bond series, produced by Eon Productions. It was the third and final Bond film directed by Terence Young, with the screenplay penned by Richard Maibaum and John Hopkins. The film stars Sean Connery as James Bond and is an adaptation of Ian Fleming's 1961 novel, which itself was based on an original screenplay by Jack Whittingham, conceived from a story by Kevin McClory, Whittingham, and Fleming. The plot sees Bond on a mission to recover two NATO atomic bombs stolen by SPECTRE, which is holding the world ransom for £100 million in diamonds, threatening to destroy a major metropolis. Bond's investigation leads him to the Bahamas, where he confronts Emilio Largo, SPECTRE Number Two, culminating in an extensive underwater battle. The film's complex production involved four different units, with approximately a quarter of the film dedicated to underwater sequences.",
+      "nuggets": [
+        "From Russia with Love was directed by Terence Young and written by Richard Maibaum",
+        "Thunderball was directed by Terence Young and written by Richard Maibaum",
+        "Dr. No was directed by Terence Young and written by Richard Maibaum",
+        "Zarak was directed by Terence Young and written by Richard Maibaum",
+        "The Red Beret was directed by Terence Young and written by Richard Maibaum",
+        "Tank Force was directed by Terence Young and written by Richard Maibaum"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.4,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.4,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "757__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What geographic entity can be associated with Las Vegas?",
+      "passage": "Here are the geographic entities that can be associated with Las Vegas:\n\n**Clark County, Nevada**\nClark County is the southernmost and most populous county in the U.S. state of Nevada, serving as the direct administrative and geographic entity for Las Vegas. Las Vegas is explicitly identified as the county seat of Clark County. The county is significant as it contains 70% of Nevada's population, making it the 11th-most populous county in the United States, despite covering only 7% of the state's land mass. Beyond Las Vegas, Clark County also encompasses the state's other two largest cities, Henderson and North Las Vegas, as well as the famous Las Vegas Strip, Nellis Air Force Base, and Hoover Dam. The county plays a larger role than typical in the U.S., providing municipal services to over 1 million residents in unincorporated areas, including those with \"Las Vegas\" as part of their address, and having direct jurisdiction over the Las Vegas Strip.\n\n**Nevada**\nNevada is the U.S. state in which Las Vegas is located. As the most populous city in Nevada and the county seat of Clark County, Las Vegas is a primary economic, cultural, and tourism hub for the entire state. The state of Nevada is situated in the Western United States, known for its desert landscapes, legalized gambling, and diverse entertainment options, with Las Vegas being the quintessential embodiment of these characteristics.\n\n**Las Vegas Strip**\nThe Las Vegas Strip is an approximately 4.2-mile (6.8 km) stretch of South Las Vegas Boulevard in Clark County, Nevada, renowned for its concentration of resort hotels and casinos. Although often colloquially referred to as being \"in Las Vegas,\" the majority of the Strip is actually located outside the city limits of Las Vegas, primarily within the unincorporated towns of Paradise and Winchester. It is, however, inextricably linked to the identity and global perception of Las Vegas, serving as the primary destination for tourism, entertainment, and gambling that defines the region.\n\n**Paradise, Nevada**\nParadise is an unincorporated town and census-designated place (CDP) in Clark County, Nevada, situated immediately south of the city of Las Vegas. A significant portion of the Las Vegas Strip, including many of its most famous resorts and casinos, is located within Paradise. For instance, the Hard Rock Hotel & Casino, which was located near the Las Vegas Strip, was specifically situated in Paradise. Despite its unincorporated status, Paradise is a major population center and a crucial geographic entity associated with the \"Las Vegas\" experience, often sharing a Las Vegas mailing address.\n\n**Harmon Avenue and Paradise Road**\nHarmon Avenue and Paradise Road are specific streets in Clark County, Nevada, that define a particular geographic location near the Las Vegas Strip. The Hard Rock Hotel & Casino, a prominent resort, was located on the corner of these two roads, approximately a mile east of the Las Vegas Strip. These roads, therefore, represent specific, identifiable geographic features within the broader Las Vegas metropolitan area, contributing to the detailed mapping and understanding of the region's layout.\n\n**United States**\nThe United States is the country in which Las Vegas is located. As one of the most iconic cities globally, Las Vegas is a significant cultural and economic center within the U.S., attracting millions of domestic and international tourists annually. Its unique entertainment industry and desert setting contribute to the diverse geography and cultural landscape of the nation.\n\n**North America**\nNorth America is the continent where Las Vegas is situated. As a major city in the southwestern United States, Las Vegas is part of the larger North American landmass, which spans from the Arctic to the Caribbean. Its location within North America places it within a broad geographic and economic context, influencing its climate, demographics, and connectivity to other major urban centers on the continent.\n\n**Mojave Desert**\nThe Mojave Desert is the arid rain-shadow desert and the driest desert in North America, primarily located in southeastern California and southern Nevada. Las Vegas is famously situated within the Mojave Desert, which significantly influences its climate, landscape, and urban development. The desert environment presents unique challenges and opportunities for the city, from water management to the design of its infrastructure and recreational activities.\n\n**Henderson, Nevada**\nHenderson is a city in Clark County, Nevada, and is one of the state's three largest cities, alongside Las Vegas and North Las Vegas. Located southeast of Las Vegas, Henderson is a distinct municipality but is part of the larger Las Vegas metropolitan area. It serves as a significant residential and commercial hub, closely associated with Las Vegas through shared regional infrastructure, economy, and cultural ties.\n\n**North Las Vegas, Nevada**\nNorth Las Vegas is a city in Clark County, Nevada, and is also one of the state's three largest cities, along with Las Vegas and Henderson. Situated directly north of the city of Las Vegas, it is a separate municipality but forms an integral part of the greater Las Vegas metropolitan area. North Las Vegas contributes to the region's population and economic activity, sharing a close geographic and functional relationship with its namesake city.\n\n**Nellis Air Force Base**\nNellis Air Force Base is a prominent United States Air Force installation located in Clark County, Nevada, northeast of Las Vegas. It is a major military facility and a significant employer in the region, contributing to the local economy and population. Its proximity to Las Vegas makes it a notable geographic entity associated with the area, often recognized by residents and visitors alike.\n\n**Hoover Dam**\nHoover Dam is a concrete arch-gravity dam in the Black Canyon of the Colorado River, on the border between the U.S. states of Nevada and Arizona. While not directly within the city limits of Las Vegas, it is located within Clark County and is a major landmark and tourist attraction frequently associated with Las Vegas due to its relatively close proximity (approximately 30 miles southeast) and its historical significance in providing water and power to the region, including Las Vegas.",
+      "nuggets": [
+        "Red Rock Canyon National Conservation Area west of Las Vegas",
+        "Mount Charleston Wilderness west of Las Vegas",
+        "Spring Mountains National Recreation Area west of Las Vegas",
+        "Tule Springs Fossil Beds National Monument near Las Vegas",
+        "Desert National Wildlife Refuge north of Las Vegas",
+        "Springs Preserve in Las Vegas"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 5,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 6
+      }
+    },
+    {
+      "qid": "108__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Where did someone who played in Temple of the Dog go to school?",
+      "passage": "**Chris Cornell**\nChris Cornell, a prominent figure in the 1990s grunge movement and the founder and frontman of Temple of the Dog, attended Shorewood High School in Shoreline, Washington. Born in Seattle, Cornell spent his formative years in the area. While he did attend Shorewood High School, he ultimately dropped out before graduating. Despite not completing traditional high school education, Cornell went on to become a highly influential musician, known for his extensive songwriting history, nearly four-octave vocal range, and powerful vocal belting technique, leading bands like Soundgarden and Audioslave, and having a successful solo career.\n\n**Eddie Vedder**\nEddie Vedder, the lead vocalist and primary lyricist for Pearl Jam and a guest vocalist for Temple of the Dog, attended San Dieguito High School (now San Dieguito Academy) in Encinitas, California. Vedder, who was born in Evanston, Illinois, moved to California during his youth. He dropped out of San Dieguito High School during his senior year but later earned a General Educational Development (GED) certificate. Vedder's distinctive baritone vocals and songwriting have earned him widespread acclaim, including an induction into the Rock and Roll Hall of Fame as a member of Pearl Jam in 2017, and a ranking among the \"Best Lead Singers of All Time\" by Rolling Stone readers.",
+      "nuggets": [
+        "Chris Cornell attended Shorewood High School",
+        "Eddie Vedder attended San Dieguito Academy",
+        "Mike McCready attended Roosevelt High School",
+        "Stone Gossard attended Northwest School",
+        "Jeff Ament attended University of Montana"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "444__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "The Arsenal F.C. won which year's FA Cup Final?",
+      "passage": "Arsenal Football Club has won the FA Cup Final in the following years, as derived from the provided Wikipedia passages and supplemented with encyclopedic knowledge:\n\n**1971**\nArsenal won the FA Cup in 1971. This victory is referenced in the context of the 1972 FA Cup final, where Arsenal were described as \"cup holders\" who \"had won the Football League and the FA Cup the previous season.\" This achievement marked a historic League and FA Cup Double for the club, a significant milestone in their history, as they entered the 1972 final aiming for a second successive FA Cup win.\n\n**1998**\nArsenal won the 1998 FA Cup final, defeating Newcastle United on 16 May 1998 at the old Wembley Stadium. This match was the 117th season of the competition, and Arsenal, appearing in their thirteenth final, secured the victory. This triumph was particularly notable as it completed the club's second league and cup double, having won the Premier League just two weeks prior. Marc Overmars scored Arsenal's first-half goal in front of a crowd of 79,183.\n\n**2003**\nArsenal secured the FA Cup in 2003, defeating Southampton 1–0 in the final held at the Millennium Stadium in Cardiff. This victory was one of the seven FA Cups won under the management of Arsène Wenger, as highlighted in the \"List of Arsenal F.C. managers\" passage. The win marked another successful campaign for Arsenal in the prestigious knockout competition, adding to their growing tally of FA Cup triumphs during Wenger's tenure.\n\n**2005**\nArsenal won the FA Cup in 2005, overcoming Manchester United in the final after a penalty shootout following a goalless draw at the Millennium Stadium. This was a significant victory, representing Arsène Wenger's fourth FA Cup success with the club. The \"List of Arsenal F.C. managers\" passage notes Wenger's achievement of winning seven FA Cups between 1996 and 2018, with the 2005 triumph being a key part of that record.\n\n**2014**\nArsenal ended a nine-year trophy drought by winning the FA Cup in 2014, defeating Hull City 3–2 in a dramatic final after extra time at Wembley Stadium. This victory was particularly significant for the club and its manager, Arsène Wenger, as it marked the beginning of a renewed period of cup success. It was one of the seven FA Cups won by Wenger during his tenure from 1996 to 2018, as stated in the provided Wikipedia context.\n\n**2015**\nFollowing their 2014 success, Arsenal successfully defended their title by winning the FA Cup again in 2015, beating Aston Villa 4–0 in a dominant performance in the final at Wembley Stadium. This commanding victory secured back-to-back FA Cup trophies for the club. This win further contributed to Arsène Wenger's impressive record of seven FA Cups won between 1996 and 2018, as mentioned in the \"List of Arsenal F.C. managers\" passage.\n\n**2017**\nArsenal won the 2017 FA Cup final, defeating London rivals Chelsea on 27 May 2017 at Wembley Stadium. The match, the 136th FA Cup final, saw Arsenal take an early lead with a controversial goal from Alexis Sánchez in the fourth minute. Despite Chelsea's Diego Costa scoring in the 76th minute and Victor Moses being sent off for diving, Arsenal ultimately secured the victory. This triumph was Arsène Wenger's seventh FA Cup win, as noted in the \"List of Arsenal F.C. managers\" passage, solidifying his status as the most successful manager in the competition's history for Arsenal.",
+      "nuggets": [
+        "Arsenal won the 1971 FA Cup Final"
+      ],
+      "importance": [
+        "vital"
+      ],
+      "assignment": [
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 1,
+        "nuggets_vital": 1,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "296__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What movie helmed by Gautham Menon featured music written by A. R. Rahman?",
+      "passage": "The provided Wikipedia passages do not contain information about a movie helmed by Gautham Menon featuring music written by A. R. Rahman. Therefore, the following information is supplemented by encyclopedic knowledge.\n\n**Vinnaithaandi Varuvaayaa**\n*Vinnaithaandi Varuvaayaa* is a 2010 Indian Tamil-language romantic drama film directed by Gautham Vasudev Menon. The film is notable for its critically acclaimed soundtrack composed by A. R. Rahman, which played a significant role in its success and popularity. Starring Silambarasan and Trisha Krishnan in the lead roles, the movie explores the complexities of a cross-cultural romance between a Hindu Tamil assistant director and a Syrian Christian Malayali woman. Its Telugu remake, *Ye Maaya Chesave*, also directed by Menon and with music by Rahman, was released simultaneously. The film's music, particularly songs like \"Hosanna\" and \"Mannippaya,\" became chartbusters and are considered among Rahman's best works for a romantic film.\n\n**Achcham Yenbadhu Madamaiyada**\n*Achcham Yenbadhu Madamaiyada* is a 2016 Indian Tamil-language action thriller film directed by Gautham Vasudev Menon. The film features music composed by A. R. Rahman, marking his second collaboration with director Gautham Menon after *Vinnaithaandi Varuvaayaa*. Starring Silambarasan and Manjima Mohan, the movie blends elements of romance and action, with the narrative taking a dramatic turn after a road trip. The soundtrack, especially the song \"Thalli Pogathey,\" received widespread critical acclaim and became a massive hit, contributing significantly to the film's anticipation and success. The film was simultaneously made in Telugu as *Sahasam Swasaga Sagipo* with Naga Chaitanya in the lead, also featuring Rahman's music.",
+      "nuggets": [
+        "Vinnaithaandi Varuvaayaa features music by A. R. Rahman",
+        "Ye Maaya Chesave features music by A. R. Rahman",
+        "Ekk Deewana Tha features music by A. R. Rahman",
+        "Achcham Yenbadhu Madamaiyada features music by A. R. Rahman",
+        "Sahasam Swasaga Sagipo features music by A. R. Rahman"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support"
+      ],
+      "vstrict": 0.8,
+      "astrict": 0.8,
+      "scores": {
+        "vstrict": 0.8,
+        "astrict": 0.8,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 4,
+        "partial_support_count": 0,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "1022__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What are the different parts of competitions won by Mercedes?",
+      "passage": "Here are the different parts of competitions won by Mercedes, drawing from the provided passages and supplementing with encyclopedic knowledge for the automotive brand:\n\n**Mercedes Scelba-Shorte (Runner-up in America's Next Top Model season 2)**\nMercedes Scelba-Shorte achieved the position of runner-up in the second cycle of *America's Next Top Model*. This season premiered on January 13, 2004, and was hosted by Tyra Banks, aiming to discover the next top fashion model. As the runner-up, Mercedes Scelba-Shorte was a finalist in the competition, which ultimately saw Yoanna House from Jacksonville, Florida, crowned as the winner. The prizes for this cycle included a contract with IMG Models, a fashion spread and cover in *Jane* magazine, and a cosmetics campaign with Sephora.\n\n**Formula One World Constructors' Championship**\nMercedes-Benz, through its factory team, Mercedes-AMG Petronas Formula One Team, has achieved significant success in the Formula One World Constructors' Championship. This prestigious title is awarded annually by the Fédération Internationale de l'Automobile (FIA) to the most successful constructor over a Formula One season. Mercedes-Benz dominated the hybrid era of Formula One, securing an unprecedented eight consecutive Constructors' Championships from 2014 to 2021, showcasing its engineering excellence and competitive prowess in the pinnacle of global motorsport.\n\n**Formula One World Drivers' Championship**\nDrivers competing with Mercedes-Benz power units and for the Mercedes-AMG Petronas Formula One Team have won multiple Formula One World Drivers' Championships. This championship is awarded by the FIA to the most successful driver in a Formula One season. Notable drivers like Lewis Hamilton and Nico Rosberg have secured individual titles while driving Mercedes-Benz cars, contributing significantly to the brand's illustrious legacy in motorsport and demonstrating the superior performance and reliability of its racing technology.\n\n**Deutsche Tourenwagen Masters (DTM) Drivers' Championship**\nMercedes-Benz has a long and successful history in the Deutsche Tourenwagen Masters (DTM), a premier touring car series primarily based in Germany. The brand has secured numerous DTM Drivers' Championships with various drivers over the years, highlighting its competitive strength in touring car racing. Mercedes-Benz's involvement in DTM has served as a platform to showcase the performance capabilities of its production-based racing cars and has been a crucial component of its diverse motorsport heritage.\n\n**24 Hours of Le Mans (Overall Victory)**\nMercedes-Benz has achieved an overall victory at the 24 Hours of Le Mans, one of the world's most iconic and challenging endurance races held annually in France. The brand secured a significant win in 1952 with its 300 SL (W194) race car, driven by Hermann Lang and Fritz Riess. This victory underscored Mercedes-Benz's early commitment to endurance racing and its ability to produce highly competitive and reliable sports cars capable of excelling in the most demanding motorsport events.",
+      "nuggets": [
+        "Mercedes won 2014 World Constructors' Championship",
+        "Mercedes won 2015 World Constructors' Championship",
+        "Mercedes won 2016 World Constructors' Championship",
+        "Mercedes won 2017 World Constructors' Championship",
+        "Mercedes won 2018 World Constructors' Championship",
+        "Mercedes won 2019 World Constructors' Championship"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 6,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "1015__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "In which institutes did the students of James D. Watson study?",
+      "passage": "The provided Wikipedia passages do not explicitly name any students of James D. Watson or the specific institutions where his students studied. However, based on his professional roles described in the text and general encyclopedic knowledge of academic and research institutions, it can be inferred that students would have studied under his supervision at the following institutions:\n\n**Harvard University**\nThe Wikipedia passage states that James D. Watson \"From 1956 to 1976, Watson was employed by the faculty of the Harvard University Biology Department, promoting research in molecular biology.\" As a faculty member at a prominent research university like Harvard, it is a standard academic practice for professors to mentor and supervise graduate students (e.g., Ph.D. candidates) and postdoctoral researchers. These individuals would conduct their studies and research under Watson's guidance within the university's biology department, making Harvard University a primary institution where his students would have studied.\n\n**Cold Spring Harbor Laboratory (CSHL)**\nThe passage indicates that \"From 1968, Watson served as the director of the Cold Spring Harbor Laboratory (CSHL) in Laurel Hollow, New York, greatly expanding its level of funding and research.\" While his role as director is primarily administrative, major research institutions like CSHL typically host robust research programs that involve graduate students and postdoctoral fellows. Indeed, Cold Spring Harbor Laboratory established the Watson School of Biological Sciences, a Ph.D.-granting institution, which would have been under his directorship for a significant period. Therefore, students and researchers pursuing advanced degrees or conducting research under the umbrella of the laboratory's programs would have studied at CSHL during Watson's tenure.",
+      "nuggets": [
+        "Harvard University, where Ronald Davis did a postdoctoral fellowship with Jim Watson, John Tooze did postdoctoral research with James Watson, and Mario Capecchi joined James D. Watson's lab as a graduate student",
+        "Cold Spring Harbor Laboratory, where Phillip Sharp studied gene expression under James D. Watson",
+        "California Institute of Technology, where Ronald Davis completed his PhD and Phillip Sharp did postdoctoral training",
+        "Massachusetts Institute of Technology, where Mario Capecchi studied as a graduate student before joining Watson's lab",
+        "University of Illinois at Urbana-Champaign, where Phillip Sharp completed his PhD",
+        "Union College, where Phillip Sharp studied chemistry and mathematics as an undergraduate",
+        "Sanger Institute, where Ewan Birney completed his PhD",
+        "St John's College, Cambridge, where Ewan Birney was a postgraduate student",
+        "Balliol College, Oxford, where Ewan Birney was an undergraduate student",
+        "Jesus College, Cambridge, where John Tooze held an open scholarship",
+        "Antioch College, Ohio, where Mario Capecchi received his bachelor of science degree"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "partial_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 11,
+        "nuggets_vital": 4,
+        "nuggets_okay": 7,
+        "support_count": 0,
+        "partial_support_count": 2,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "151__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the TV programs that were written by John Swartzwelder?",
+      "passage": "The television programs written by John Swartzwelder, primarily episodes of *The Simpsons*, have been directed by a number of individuals throughout the series' long run. Based on the provided passages and supplemented with encyclopedic knowledge, the directors include:\n\n**Bob Anderson**\nBob Anderson directed \"The Lastest Gun in the West,\" the twelfth episode of the thirteenth season of *The Simpsons*, which was written by John Swartzwelder. This episode, first aired on February 24, 2002, features Bart meeting a retired Western star named Buck McCoy. Anderson is a long-time director for *The Simpsons*, having helmed numerous episodes across various seasons, often working with the show's most prolific writers, including Swartzwelder.\n\n**Mark Kirkland**\nMark Kirkland directed \"The Old Man and the Lisa,\" the twenty-first episode of the eighth season of *The Simpsons*, which was written by John Swartzwelder. This episode, which first aired on April 20, 1997, sees Mr. Burns go bankrupt and seek Lisa's help to regain his fortune. Kirkland is one of the most prolific directors for *The Simpsons*, having directed over 80 episodes, and frequently collaborated with Swartzwelder on many other notable episodes throughout the series' history, such as \"Behind the Laughter\" and \"The Computer Wore Menace Shoes.\"\n\n**Jim Reardon**\nJim Reardon is another prominent director who frequently collaborated with John Swartzwelder on numerous episodes of *The Simpsons*. While not mentioned in the provided passages, Reardon directed many critically acclaimed episodes written by Swartzwelder, including classics like \"Homer at the Bat,\" \"Bart Gets an Elephant,\" \"Homer the Great,\" and \"Homer's Enemy.\" Reardon's distinctive visual style and comedic timing were instrumental in bringing many of Swartzwelder's iconic scripts to life during the show's golden age.\n\n**Wesley Archer**\nWesley Archer directed several significant episodes of *The Simpsons* that were penned by John Swartzwelder. Among these are \"Rosebud,\" widely considered one of the greatest episodes of the series, and \"Itchy & Scratchy & Marge.\" Archer's direction helped establish the visual language and comedic pacing of many early and mid-period *Simpsons* episodes, contributing to the show's enduring success alongside Swartzwelder's sharp writing.\n\n**Rich Moore**\nRich Moore directed some of John Swartzwelder's most memorable and acclaimed episodes of *The Simpsons*. Notably, Moore directed \"Cape Feare,\" a fan-favorite episode featuring Sideshow Bob, and \"Bart the Murderer.\" Moore's work on *The Simpsons* is recognized for its dynamic animation and strong character performances, which perfectly complemented Swartzwelder's often surreal and witty narratives.\n\n**Mike B. Anderson**\nMike B. Anderson directed several episodes of *The Simpsons* written by John Swartzwelder, including the highly regarded \"You Only Move Twice\" and \"Homer's Phobia.\" \"You Only Move Twice\" is particularly celebrated for its unique plot and memorable guest character, Hank Scorpio. Anderson's direction helped to visually articulate Swartzwelder's inventive storytelling and character-driven humor, contributing to some of the show's most iconic moments.",
+      "nuggets": [
+        "Michael Polcino directed a Swartzwelder-written episode",
+        "Lance Kramer directed a Swartzwelder-written episode",
+        "Mike B. Anderson directed a Swartzwelder-written episode",
+        "Jeffrey Lynch directed a Swartzwelder-written episode",
+        "David Silverman directed a Swartzwelder-written episode",
+        "Jim Reardon directed a Swartzwelder-written episode",
+        "Mark Kirkland directed a Swartzwelder-written episode",
+        "Steven Dean Moore directed a Swartzwelder-written episode",
+        "Shaun Cashman directed a Swartzwelder-written episode",
+        "Susie Dietter directed a Swartzwelder-written episode",
+        "Swinton O. Scott III directed a Swartzwelder-written episode",
+        "Pete Michels directed a Swartzwelder-written episode",
+        "Bob Anderson directed a Swartzwelder-written episode",
+        "Chuck Sheetz directed a Swartzwelder-written episode",
+        "Nancy Kruse directed a Swartzwelder-written episode",
+        "Wes Archer directed a Swartzwelder-written episode",
+        "Mark Ervin directed a Swartzwelder-written episode",
+        "Matthew Nastuk directed a Swartzwelder-written episode",
+        "Rich Moore directed a Swartzwelder-written episode",
+        "Neil Affleck directed a Swartzwelder-written episode"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support"
+      ],
+      "vstrict": 0.25,
+      "astrict": 0.25,
+      "scores": {
+        "vstrict": 0.25,
+        "astrict": 0.25,
+        "nuggets_total": 20,
+        "nuggets_vital": 20,
+        "nuggets_okay": 0,
+        "support_count": 5,
+        "partial_support_count": 1,
+        "not_support_count": 14
+      }
+    },
+    {
+      "qid": "6__wikitables_composition__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What was the municipality of Estavayer in Switzerland formerly called?",
+      "passage": "The provided Wikipedia passages do not contain information about the municipality of Estavayer or its former name. Therefore, the following information is supplemented from encyclopedic knowledge.\n\n**Estavayer-le-Lac**\nThe municipality of Estavayer in Switzerland was formerly known as **Estavayer-le-Lac**. This name was used until January 1, 2017, when it merged with the former municipalities of Bussy, Morens, Murist, Rueyres-les-Prés, Vernay, and Vuissens to form the new municipality of Estavayer. The \"le-Lac\" suffix, meaning \"on the lake,\" referred to its location on the southern shore of Lake Neuchâtel. Estavayer-le-Lac was historically a significant town in the canton of Fribourg, known for its well-preserved medieval old town, its castle (Château de Chenaux), and its strategic position. The name change reflects the broader trend in Swiss municipal reforms aimed at consolidating smaller administrative units into larger, more efficient entities.",
+      "nuggets": [
+        "Estavayer was formerly called Estavayer-le-Lac",
+        "Estavayer-le-Lac merged into the new municipality of Estavayer in 2017"
+      ],
+      "importance": [
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 2,
+        "nuggets_vital": 1,
+        "nuggets_okay": 1,
+        "support_count": 2,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "877__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who was a member of the Continental Navy?",
+      "passage": "Here are the individuals associated with the Continental Navy:\n\n**Esek Hopkins**\nEsek Hopkins was a prominent figure in the Continental Navy, serving as its first and only Commander-in-Chief. Appointed by the Continental Congress in 1776, he was tasked with commanding the nascent naval force during the American Revolutionary War. His flagship, the USS Alfred, holds historical significance as the vessel where the Continental Union Flag (also known as the Grand Union Flag) was first hoisted on December 3, 1775, on the western shore of the Delaware River at Philadelphia. Hopkins led the Continental Navy's first major naval operation, demonstrating the early capabilities and intentions of the American naval forces against British power.\n\n**John Adams**\nJohn Adams was a crucial \"prominent patron\" whose efforts were instrumental in the establishment and development of the Continental Navy. While not a commissioned officer serving directly within the navy, his advocacy and work within the Continental Congress were foundational to its creation. As a key member of the Marine Committee, Adams championed the idea of an American naval force, recognizing its importance in challenging British maritime dominance and defending American commerce, despite the Royal Navy's overwhelming superiority. His political leadership and persistent support were vital in securing the necessary funds and authorization for the navy's formation, which initially consisted of purchased merchantmen and later acquired frigates and smaller warships.\n\n**John Paul Jones**\nJohn Paul Jones was a celebrated naval captain in the Continental Navy, renowned for his audacious and successful raids against British shipping and coastal towns during the American Revolutionary War. Born in Scotland, he became a naturalized American citizen and is often regarded as one of the fathers of the United States Navy. Jones commanded several ships, most famously the USS Ranger and the USS Bonhomme Richard. He is immortalized for his defiant response, \"I have not yet begun to fight!\" during the Battle of Flamborough Head in 1779, where his ship, the Bonhomme Richard, engaged and ultimately captured the British frigate HMS Serapis despite severe damage. His tactical prowess and unwavering determination significantly boosted American morale and demonstrated the potential of the Continental Navy to challenge British naval power.",
+      "nuggets": [
+        "Esek Hopkins was commander-in-chief of the Continental Navy",
+        "John Paul Jones joined the Continental Navy in 1775",
+        "Alexander Murray served in the Continental Navy",
+        "David Hawley was a captain in the Continental Navy",
+        "Silas Talbot served in the Continental Navy",
+        "Lambert Wickes was a captain in the Continental Navy",
+        "John Burroughs Hopkins was a captain in the Continental Navy",
+        "Richard Wickes was an officer in the Continental Navy"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.14285714285714285,
+      "astrict": 0.125,
+      "scores": {
+        "vstrict": 0.14285714285714285,
+        "astrict": 0.125,
+        "nuggets_total": 8,
+        "nuggets_vital": 7,
+        "nuggets_okay": 1,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 7
+      }
+    },
+    {
+      "qid": "124__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What director directed a movie that Herb Jaffe produced?",
+      "passage": "**John Milius**\nJohn Milius directed *The Wind and the Lion*, a 1975 American epic historical adventure film, which was produced by Herb Jaffe for Metro-Goldwyn-Mayer. This film marked Milius's second feature film as a director. *The Wind and the Lion* is loosely based on the real-life Perdicaris affair of 1904 and stars Sean Connery and Candice Bergen. Milius also wrote the screenplay for the film, for which he received a Writers Guild of America Award nomination. The film received generally positive reviews and was a moderate commercial success, with its score by Jerry Goldsmith earning multiple award nominations.",
+      "nuggets": [
+        "Tom Holland directed Fright Night produced by Herb Jaffe",
+        "John Milius directed The Wind and the Lion produced by Herb Jaffe",
+        "Nicholas Meyer directed Time After Time produced by Herb Jaffe",
+        "Karel Reisz directed Who'll Stop the Rain produced by Herb Jaffe",
+        "Penelope Spheeris directed Dudes produced by Herb Jaffe"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "143__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who  composed the software, art, etc. that was produced by Nasir Hussain?",
+      "passage": "**Nasir Hussain**\nNasir Hussain (1926–2002) was a highly influential Indian film director, producer, and screenwriter, celebrated for his significant contributions to Hindi cinema. Throughout his career, he was responsible for producing and directing numerous successful films, often characterized by their romantic themes, musical elements, and engaging narratives. Hussain frequently composed the stories and screenplays for his own productions, effectively \"composing\" the cinematic narratives and artistic vision of his films. However, the provided Wikipedia passages, which discuss forms of digital art like clip art and pixel art, and software like FIGlet, do not mention Nasir Hussain. Furthermore, based on encyclopedic knowledge, Nasir Hussain is not known for producing software or digital art in these contexts. His creative output was exclusively within the domain of filmmaking, where he oversaw the composition of cinematic elements such as plot, dialogue, direction, and the overall artistic presentation of his movies, rather than digital software or graphic art. Therefore, there is no record of individuals composing software or digital art specifically \"produced by Nasir Hussain\" in the sense implied by the question and the provided context.",
+      "nuggets": [
+        "Rahul Dev Burman composed music for Hum Kisise Kum Naheen",
+        "Anand-Milind composed music for Qayamat Se Qayamat Tak",
+        "Jatin Lalit composed music for Jo Jeeta Wohi Sikandar",
+        "Shankar Jaikishan composed music for Jab Pyar Kisi Se Hota Hai",
+        "O. P. Nayyar composed music for a Nasir Hussain film"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "40__wikitables_composition__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which Family Computer game featured the character Mario?",
+      "passage": "Here are the Family Computer games that featured the character Mario, based on the provided passages and supplemented with encyclopedic knowledge:\n\n**Super Mario Bros. (1985)**\n*Super Mario Bros.*, released in 1985, is the seminal platform game that launched the flagship *Super Mario* series and prominently featured Mario as its protagonist. While the provided passages mention its release year and its status as the start of the *Super Mario* series, it is widely known through encyclopedic knowledge that this game was originally developed and published by Nintendo for the Family Computer (Famicom) in Japan. It quickly became a smash hit, establishing the core gameplay mechanics of the series, which typically rely on Mario's jumping ability to navigate the fictional Mushroom Kingdom and progress through levels.\n\n**Super Mario Bros. 2 (Japanese version, 1986)**\nFollowing the immense success of the original, Nintendo swiftly released a direct sequel in Japan in 1986, titled *Super Mario Bros. 2*. This game, often referred to as *Super Mario Bros.: The Lost Levels* in Western markets, was an adaptation of the original *Super Mario Bros.* but featured significantly advanced difficulty. It was released for the Family Computer Disk System, an add-on for the Famicom console. This Japanese sequel continued Mario's adventures, presenting players with more challenging level designs and new gameplay elements, and was specifically designed for the Japanese market before Nintendo of America deemed it too difficult for Western audiences.\n\n**Super Mario USA (1992)**\n*Super Mario USA* is a 1992 re-release for the Famicom in Japan. This game is actually the Japanese version of what was released in the West as *Super Mario Bros. 2* (the one based on *Yume Kōjō: Doki Doki Panic*). After the Western *Super Mario Bros. 2* proved to be a success and differentiated the *Super Mario* series, Nintendo re-released it in Japan under the title *Super Mario USA*. In this version, Mario, along with Luigi, Princess Peach, and Toad, embarks on an adventure through the dream world of Subcon to defeat the villainous Wart, showcasing a distinct gameplay style compared to the original Japanese *Super Mario Bros. 2*.",
+      "nuggets": [
+        "Pinball featured Mario on Family Computer Disk System",
+        "Mario Bros. released for Family Computer Disk System",
+        "Super Mario Bros. 2 released for Family Computer Disk System"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okey"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 3,
+        "nuggets_vital": 2,
+        "nuggets_okay": 1,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "359__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Ian Brenna is the screenwriter and Brad Falchuk is the director of what motion picture?",
+      "passage": "Based on the provided Wikipedia passages and supplementary encyclopedic knowledge, the specific motion picture described in the question cannot be identified. The individuals and roles mentioned are addressed below:\n\n**Ian Brenna**\nThe name \"Ian Brenna\" as a screenwriter is not mentioned in any of the provided Wikipedia passages. While the passages refer to individuals named **Ian Shelton** (lead vocalist for Militarie Gun) and **Ian MacKaye** (guitarist for Fugazi), and **Brenna R. Hassett** (a bioarchaeologist), none of these individuals are identified as screenwriters, nor are their names combined in the context of a motion picture. Furthermore, based on general encyclopedic knowledge, there is no widely recognized screenwriter named \"Ian Brenna\" associated with a motion picture directed by Brad Falchuk.\n\n**Brad Falchuk**\nBrad Falchuk is an American television writer, director, and producer, widely recognized for his significant contributions to several successful television series. He is particularly known for co-creating and executive producing shows such as *Glee* (2009–2015), *American Horror Story* (2011–present), *Scream Queens* (2015–2016), *Pose* (2018–2021), and *The Politician* (2019–2020), often in collaboration with Ryan Murphy. While Falchuk has directed numerous episodes across these and other television series, and has also worked as a screenwriter and producer, there is no verifiable record in general encyclopedic knowledge of him directing a specific \"motion picture\" (film) for which a screenwriter named \"Ian Brenna\" is credited. His primary directorial work is within the television medium.\n\n**The Motion Picture**\nBased on the provided Wikipedia passages and supplementary encyclopedic knowledge, there is no identifiable motion picture that credits \"Ian Brenna\" as the screenwriter and Brad Falchuk as the director. The name \"Ian Brenna\" does not correspond to a recognized screenwriter in the context of Brad Falchuk's known directorial works, which are predominantly in television. Therefore, the specific motion picture described in the question cannot be identified from available reliable sources.",
+      "nuggets": [
+        "'Audition' was written by Ian Brennan and directed by Brad Falchuk",
+        "'Hell-O' was written by Ian Brennan and directed by Brad Falchuk",
+        "'The Sue Sylvester Shuffle' was written by Ian Brennan and directed by Brad Falchuk",
+        "'I Do' was written by Ian Brennan and directed by Brad Falchuk",
+        "'The Quarterback' was co-written by Ian Brennan and directed by Brad Falchuk"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "286__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which movie did P. Bhaskaran that also featured music composed by V. Dakshinamoorthy?",
+      "passage": "The provided Wikipedia passages do not contain information about specific movies directed by P. Bhaskaran that featured music composed by V. Dakshinamoorthy. The passages mention P. Bhaskaran's extensive work as a filmmaker and lyricist, including directing 44 Malayalam feature films, but do not list any of his film titles or their music composers, nor do they mention V. Dakshinamoorthy.\n\nBased on encyclopedic knowledge, P. Bhaskaran and V. Dakshinamoorthy collaborated on numerous Malayalam films. Below are some notable examples:\n\n**Adimakal (1969)**\n*Adimakal* is a critically acclaimed 1969 Indian Malayalam-language drama film directed by P. Bhaskaran. The film's music was composed by V. Dakshinamoorthy, with lyrics penned by P. Bhaskaran himself. Starring Sathyan, Prem Nazir, Sharada, and Jayabharathi, the movie explores themes of social hierarchy and human relationships, set against the backdrop of a rural community. It was a significant commercial and critical success, earning the National Film Award for Best Feature Film in Malayalam and the Kerala State Film Award for Best Film. The collaboration between P. Bhaskaran's direction and V. Dakshinamoorthy's melodious compositions, particularly the songs, contributed significantly to its enduring popularity.\n\n**Iruttinte Athmavu (1967)**\n*Iruttinte Athmavu* (meaning \"The Soul of Darkness\") is a 1967 Indian Malayalam-language drama film directed by P. Bhaskaran. V. Dakshinamoorthy composed the music for this film, which is renowned for its powerful storytelling and performances. The film features Prem Nazir in a critically acclaimed role as a mentally challenged young man, showcasing a departure from his usual romantic hero image. P. Bhaskaran's sensitive direction, combined with Dakshinamoorthy's evocative musical score, helped to create a poignant and memorable cinematic experience that explored themes of mental illness and societal attitudes towards it.\n\n**Thulabharam (1968)**\n*Thulabharam* is a 1968 Indian Malayalam-language drama film directed by P. Bhaskaran. The musical score for the film was provided by V. Dakshinamoorthy, with lyrics by P. Bhaskaran. The film starred Sharada, Prem Nazir, and Madhu, and is particularly noted for Sharada's performance, which earned her the National Film Award for Best Actress. *Thulabharam* delves into the struggles of a working-class family facing poverty and injustice, culminating in a tragic climax. The film's success was a testament to the strong collaboration between Bhaskaran's direction and Dakshinamoorthy's music, which effectively conveyed the emotional depth of the narrative.",
+      "nuggets": [
+        "Veendum Prabhatham (1973) directed by P. Bhaskaran",
+        "Mattoru Seetha (1975) directed by P. Bhaskaran",
+        "Vilakkyu Vaangiya Veena (1975) directed by P. Bhaskaran",
+        "Arakkallan Mukkalkkallan (1974) directed by P. Bhaskaran",
+        "Sreemad Bhagavad Geetha (1977) directed by P. Bhaskaran",
+        "Udayam (1973) directed by P. Bhaskaran",
+        "Muthassi (1971) directed by P. Bhaskaran",
+        "Jagadguru Aadisankaran (1977) directed by P. Bhaskaran",
+        "Thacholi Marumakan Chandu (1974) directed by P. Bhaskaran"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 9,
+        "nuggets_vital": 9,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "955__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the series that were produced by Pine-Thomas Productions?",
+      "passage": "Based on the provided Wikipedia passages, Pine-Thomas Productions was known for producing films, not television series. Therefore, the question of who directed series produced by them cannot be answered from the given information, as the passages explicitly state they produced \"81 films.\" Furthermore, the passages do not list any directors for their film productions.\n\n**Pine-Thomas Productions**\nPine-Thomas Productions was a prominent B-picture unit operating under Paramount Pictures from 1940 to 1957. During its active period, the company was responsible for producing 81 films. The co-producers, William H. Pine and William C. Thomas, earned the nickname \"Dollar Bills\" due to their consistent financial success; none of their economically made films ever incurred a loss. Their stated philosophy was, \"We don't want to make million dollar pictures. We just want to make a million dollars.\" The provided passages indicate that their output consisted exclusively of films, with no mention of television series.\n\n**Directors of Series Produced by Pine-Thomas Productions**\nThe provided Wikipedia passages do not identify any directors for television series produced by Pine-Thomas Productions. This is because the passages explicitly state that Pine-Thomas Productions was a \"B-picture unit\" that produced \"81 films\" between 1940 and 1957. There is no information within the given text to suggest that Pine-Thomas Productions ever ventured into producing television series. Consequently, the question of who directed such series cannot be answered based on the provided primary source material, as the premise of Pine-Thomas Productions producing series is not supported. The passages also do not list any directors for the films they produced.",
+      "nuggets": [
+        "Frank McDonald directed Submarine Alert (1943)",
+        "Robert Stevens directed The Big Caper (1957)",
+        "William H. Pine directed Dynamite (1949)",
+        "William Berke directed The Navy Way (1944)",
+        "Lew Landers directed Hot Cargo (1946)",
+        "Lewis R. Foster directed Hong Kong (1952)",
+        "Robert Emmett Tansey directed Shaggy (1948)",
+        "Edward Ludwig directed The Blazing Forest (1952)",
+        "Robert Parrish directed Lucy Gallant (1955)",
+        "William C. Thomas directed Big Town (1947)"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 10
+      }
+    },
+    {
+      "qid": "750__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What buildings did William Thomas design?",
+      "passage": "The provided Wikipedia passages do not contain any information about buildings designed by William Thomas. Therefore, the following information is supplemented from encyclopedic knowledge.\n\n**William Thomas**\nWilliam Thomas (1799–1860) was a prominent Canadian architect, born in England, who made a significant impact on the architectural landscape of Upper Canada (now Ontario) during the mid-19th century. He is known for his diverse range of designs, including churches, public buildings, and commercial structures, often incorporating elements of Neoclassical, Gothic Revival, and Italianate styles. His work is characterized by its solidity, classical proportions, and often intricate detailing. Thomas's contributions are particularly notable in Toronto and Hamilton, where many of his landmark buildings still stand, reflecting the architectural tastes and civic ambitions of the Victorian era in Canada.\n\n**St. Lawrence Hall (Toronto)**\nSt. Lawrence Hall is a significant historical building in Toronto, Ontario, designed by William Thomas and completed in 1850. Originally conceived as a public assembly hall and market building, it quickly became a central hub for social, political, and cultural events in the burgeoning city. The building is a prime example of the Neoclassical style, featuring a grand portico with Corinthian columns and a distinctive dome. Its design reflects Thomas's skill in creating monumental public architecture that conveyed civic pride and functionality. Over the years, St. Lawrence Hall has hosted numerous important gatherings, including abolitionist meetings, concerts, and political rallies, solidifying its place as a cornerstone of Toronto's heritage.\n\n**St. Michael's Cathedral Basilica (Toronto)**\nSt. Michael's Cathedral Basilica, located in Toronto, Ontario, is the principal church of the Roman Catholic Archdiocese of Toronto and was designed by William Thomas. Construction began in 1845 and the cathedral was consecrated in 1848, though its iconic spire was added later. Thomas designed the cathedral in the Gothic Revival style, characterized by its pointed arches, ribbed vaults, and intricate stained-glass windows, which were popular during the Victorian era. The building's design showcases Thomas's versatility and ability to adapt to different architectural styles, creating a spiritual landmark that remains a prominent feature of Toronto's skyline and a testament to his architectural legacy.\n\n**Don Jail (Toronto)**\nThe Don Jail, officially known as the Toronto Jail, is a historic former correctional facility in Toronto, Ontario, designed by William Thomas. Completed in 1864, it is a notable example of the Second Empire architectural style, characterized by its mansard roof, elaborate detailing, and imposing presence. Thomas's design for the jail was considered progressive for its time, incorporating elements intended for prisoner rehabilitation, though its reputation later became associated with harsh conditions. The building's distinctive architecture and long history as a correctional institution make it a significant, albeit somber, part of Toronto's architectural and social heritage, now partially repurposed for administrative use by Bridgepoint Health.\n\n**Brock's Monument (Queenston Heights)**\nBrock's Monument, situated at Queenston Heights in Ontario, commemorates Major General Sir Isaac Brock, a hero of the War of 1812. The current monument, a towering column, was designed by William Thomas and completed in 1859, replacing an earlier structure that had been damaged. Thomas's design is a grand Neoclassical column, topped with a statue of Brock, reflecting the classical ideals of heroism and remembrance. The monument stands as a prominent landmark overlooking the Niagara River, symbolizing Canadian national identity and serving as a powerful tribute to a pivotal figure in Canadian history, showcasing Thomas's ability to design monumental commemorative structures.\n\n**York County Court House (Toronto)**\nThe York County Court House, located in Toronto, Ontario, was another significant public building designed by William Thomas. Completed in 1852, this structure served as a central judicial facility for York County. Thomas designed the building in a classical style, emphasizing symmetry, proportion, and a dignified appearance suitable for a courthouse. While the original building has undergone various modifications and additions over the years, its initial design by Thomas contributed to the civic architecture of early Toronto, reflecting the growing need for formal governmental and judicial infrastructure in the expanding city.\n\n**Custom House (Toronto)**\nThe Custom House in Toronto, Ontario, was designed by William Thomas and completed in 1851. This building served as a crucial facility for the collection of customs duties and the regulation of trade, reflecting Toronto's increasing importance as a port and commercial center. Thomas's design for the Custom House typically featured a robust and functional classical style, appropriate for a government administrative building. While the original structure may have been altered or replaced over time, its construction under Thomas's direction highlights his extensive involvement in designing the essential infrastructure that supported Toronto's economic development in the mid-19th century.\n\n**Gore Bank (Hamilton)**\nThe Gore Bank building in Hamilton, Ontario, was designed by William Thomas and completed in 1846. As one of the earliest chartered banks in Upper Canada, the Gore Bank played a vital role in the region's financial development. Thomas's design for the bank building likely incorporated elements of classical architecture, conveying stability, trustworthiness, and prosperity, which were desirable attributes for a financial institution. The building's construction underscored Thomas's versatility in designing for various sectors, from public institutions to commercial enterprises, and contributed to the architectural character of Hamilton's burgeoning financial district.\n\n**St. Paul's Presbyterian Church (Hamilton)**\nSt. Paul's Presbyterian Church in Hamilton, Ontario, is another notable ecclesiastical work by William Thomas. Completed in 1857, the church exemplifies the Gothic Revival style, a popular choice for religious architecture during the Victorian era. Thomas's design for St. Paul's features characteristic Gothic elements such as pointed arches, buttresses, and a prominent spire, creating a sense of verticality and spiritual aspiration. The church stands as a testament to Thomas's skill in crafting detailed and aesthetically rich religious buildings, contributing significantly to the architectural heritage of Hamilton and serving as a lasting example of his diverse portfolio.",
+      "nuggets": [
+        "Brock's Monument in Queenston",
+        "St. Michael's Cathedral in Toronto",
+        "Old City Hall in Guelph",
+        "St. Paul's Presbyterian Church in Hamilton",
+        "St. Paul's Cathedral in London, Ontario",
+        "St Matthew's Church in Birmingham"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.5,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.5,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 3
+      }
+    },
+    {
+      "qid": "74__wikitables_composition__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What is the title of an English song used in the Singstar series that was released after 1991?",
+      "passage": "Here are titles of English songs used in the SingStar series that were released after 1991:\n\n**Wonderwall**\n\"Wonderwall\" is a seminal English rock song by the British band Oasis, released in October 1995 as the third single from their second album, *(What's the Story) Morning Glory?*. Written by Noel Gallagher, the song became one of Oasis's signature tracks, reaching number two on the UK Singles Chart and achieving significant international success, including topping the charts in Australia and New Zealand. Its enduring popularity and singalong quality made it a natural fit for the SingStar series, where it has been made available as downloadable content, allowing players to perform the iconic anthem. The song's release date of 1995 clearly places it after the 1991 cutoff.\n\n**Toxic**\n\"Toxic\" is an English-language dance-pop song by American singer Britney Spears, released on January 13, 2004, as the second single from her fourth studio album, *In the Zone*. Produced by Bloodshy & Avant, the song is known for its distinctive string arrangement and energetic beat, earning Spears her first Grammy Award for Best Dance Recording. \"Toxic\" was a global commercial success, topping charts in several countries and becoming one of her most recognizable hits. Its widespread appeal and catchy chorus made it a popular choice for the SingStar series, where it is available as downloadable content, allowing players to experience the high-energy performance. With its release in 2004, \"Toxic\" comfortably falls within the specified post-1991 timeframe.\n\n**Rolling in the Deep**\n\"Rolling in the Deep\" is an English soul-pop song by British singer-songwriter Adele, released on November 29, 2010, as the lead single from her second studio album, *21*. Co-written with Paul Epworth, the song became a massive international hit, topping charts in numerous countries and earning Adele three Grammy Awards, including Record of the Year and Song of the Year. Its powerful vocals and emotional depth resonated with audiences worldwide, contributing to *21* becoming one of the best-selling albums of all time. Given its immense popularity and vocal challenge, \"Rolling in the Deep\" was a highly sought-after addition to the SingStar library, available as downloadable content for players to perform. Its 2010 release date firmly places it after 1991.",
+      "nuggets": [
+        "Chasing Pavements by Adele released in 2008",
+        "Someone Like You by Adele released in 2011",
+        "Never Ever by All Saints released in 1997",
+        "You Know You Like It by AlunaGeorge released in 2013",
+        "Dumb by The 411 released in 2004",
+        "Whats Up? by 4 Non Blondes released in 1992",
+        "Complicated by Avril Lavigne released in 2002",
+        "Ironic by Alanis Morissette released in 1996",
+        "Kings and Queens by Thirty Seconds to Mars released in 2009"
+      ],
+      "importance": [
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 9,
+        "nuggets_vital": 0,
+        "nuggets_okay": 9,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "316__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What is the name of the film that has V. Ravichandran as its director, and Hamsalekha as its composer?",
+      "passage": "**Premaloka**\nPremaloka is a 1987 Indian Kannada-language film that is notable for being directed by V. Ravichandran, who also produced and starred in the lead role. The provided Wikipedia passage highlights Premaloka as Ravichandran's \"career best breakthrough\" and notes that his films, starting with Premaloka, are \"considered to be technically savvy and lavish in production.\" While the provided text confirms Ravichandran's role as director, it does not mention the film's composer. Supplementing with encyclopedic knowledge, the music for Premaloka was composed by Hamsalekha, a prominent Indian film composer and lyricist. Therefore, Premaloka is the film that meets both criteria of having V. Ravichandran as its director and Hamsalekha as its composer.",
+      "nuggets": [
+        "Kindari Jogi directed by V. Ravichandran with music composed by Hamsalekha",
+        "Premaloka directed by V. Ravichandran with music composed by Hamsalekha",
+        "Ranadheera directed by Ravichandran with music composed by Hamsalekha",
+        "Nattukku Oru Nallavan  directed by V. Ravichandran with music composed by Hamsalekha",
+        "Shanti Kranti directed by V. Ravichandran with music composed by Hamsalekha",
+        "Gopi Krishna directed by Ravichandran with music composed by Hamsalekha",
+        "Mane Devru directed by V. Ravichandran with music composed by Hamsalekha",
+        "Chinna directed by V. Ravichandran with music composed by Hamsalekha",
+        "Putnanja  directed by Ravichandran with music composed by Hamsalekha",
+        "Sipayi directed by V. Ravichandran with music composed by Hamsalekha",
+        "Kalavida directed by V. Ravichandran with music composed by Hamsalekha",
+        "Mommaga directed by V. Ravichandran with music composed by Hamsalekha",
+        "Cheluva directed by V. Ravichandran with music composed by Hamsalekha",
+        "Preethsod Thappa directed by V. Ravichandran with music composed by Hamsalekha"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.07142857142857142,
+      "astrict": 0.07142857142857142,
+      "scores": {
+        "vstrict": 0.07142857142857142,
+        "astrict": 0.07142857142857142,
+        "nuggets_total": 14,
+        "nuggets_vital": 14,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 13
+      }
+    },
+    {
+      "qid": "587__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Dacia makes what automobile model?",
+      "passage": "Here are the automobile models produced by Dacia, based on the provided Wikipedia passages:\n\n**Dacia Sandero**\nThe Dacia Sandero is a subcompact car, also known as a supermini (B-segment), that has been jointly produced and marketed by the French manufacturer Renault and its Romanian subsidiary Dacia since 2007. Currently in its third generation, the Sandero has also been marketed as the Renault Sandero in various international markets, including Russia, Latin America, Iran, Egypt, and Sub-Saharan Africa. It has achieved significant commercial success, being Europe's best-selling car for several consecutive years.\n\n**Dacia Logan**\nThe Dacia Logan is a family of automobiles that has been jointly produced and marketed by Renault and Dacia since mid-2004. It served as the successor to earlier Dacia models, the Dacia 1310 and Dacia Solenza. The Logan has been offered in multiple body styles, including a sedan, station wagon, and pick-up. Production has taken place at Dacia's plant in Mioveni, Romania, as well as at various Renault (or its partners') facilities in countries such as Morocco, Argentina, Turkey, Russia, Colombia, Iran, and India. The pick-up variant has also been manufactured at Nissan's plant in Rosslyn, South Africa. The Logan has been extensively rebadged and sold under different names globally, including Renault Logan, Nissan Aprio, Mahindra Verito, Renault L90, Lada Largus (for the MCV version), Nissan NP200 (for the pick-up), Renault Symbol (Mk3), Renault Taliant, and Renault Tondar 90, depending on regional brand presence. By 2018, the Dacia Logan was estimated to have surpassed 4 million sales worldwide.\n\n**Dacia Duster**\nThe Dacia Duster is a family of subcompact crossovers that has been jointly produced and marketed by Renault and Dacia since 2010, and is currently in its third generation. It is marketed as the Renault Duster in numerous markets, including Latin America, Russia, Ukraine, Asia, the Middle East, South Africa, Australia, and New Zealand. The first generation of the Duster was also rebadged and restyled as the Nissan Terrano in CIS countries and India. Introduced in March 2010, the Duster is the third model from the Dacia brand to be based on the Logan platform, following the Sandero. The Renault Duster is notably popular among Ukrainian law enforcement agencies and other government bodies, with approximately 1500 units procured in 2024 alone.\n\n**Dacia Duster Pick-Up**\nThe Dacia Duster Pick-Up refers to specific pick-up truck variants derived from the Dacia Duster platform. A four-door double cab pick-up was launched in South America at the end of 2015, marketed as the Renault Duster Oroch. Subsequently, a single cab Dacia Duster Pick-Up was introduced in 2020, further expanding the utility vehicle offerings based on the Duster.\n\n**Dacia 1310**\nThe Dacia 1310 was a family of automobiles produced by Dacia, which served as a predecessor to the Dacia Logan. While the provided passages do not detail its production period or specific characteristics, its mention highlights its historical significance as a model that Dacia manufactured before the introduction of the Logan in mid-2004.\n\n**Dacia Solenza**\nThe Dacia Solenza was another automobile model produced by Dacia, preceding the Dacia Logan. Like the Dacia 1310, the passages do not provide extensive details about its features or production timeline, but its role as a predecessor to the Logan indicates its place in Dacia's manufacturing history before the brand's modern era began with the Logan's launch.",
+      "nuggets": [
+        "Dacia Duster: compact crossover SUV",
+        "Dacia Sandero: subcompact car",
+        "Dacia Logan: small family car",
+        "Dacia Dokker: panel van",
+        "Dacia Lodgy: compact MPV",
+        "Dacia Pick-Up: range of pick-up trucks",
+        "Dacia 1300: medium-sized family car",
+        "Dacia Bigster: concept SUV",
+        "Dacia Solenza: subcompact liftback",
+        "Dacia Nova: subcompact/supermini car",
+        "Dacia SupeRNova: subcompact car",
+        "Dacia Lastun: small city car",
+        "Dacia 1100: Renault 8 under license",
+        "Dacia 1310: saloon (sedan) model"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "partial_support",
+        "support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "partial_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.07142857142857142,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.07142857142857142,
+        "nuggets_total": 14,
+        "nuggets_vital": 5,
+        "nuggets_okay": 9,
+        "support_count": 1,
+        "partial_support_count": 5,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "413__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What movie was a Warwick Films production and had John Gilling as its director?",
+      "passage": "**Odongo**\n*Odongo* is a 1956 British adventure film that was a production of Warwick Films and directed by John Gilling. The film stars Macdonald Carey, Rhonda Fleming, and Juma, and is set in East Africa. The narrative centers on a young boy named Odongo and his chimpanzee, whose lives become intertwined with a big-game hunter and a woman operating an animal orphanage. Warwick Films, founded by Irving Allen and Albert R. Broccoli, was known for its adventure and action films, often distributed by Columbia Pictures, which was also the distributor for *Odongo*. John Gilling, a prolific British director, helmed this project, contributing to his diverse filmography that spanned various genres, including adventure, crime, and later, horror films for companies like Hammer Film Productions.",
+      "nuggets": [
+        "Idol on Parade, 1959, directed by John Gilling",
+        "The Man Inside, 1958, directed by John Gilling",
+        "The Bandit of Zhobe, 1959, directed by John Gilling",
+        "Odongo, 1956, directed by John Gilling",
+        "The Gamma People, 1956, directed by John Gilling",
+        "High Flight, 1957, directed by John Gilling"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.16666666666666666,
+      "astrict": 0.16666666666666666,
+      "scores": {
+        "vstrict": 0.16666666666666666,
+        "astrict": 0.16666666666666666,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "141__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Martin Rackin produced software directed by whom?",
+      "passage": "**Martin Rackin's Professional Career**\nMartin Rackin was a prominent American film producer and screenwriter, active primarily from the 1940s through the 1970s. His extensive career was dedicated almost exclusively to the motion picture industry, where he was involved in the production of numerous feature films for major Hollywood studios such as Warner Bros. and Paramount Pictures. His work included a wide range of genres, from Westerns and war films to dramas and thrillers. Notable films he produced include *The Horse Soldiers* (1959), *Roughly Speaking* (1945), *The Longest Day* (1962), and *Stagecoach* (1966). Rackin also served as the head of production at Paramount Pictures from 1960 to 1964, overseeing the studio's entire film slate during that period. His professional life was entirely centered on the traditional film industry, encompassing the creative, financial, and logistical aspects of movie making.\n\n**Absence of Software Production**\nBased on historical records and his well-documented career, Martin Rackin did not produce software. The concept of \"software\" as a distinct industry and product category, particularly in the consumer and enterprise sense, largely developed and became widespread after his primary period of activity in film production. Rackin passed away in 1976, a time when personal computing was in its nascent stages and the software industry as we know it today was just beginning to emerge. His professional expertise and involvement were exclusively within the realm of motion pictures, and there is no verifiable information or historical account linking him to the production or development of computer software of any kind. Therefore, the premise that Martin Rackin produced software is factually incorrect.\n\n**The Role of a \"Director\" in Software Development**\nIn the context of software development, the role of a \"director\" as understood in the film industry (an individual responsible for the artistic and dramatic aspects of a film, guiding the cast and crew) does not typically exist. Software projects are usually led by roles such as a Lead Developer, Technical Lead, Project Manager, Product Manager, Software Architect, or Engineering Manager. These roles focus on technical implementation, project oversight, strategic planning, and team coordination, rather than artistic direction in the cinematic sense. While a \"director\" might exist in a corporate hierarchy (e.g., \"Director of Engineering\"), this is an organizational title, not a creative role akin to a film director. Given that Martin Rackin did not produce software, the question of who might have \"directed\" it is moot, as the foundational premise is inaccurate.",
+      "nuggets": [
+        "Stagecoach (1966) directed by Gordon Douglas",
+        "Rough Night in Jericho (1967) directed by Arnold Laven",
+        "The Revengers (1972) directed by Daniel Mann",
+        "Top Secret Affair (1957) directed by H. C. Potter",
+        "Darby's Rangers (1958) directed by William Wellman"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "partial_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 1,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "438__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Michael Schumacher won which Belgian Grand Prix?",
+      "passage": "Based on the provided Wikipedia passages, Michael Schumacher did not win any of the specific Belgian Grand Prix races detailed (1998 or 2000). The passages state he finished second in the 2000 Belgian Grand Prix and retired from the 1998 Belgian Grand Prix. His debut was at the 1991 Belgian Grand Prix.\n\nHowever, supplementing with encyclopedic knowledge, Michael Schumacher is renowned for his success at the Circuit de Spa-Francorchamps and holds the record for the most wins at the Belgian Grand Prix. He won the event six times:\n\n**1992 Belgian Grand Prix**\nThe 1992 Belgian Grand Prix holds significant historical importance as it marked Michael Schumacher's maiden Formula One victory. Competing for the Benetton team, Schumacher capitalized on the challenging and often wet conditions at Spa-Francorchamps, a track that would become synonymous with his driving prowess. This win was a pivotal moment in his career, signaling his arrival as a future champion and demonstrating his exceptional skill in adverse weather, a trait he would frequently display throughout his career.\n\n**1995 Belgian Grand Prix**\nMichael Schumacher secured his second victory at the Belgian Grand Prix in 1995 while driving for Benetton. This race is particularly remembered for his masterful defensive driving against Damon Hill in challenging, mixed conditions. Despite starting 16th on the grid due to a qualifying penalty, Schumacher delivered a remarkable performance, showcasing his ability to navigate the unpredictable Spa circuit and outmaneuver his rivals, further cementing his reputation as a rain master and a formidable competitor.\n\n**1996 Belgian Grand Prix**\nIn 1996, Michael Schumacher claimed his third Belgian Grand Prix victory, this time driving for Scuderia Ferrari. This win was significant as it was his first at Spa with the Italian team, marking a crucial step in his efforts to rebuild Ferrari into a championship-contending force. The victory underscored his adaptability and skill, as he continued to demonstrate his dominance at a circuit where he consistently excelled, regardless of the machinery or the weather conditions.\n\n**1997 Belgian Grand Prix**\nMichael Schumacher achieved his fourth win at the Belgian Grand Prix in 1997, continuing his successful tenure with Ferrari. This victory was another testament to his exceptional talent, particularly in wet conditions, which are often a feature of races at Spa-Francorchamps. His consistent performance at this challenging circuit contributed significantly to his championship campaign that year, further solidifying his status as one of Formula One's greatest drivers and a specialist at Spa.\n\n**2001 Belgian Grand Prix**\nThe 2001 Belgian Grand Prix saw Michael Schumacher secure his fifth victory at the event, driving for Ferrari. This win was particularly notable as it allowed him to break Alain Prost's long-standing record of 51 Grand Prix victories, making him the most successful Formula One driver in terms of race wins at that time. The achievement at his favorite circuit, Spa-Francorchamps, added another layer of significance to this historic milestone in his illustrious career.\n\n**2002 Belgian Grand Prix**\nMichael Schumacher's sixth and final victory at the Belgian Grand Prix came in 2002, once again with Ferrari. This win further extended his record for the most victories at this iconic circuit. The 2002 season was one of Schumacher's most dominant, and his triumph at Spa was another demonstration of his unparalleled skill and the formidable combination of driver and machine that he and Ferrari had become. This victory cemented his legacy as the undisputed \"King of Spa.\"",
+      "nuggets": [
+        "Michael Schumacher won 1992 Belgian Grand Prix",
+        "Michael Schumacher won 1995 Belgian Grand Prix",
+        "Michael Schumacher won 1996 Belgian Grand Prix",
+        "Michael Schumacher won 1997 Belgian Grand Prix",
+        "Michael Schumacher won 2001 Belgian Grand Prix",
+        "Michael Schumacher won 2002 Belgian Grand Prix"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 6,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "121__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed a movie that Aamir Khan produced?",
+      "passage": "Here are the directors who directed a movie that Aamir Khan produced, based on the provided Wikipedia passages:\n\n**Vir Das**\nVir Das is one of the directors of the 2026 Indian Hindi-language spy action comedy film *Happy Patel: Khatarnak Jasoos*. This film was produced under Aamir Khan Productions, making Das a director for a project associated with Aamir Khan's production banner. Alongside Kavi Shastri, Vir Das helmed this film, which also marked the silver screen return of actor Imran Khan after a decade.\n\n**Kavi Shastri**\nKavi Shastri is credited as one of the directors for the 2026 Indian Hindi-language spy action comedy film *Happy Patel: Khatarnak Jasoos*. This film was produced by Aamir Khan Productions, directly linking Shastri's directorial work to Aamir Khan's production efforts. He co-directed the film with Vir Das, featuring a cast that included Vir Das, Mithila Palkar, Mona Singh, Sharib Hashmi, and Srushti Tawade.\n\n**R. S. Prasanna**\nR. S. Prasanna directed the 2025 Indian Hindi-language sports comedy-drama film *Sitaare Zameen Par*. This film was produced by Aamir Khan, alongside Aparna Purohit, making Prasanna a director for a film directly produced by Aamir Khan. *Sitaare Zameen Par* is described as a spiritual successor to Khan's 2007 film *Taare Zameen Par* and is an official remake of the 2018 Spanish film *Champions*. The film, starring Aamir Khan and Genelia Deshmukh, follows a suspended basketball coach working with a team of players with disabilities. It was a commercial success, grossing ₹266 crore worldwide.",
+      "nuggets": [
+        "Ashutosh Gowariker directed Lagaan produced by Aamir Khan",
+        "Abbas Tyrewala directed Jaane Tu... Ya Jaane Na produced by Aamir Khan",
+        "Anusha Rizvi directed Peepli Live produced by Aamir Khan",
+        "Kiran Rao directed Dhobi Ghat produced by Aamir Khan",
+        "Abhinay Deo directed Delhi Belly produced by Aamir Khan",
+        "Nitesh Tiwari directed Dangal produced by Aamir Khan",
+        "Advait Chandan directed Secret Superstar produced by Aamir Khan"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 7,
+        "nuggets_vital": 7,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 7
+      }
+    },
+    {
+      "qid": "209__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed a movie written by Herman Raucher?",
+      "passage": "Here are the directors who helmed movies written by Herman Raucher:\n\n**Robert Mulligan**\nRobert Mulligan directed the 1971 American coming-of-age romance film *Summer of '42*. This film was based on the memoirs of screenwriter Herman \"Hermie\" Raucher, who also wrote the screenplay. The story follows a teenage boy's one-sided romance with a young woman whose husband is fighting in World War II, set on fictional Packett Island during the summer of 1942. *Summer of '42* was a significant commercial and critical success, earning four Academy Award nominations, including a win for Best Original Score.\n\n**Melvin Van Peebles**\nMelvin Van Peebles directed the 1970 American comedy film *Watermelon Man*, which was written by Herman Raucher. The film stars Godfrey Cambridge as Jeff Gerber, a bigoted white insurance salesman who wakes up one morning to find he has become black. The premise was inspired by Franz Kafka's *Metamorphosis* and John Howard Griffin's *Black Like Me*. *Watermelon Man* was Van Peebles' only studio film and achieved financial success, though he subsequently pursued independent filmmaking with *Sweet Sweetback's Baadasssss Song*.\n\n**Robert Ellis Miller**\nRobert Ellis Miller directed the 1968 American romantic drama film *Sweet November*. This film was written by Herman Raucher and starred Anthony Newley and Sandy Dennis. The provided Wikipedia passage mentions that the 2001 film of the same name, starring Keanu Reeves and Charlize Theron, was \"loosely based on the 1968 film written by Herman Raucher,\" thereby confirming Raucher's authorship of the original screenplay. While the provided text does not explicitly name the director of the 1968 version, Robert Ellis Miller is widely credited for directing this original adaptation of Raucher's work.",
+      "nuggets": [
+        "Melvin Van Peebles directed Watermelon Man written by Herman Raucher",
+        "Charles Jarrott directed The Other Side of Midnight screenplay by Herman Raucher",
+        "Max Baer, Jr. directed Ode to Billy Joe screenplay by Herman Raucher",
+        "Pat O'Connor directed Sweet November (2001), based on the 1968 film written by Herman Raucher"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "partial_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.25,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.25,
+        "nuggets_total": 4,
+        "nuggets_vital": 3,
+        "nuggets_okay": 1,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "273__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What entity is operated either by V/Line or Metro Trains Melbourne?",
+      "passage": "Here are the entities operated by V/Line or Metro Trains Melbourne:\n\n**Melbourne metropolitan rail network**\nThe Melbourne metropolitan rail network is operated by Metro Trains Melbourne. This network is a suburban rail system primarily designed to transport passengers from Melbourne's suburbs into the Melbourne central business district (CBD) and its associated City Loop stations. It comprises 227 railway stations across 16 lines and served 182.5 million passengers in 2023–2024. Metro Trains Melbourne operates this network under a franchise from the Victorian Government, with oversight from Transport Victoria, a division of the Department of Transport and Planning.\n\n**Trains from Melbourne across regional Victoria**\nV/Line, a government-owned entity, operates trains from Melbourne that serve regional Victoria. This service forms a crucial part of the larger Victorian railway network, providing regional links from the state capital to various intrastate and interstate rail systems. V/Line's operations cater to passengers traveling beyond the metropolitan area, connecting Melbourne with towns and cities throughout regional Victoria, and facilitating broader rail transport across the state.",
+      "nuggets": [
+        "Broadmeadows station is serviced by both Metro Trains and V/Line",
+        "Dandenong station is serviced by both Metro Trains and V/Line",
+        "Caulfield station is served by both Metro Trains and V/Line",
+        "Essendon station is serviced by both Metro Trains and V/Line",
+        "Footscray station is serviced by both Metro Trains and V/Line",
+        "North Melbourne station is serviced by both Metro Trains and V/Line",
+        "Pakenham station is served by both Metro Trains and V/Line",
+        "Sunbury station is served by both Metro Trains and V/Line",
+        "Berwick station is serviced by both Metro Trains and V/Line",
+        "Clayton station is serviced by both Metro Trains and V/Line"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 10
+      }
+    },
+    {
+      "qid": "324__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which movie with a score by V. Dakshinamoorthy was directed by A. B. Rag?",
+      "passage": "**Dharmayudham**\n\nDharmayudham is a 1973 Indian Malayalam-language film that was directed by A. B. Rag. The film's musical score was composed by V. Dakshinamoorthy, a highly respected and prolific music director in South Indian cinema, particularly known for his contributions to Malayalam films. Dakshinamoorthy's work on Dharmayudham, like many of his other projects, showcased his mastery in blending traditional Indian melodies with cinematic requirements, contributing significantly to the film's emotional depth and narrative impact. A. B. Rag, as the director, guided the cinematic vision of Dharmayudham, bringing together the various creative elements, including Dakshinamoorthy's musical compositions, to tell the film's story. This collaboration represents a notable instance of two prominent figures in Malayalam cinema working together to create a cinematic work.",
+      "nuggets": [
+        "Kannur Deluxe directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Danger Biscuit directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Lottery Ticket directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Ezhuthatha Kadha directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Marunnattil Oru Malayali directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Sasthram Jayichu Manushyan Thottu directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Football Champion directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Nirthasala directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Prasaadam directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Kaduvaye Pidicha Kiduva directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Kanalkattakal directed by A. B. Raj with score by V. Dakshinamoorthy",
+        "Prarthana directed by A. B. Raj with score by V. Dakshinamoorthy"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 12,
+        "nuggets_vital": 12,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 12
+      }
+    },
+    {
+      "qid": "408__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which movie written by Gautham Menon had its score or soundtrack composed by Harris Jayaraj?",
+      "passage": "Here are the movies written by Gautham Menon that had their score or soundtrack composed by Harris Jayaraj:\n\n**Minnale**\n*Minnale* is the 2001 Indian Tamil-language film that marked Gautham Vasudev Menon's directorial debut and Harris Jayaraj's debut as a soundtrack composer. Menon, who is also a screenwriter, wrote and directed this romantic film. The soundtrack, distributed by Saregama and Cee (I) TV Audio, was released at a function in Chennai and received critical acclaim, significantly contributing to the film's success. It earned Harris Jayaraj his first Filmfare Award for Best Music Director in Tamil, a notable achievement for a debutant. The song \"Vaseegara\" became a chartbuster and was a breakthrough for lyricist Thamarai and carnatic musician Bombay Jayashri. Harris Jayaraj later reused five tracks from *Minnale* in its Hindi remake, *Rehna Hai Tere Dil Mein*, for which he also composed two original tracks.\n\n**Vaaranam Aayiram**\n*Vaaranam Aayiram* is a 2008 Tamil film written and directed by Gautham Vasudev Menon. While the provided passages do not explicitly state Harris Jayaraj composed the soundtrack for this film, it is strongly implied. The *Yennai Arindhaal* soundtrack passage mentions that *Yennai Arindhaal* \"marked Jayaraj's reunion with Menon, whom they had parted ways after Vaaranam Aayiram (2008).\" This indicates that Harris Jayaraj was the composer for *Vaaranam Aayiram* before their temporary separation. The film itself was critically acclaimed and commercially successful, winning the National Film Award for Best Feature Film in Tamil.\n\n**Yennai Arindhaal**\n*Yennai Arindhaal* is a 2015 Indian Tamil-language action thriller film that was co-written and directed by Gautham Vasudev Menon. The soundtrack album for this film was composed by Harris Jayaraj. This project marked a significant reunion between Jayaraj and Menon, as they had previously parted ways after their collaboration on *Vaaranam Aayiram* in 2008. The album consisted of seven songs, with all tracks written by Thamarai, except for one song penned by Vignesh Shivan. Preceded by the lead single \"Adhaaru Adhaaru\" released on December 11, 2014, the full album was distributed by Sony Music India and released on New Year's Day, January 1, 2015, receiving positive reception from critics.",
+      "nuggets": [
+        "Kaakha Kaakha: Music by Harris Jayaraj",
+        "Vettaiyaadu Vilaiyaadu: Music by Harris Jayaraj",
+        "Vaaranam Aayiram: Music by Harris Jayaraj",
+        "Minnale: Music by Harris Jayaraj",
+        "Rehnaa Hai Terre Dil Mein: Music by Harris Jayaraj",
+        "Yennai Arindhaal: Music by Harris Jayaraj"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "partial_support",
+        "support",
+        "partial_support",
+        "support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 2,
+        "partial_support_count": 2,
+        "not_support_count": 2
+      }
+    },
+    {
+      "qid": "463__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which athletic contest did Lisa Raymond and Samantha Stosur emerge victorious in?",
+      "passage": "The provided Wikipedia passages do not contain information about Lisa Raymond or Samantha Stosur, nor any athletic contests they won. Therefore, the following information is supplemented with encyclopedic knowledge.\n\n**2005 US Open Women's Doubles**\nLisa Raymond and Samantha Stosur emerged victorious in the women's doubles event at the 2005 US Open. This Grand Slam title marked a significant achievement for the American-Australian pairing, solidifying their status as one of the top doubles teams on the WTA Tour. Their triumph at Flushing Meadows showcased their strong partnership, complementary skills, and ability to perform under pressure on one of tennis's biggest stages. This victory was a highlight in their successful collaboration, which saw them achieve considerable success in women's doubles.\n\n**2006 French Open Women's Doubles**\nLisa Raymond and Samantha Stosur also claimed the women's doubles title at the 2006 French Open. Their victory on the clay courts of Roland Garros demonstrated their versatility and ability to adapt their game to different surfaces, adding another Grand Slam trophy to their collection. This win further cemented their reputation as a formidable doubles team, capable of competing and winning at the highest level of professional tennis. Their success at the French Open underscored their consistent performance and strategic play throughout the tournament.\n\n**2006 WTA Tour Championships (Doubles)**\nIn addition to their Grand Slam successes, Lisa Raymond and Samantha Stosur were victorious in the doubles event at the 2006 WTA Tour Championships (now known as the WTA Finals). This prestigious year-end tournament features the top-ranked players and teams, making their win a testament to their dominance throughout the 2006 season. Their triumph at the WTA Tour Championships highlighted their consistent excellence and their position as the premier women's doubles team of that year, capping off an incredibly successful period in their partnership.",
+      "nuggets": [
+        "Lisa Raymond and Samantha Stosur won the 2005 Fortis Championships Luxembourg doubles",
+        "Lisa Raymond and Samantha Stosur won the 2005 Pilot Pen Tennis Women's Doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Toray Pan Pacific Open doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Pacific Life Open Women's Doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 NASDAQ-100 Open Women's Doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Family Circle Cup doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Cellular South Cup doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Porsche Tennis Grand Prix doubles",
+        "Lisa Raymond and Samantha Stosur won the 2006 Generali Ladies Linz doubles",
+        "Lisa Raymond and Samantha Stosur won the 2007 Toray Pan Pacific Open doubles",
+        "Lisa Raymond and Samantha Stosur won the 2007 Hastings Direct International Championships doubles"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 11,
+        "nuggets_vital": 11,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 11
+      }
+    },
+    {
+      "qid": "936__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which individual was involved in the 1924 British Mount Everest Expedition?",
+      "passage": "The provided Wikipedia passages do not contain information about the 1924 British Mount Everest Expedition. Therefore, the following information is supplemented from encyclopedic knowledge.\n\n**George Mallory**\nGeorge Mallory was a prominent English mountaineer who participated in the 1924 British Mount Everest Expedition. He is most famously known for his attempts to be among the first to summit Mount Everest and for his disappearance along with his climbing partner, Andrew \"Sandy\" Irvine, during their final ascent attempt on June 8, 1924. Mallory's body was discovered in 1999 at an altitude of 8,155 meters (26,755 ft) on the north face of the mountain, sparking renewed debate about whether he and Irvine might have reached the summit before perishing, 29 years before Edmund Hillary and Tenzing Norgay's confirmed ascent in 1953.\n\n**Andrew \"Sandy\" Irvine**\nAndrew \"Sandy\" Irvine was a British mountaineer who was George Mallory's climbing partner during the 1924 British Mount Everest Expedition. Irvine, a younger and less experienced climber than Mallory, was particularly skilled with oxygen equipment, which was a relatively new technology at the time. He disappeared with Mallory during their summit attempt on June 8, 1924, and his body has never been found. The question of whether Mallory and Irvine reached the summit before their deaths remains one of mountaineering's most enduring mysteries, with Irvine's camera, which might hold crucial evidence, still missing.\n\n**Edward Felix Norton**\nEdward Felix Norton was a British mountaineer and military officer who served as a member of the 1924 British Mount Everest Expedition. During the expedition, Norton achieved a significant mountaineering feat by reaching a then-record altitude of 8,570 meters (28,126 ft) without supplemental oxygen on June 4, 1924. This was the highest point reached by a human being for nearly 30 years and demonstrated the extreme limits of human endurance at high altitudes. His solo ascent without oxygen was a remarkable achievement, though he was forced to turn back due to exhaustion and snow blindness.\n\n**Howard Somervell**\nHoward Somervell was a British surgeon and mountaineer who participated in the 1924 British Mount Everest Expedition. Alongside Edward Felix Norton, Somervell made a strong attempt on the summit, reaching an altitude of 8,570 meters (28,126 ft) on June 4, 1924, before turning back. He was a key member of the climbing team and played a crucial role in the expedition's efforts to reach the summit. Somervell's contributions included his medical expertise, which was vital for the health and safety of the team in the harsh Himalayan environment, and his strong climbing performance.\n\n**Noel Odell**\nNoel Odell was a British geologist and mountaineer who was a member of the 1924 British Mount Everest Expedition. He is particularly known for being the last person to see George Mallory and Andrew Irvine alive, observing them through a break in the clouds \"going strong for the top\" at approximately 12:50 PM on June 8, 1924, high on the northeast ridge. Odell himself made a significant solo ascent to search for Mallory and Irvine after their disappearance, reaching a high altitude and enduring extreme conditions. His geological observations also contributed to the scientific understanding of the Everest region.",
+      "nuggets": [
+        "George Mallory was part of the 1924 British Mount Everest Expedition",
+        "Andrew Irvine disappeared on the 1924 British Mount Everest Expedition",
+        "Charles Granville Bruce was leader of the 1924 British Mount Everest Expedition",
+        "Edward Felix Norton set a world altitude record during the 1924 Everest expedition",
+        "Howard Somervell was part of the 1924 Everest expedition",
+        "John Geoffrey Bruce was part of the 1924 Everest expedition",
+        "Bentley Beetham was a member of the 1924 British Mount Everest Expedition",
+        "John de Vars Hazard took part in the 1924 British Mount Everest Expedition",
+        "Edward Oswald Shebbeare was a member of the 1924 British Mount Everest Expedition",
+        "Noel Odell was a member of British Mount Everest Expedition"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.5,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.5,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 5,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "971__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed the movie where Michael Goldenberg was its screenwriter?",
+      "passage": "Here are the relevant entities and their explanations:\n\n**David Yates**\nDavid Yates is the director of *Harry Potter and the Order of the Phoenix*, the film for which Michael Goldenberg served as the screenwriter. Yates directed this fifth installment in the *Harry Potter* film series, which was released in 2007. His involvement with the *Harry Potter* franchise extended beyond this film, as he was one of four directors who worked on the main series, and he later went on to direct the spin-off prequel series, *Fantastic Beasts and Where to Find Them*, marking the beginning of the Wizarding World shared media franchise.\n\n**Harry Potter and the Order of the Phoenix**\n*Harry Potter and the Order of the Phoenix* is the 2007 fantasy film that was directed by David Yates and had Michael Goldenberg as its screenwriter. It is the fifth installment in the *Harry Potter* film series, serving as the sequel to *Harry Potter and the Goblet of Fire* (2005), and is based on J. K. Rowling's 2003 novel of the same name. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson, and follows Harry's fifth year at Hogwarts School of Witchcraft and Wizardry as the Ministry of Magic denies Lord Voldemort's return. Filming for the movie took place in England and Scotland for exterior locations and Leavesden Film Studios for interior scenes, with a reported budget between £75 and 100 million ($150–200 million). It was released in 2D cinemas and IMAX formats by Warner Bros. Pictures.\n\n**Michael Goldenberg**\nMichael Goldenberg is the screenwriter whose work on *Harry Potter and the Order of the Phoenix* is central to the question. He adapted J. K. Rowling's 2003 novel for the screen, with the film being released in 2007. While Steve Kloves wrote the screenplays for most of the *Harry Potter* film series, Goldenberg specifically penned the script for this particular installment, which was directed by David Yates. His contribution was crucial in bringing the fifth book of the beloved fantasy series to cinematic life.",
+      "nuggets": [
+        "David Yates directed Harry Potter and the Order of the Phoenix (2007), written by Michael Goldenberg",
+        "P. J. Hogan directed Peter Pan (2003), co-written by Michael Goldenberg",
+        "Robert Zemeckis directed Contact (1997), for which Goldenberg rewrote the script",
+        "Martin Campbell directed Green Lantern (2011), with the script rewritten by Michael Goldenberg",
+        "Michael Goldenberg directed Bed of Roses (1996), which he also wrote"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 2,
+        "nuggets_okay": 3,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "246__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "A National Institute of Dramatic Art alumni has what citizenship?",
+      "passage": "Here are the citizenships of National Institute of Dramatic Art (NIDA) alumni, based on the provided passages:\n\n**American**\nMel Gibson, an American actor and filmmaker, is an alumnus of the National Institute of Dramatic Art (NIDA) in Sydney, where he studied acting and performed in a production of *Romeo and Juliet*. Born in Peekskill, New York, Gibson moved to Sydney, Australia, at the age of 12. Despite his long residence and career development in Australia, the passage identifies him as an \"American actor and filmmaker,\" indicating his American citizenship. He is widely recognized for his action hero roles, such as Max Rockatansky in the *Mad Max* series and Martin Riggs in *Lethal Weapon*, and for directing historical films like *Braveheart*, for which he won multiple Academy Awards.\n\n**British**\nHugo Weaving, a British actor, undertook his acting training at NIDA in Sydney. Born in Nigeria, Weaving has resided in Australia since 1976, but the passage explicitly states that he retains British citizenship. He gained international recognition for his roles as Agent Smith in *The Matrix* films and Elrond in *The Lord of the Rings* and *The Hobbit* trilogies. Weaving has received numerous Australian Academy of Cinema and Television Arts (AACTA) Awards for his performances in film and television, including for his role in *The Adventures of Priscilla, Queen of the Desert*.",
+      "nuggets": [
+        "Mel Gibson is American",
+        "Devon Terrell is American-Australian",
+        "Bojana Novakovic is Serbian-Australian",
+        "Shai Alexander is Ukrainian-born Australian",
+        "Jason Keng-Kwin Chan is Malaysian-born Australian",
+        "Daniella Rahme is Lebanese"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.16666666666666666,
+      "astrict": 0.16666666666666666,
+      "scores": {
+        "vstrict": 0.16666666666666666,
+        "astrict": 0.16666666666666666,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 5
+      }
+    },
+    {
+      "qid": "77__wikitables_composition__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What is an island that is part of the Mutton Bird Islands in Tasmania?",
+      "passage": "Here are islands that are part of the Mutton Bird Islands in Tasmania:\n\n**Cape Barren Island**\nCape Barren Island, officially known as truwana / Cape Barren Island, is a 478-square-kilometre island situated in Bass Strait, off the north-east coast of Tasmania, Australia. It is the second-largest island within the Furneaux Group, positioned between the larger Flinders Island to its north and the smaller Clarke Island to its south. The island is notable for its highest point, Mount Munro, which reaches 715 metres. Named \"Cape Barren\" by Tobias Furneaux in March 1773, the island is also where Australia's only native goose, the Cape Barren goose, was first documented by European explorers. With a permanent resident population estimated around 65-80, mostly concentrated in a settlement called \"The Corner,\" Cape Barren Island is also widely recognized as a significant \"Mutton Bird Island.\" It serves as a crucial breeding ground for the short-tailed shearwater (Ardenna tenuirostris), commonly known as the muttonbird. The traditional harvesting of muttonbird chicks, a practice deeply rooted in the culture of the island's Aboriginal community, is a prominent activity, making the island an important site for this species and associated cultural heritage.\n\n**Flinders Island**\nFlinders Island is the largest island of the Furneaux Group, located to the north of Cape Barren Island and off the north-east coast of Tasmania. As a prominent member of this island group in Bass Strait, Flinders Island is a primary example of a \"Mutton Bird Island.\" It hosts extensive colonies of short-tailed shearwaters, which undertake an annual migration to breed on its shores. The island holds significant historical and cultural importance due to its muttonbirding industry, where the harvesting of chicks has been a traditional practice for generations, particularly among the local Aboriginal population. This long-standing activity contributes to Flinders Island's identity as a key site for muttonbirding in the region.\n\n**Clarke Island**\nClarke Island is the smallest of the three main islands in the Furneaux Group, situated to the south of Cape Barren Island and off Tasmania's north-east coast. Like its larger neighbours, Clarke Island is also considered one of the \"Mutton Bird Islands.\" It provides vital nesting habitat for substantial populations of short-tailed shearwaters. These islands collectively support the breeding cycle of the muttonbird, and Clarke Island plays a role in the broader ecological and cultural landscape associated with muttonbirding in the region, contributing to the traditional practices and natural heritage of the Furneaux Group.",
+      "nuggets": [
+        "East Pyramids is part of Mutton Bird Islands",
+        "Ketchem Island is part of Mutton Bird Islands",
+        "Sugarloaf Rock is part of Mutton Bird Islands",
+        "Sugarmouse Island is part of Mutton Bird Islands",
+        "Wendar Island is part of Mutton Bird Islands",
+        "Wild Wind Islets are part of Mutton Bird Islands"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 6
+      }
+    },
+    {
+      "qid": "310__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What film directed by M. Krishnan Nair had its music composed by V. Dakshinamoorthy?",
+      "passage": "Based on the provided Wikipedia passages, there is no film mentioned that was directed by M. Krishnan Nair and had its music composed by V. Dakshinamoorthy. The passage for \"Kadal (1968 film)\" states it was directed by M. Krishnan Nair, but its musical score was by M. B. Sreenivasan, not V. Dakshinamoorthy.\n\nSupplementing with encyclopedic knowledge, M. Krishnan Nair and V. Dakshinamoorthy collaborated on numerous Malayalam films. Below is an exhaustive list of relevant entities, including the key individuals and several notable films that fit the criteria.\n\n**M. Krishnan Nair**\nM. Krishnan Nair (1917–1987) was a highly prolific Indian film director, predominantly active in Malayalam cinema. Known for his ability to handle diverse genres, from social dramas to devotional films, Nair directed over 100 films during his career, making him one of the most significant filmmakers in the history of Malayalam cinema. His collaborations with various music directors, including V. Dakshinamoorthy, resulted in many commercially successful and critically acclaimed movies, contributing significantly to the industry's growth and evolution.\n\n**V. Dakshinamoorthy**\nV. Dakshinamoorthy (1919–2013) was a revered Indian music director and Carnatic vocalist, primarily known for his extensive work in Malayalam cinema. Often referred to as \"Swami,\" he composed music for over 125 films, creating numerous timeless melodies that are deeply ingrained in Malayalam culture. His compositions were characterized by their strong classical base, melodic richness, and spiritual depth. Dakshinamoorthy's collaborations with directors like M. Krishnan Nair produced many memorable soundtracks that enhanced the cinematic experience.\n\n**Karthika (1968 film)**\n*Karthika* is a 1968 Indian Malayalam-language drama film directed by M. Krishnan Nair, with its musical score composed by V. Dakshinamoorthy. This film exemplifies one of the many successful collaborations between the director and the music maestro. Starring prominent actors of the era such as Sathyan and Sharada, *Karthika* was a significant release that showcased the duo's ability to craft compelling narratives supported by melodious and emotionally resonant music, contributing to its popularity among audiences.\n\n**Avalude Ravukal (1978 film)**\n*Avalude Ravukal* (Her Nights) is a landmark 1978 Indian Malayalam-language drama film directed by M. Krishnan Nair, featuring music composed by V. Dakshinamoorthy. This film is particularly notable for its bold and unconventional theme, exploring the life of a sex worker with sensitivity and realism, which was groundbreaking for its time in Malayalam cinema. Starring Seema in a career-defining role, the film was a major commercial success and received critical acclaim, further cementing the reputation of both Nair as a director willing to tackle challenging subjects and Dakshinamoorthy for his evocative musical contributions.\n\n**Swami Ayyappan (1975 film)**\n*Swami Ayyappan* is a 1975 Indian Malayalam-language devotional film directed by M. Krishnan Nair, with the musical score provided by V. Dakshinamoorthy. This film stands as a testament to the versatility of the director-composer duo, as it delves into the spiritual genre, narrating the life and legends of the Hindu deity Ayyappan. The film's success was greatly amplified by Dakshinamoorthy's devotional compositions, which became immensely popular and are still cherished today, making it a significant entry in both Nair's filmography and Dakshinamoorthy's musical legacy.\n\n**Achante Bharya (1971 film)**\n*Achante Bharya* (Father's Wife) is a 1971 Indian Malayalam-language drama film directed by M. Krishnan Nair, with music composed by V. Dakshinamoorthy. This film is another example of the fruitful partnership between the director and the music director, focusing on social and family themes prevalent in Malayalam cinema of that period. The film's narrative, combined with Dakshinamoorthy's soulful melodies, resonated with the audience, highlighting the duo's consistent ability to deliver engaging and musically rich cinematic experiences.\n\n**Ponnapuram Kotta (1973 film)**\n*Ponnapuram Kotta* is a 1973 Indian Malayalam-language film directed by M. Krishnan Nair, featuring music composed by V. Dakshinamoorthy. This historical drama, starring Prem Nazir and Jayabharathi, is set against a backdrop of feudal Kerala and explores themes of justice and rebellion. The film's grand scale and period setting were complemented by Dakshinamoorthy's majestic and traditional musical compositions, which played a crucial role in establishing the film's atmosphere and emotional depth, making it a notable collaboration in their extensive careers.",
+      "nuggets": [
+        "Kavyamela (1965) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Viyarppinte Vila (1962) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Bharthavu (1964) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Pinchu Hridhayam (1966) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Cochin Express (1967) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Padunna Puzha (1968) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Sabarimala Sree Dharmashastha (1970) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Neela Sari (1976) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Thaalappoli (1977) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy",
+        "Ashokavanam (1978) is a film directed by M. Krishnan Nair with music by V. Dakshinamoorthy"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 10,
+        "nuggets_vital": 10,
+        "nuggets_okay": 0,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 10
+      }
+    },
+    {
+      "qid": "120__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who directed a movie that Bonnie Curtis produced?",
+      "passage": "**Steven Spielberg**\nSteven Spielberg is an acclaimed American film director, producer, and screenwriter, widely regarded as one of the most influential figures in cinematic history. He has directed numerous critically and commercially successful films across various genres. Bonnie Curtis has served as a producer on several of Spielberg's notable films, demonstrating a significant professional collaboration. These productions include the science fiction drama **A.I. Artificial Intelligence (2001)**, the dystopian science fiction action film **Minority Report (2002)**, the comedy-drama **The Terminal (2004)**, the science fiction action film **War of the Worlds (2005)**, and the historical drama thriller **Munich (2005)**. In these instances, Curtis held a direct producer credit, working alongside Spielberg to bring these cinematic visions to fruition and contributing to some of his most prominent works in the early 2000s.",
+      "nuggets": [
+        "Steven Spielberg directed A.I., produced by Bonnie Curtis",
+        "Rodrigo Garcia directed Albert Nobbs, produced by Bonnie Curtis",
+        "Arie Posin directed The Face of Love, produced by Bonnie Curtis",
+        "Daniel Espinosa directed Life, produced by Bonnie Curtis",
+        "Robin Swicord directed Wakefield, produced by Bonnie Curtis"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.2,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.2,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 5,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "300__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What did Suseenthiran direct that used compositions of D. Imman?",
+      "passage": "The provided Wikipedia passages do not contain information about films directed by Suseenthiran that used compositions by D. Imman. However, supplementing with encyclopedic knowledge, several films directed by Suseenthiran have featured music composed by D. Imman. These include:\n\n**Pandiya Naadu**\n*Pandiya Naadu* is a 2013 Indian Tamil-language action film directed by Suseenthiran, with its music composed by D. Imman. The film stars Vishal and Lakshmi Menon in the lead roles, alongside Bharathiraja and Soori in supporting capacities. It narrates the story of a young man who seeks revenge for his father's murder, exploring themes of crime and justice within a rural backdrop. The film garnered critical acclaim for its screenplay, direction, and performances, and proved to be a commercial success. D. Imman's soundtrack and background score were particularly lauded for their contribution to the film's emotional intensity and action sequences.\n\n**Jeeva**\n*Jeeva* is a 2014 Indian Tamil-language sports drama film written and directed by Suseenthiran, featuring music composed by D. Imman. The film stars Vishnu Vishal and Sri Divya in the lead roles. The narrative centers on the life of a talented cricketer from a humble background who faces numerous challenges and systemic biases in his pursuit of a career in professional cricket. D. Imman's musical compositions played a significant role in conveying the film's emotional depth and the protagonist's struggles and aspirations, with the songs becoming popular upon release.\n\n**Paayum Puli**\n*Paayum Puli* is a 2015 Indian Tamil-language action thriller film written and directed by Suseenthiran, with the musical score provided by D. Imman. The film features Vishal and Kajal Aggarwal in the lead roles. The plot revolves around an undercover police officer who is tasked with bringing down a notorious crime syndicate, only to discover a deeper conspiracy involving his own family. D. Imman's music effectively complemented the film's high-octane action sequences and dramatic moments, contributing to the overall tension and emotional impact of the narrative.\n\n**Maaveeran Kittu**\n*Maaveeran Kittu* is a 2016 Indian Tamil-language period drama film written and directed by Suseenthiran, with music composed by D. Imman. The film stars Vishnu Vishal and Sri Divya in the lead roles, supported by R. Parthiban and Soori. Set in the 1980s, the story addresses caste discrimination and social injustice in a rural village, focusing on a young man's fight for equality and dignity. D. Imman's compositions for *Maaveeran Kittu* were praised for their soulful melodies and their ability to evoke the film's historical setting and emotional themes, enhancing the narrative's poignant message.\n\n**Nenjil Thunivirundhal**\n*Nenjil Thunivirundhal* is a 2017 Indian Tamil-language action thriller film written and directed by Suseenthiran, featuring music composed by D. Imman. The film stars Sundeep Kishan and Mehreen Pirzada in the lead roles. It was simultaneously shot and released in Telugu as *C/o Surya*. The plot follows a young man who gets entangled in a dangerous situation after witnessing a murder, leading him to confront powerful adversaries. D. Imman's soundtrack and background score were integral to building suspense and driving the narrative forward, providing a fitting musical backdrop to the film's thrilling elements.\n\n**Kennedy Club**\n*Kennedy Club* is a 2019 Indian Tamil-language sports drama film written and directed by Suseenthiran, with music composed by D. Imman. The film features Sasikumar and Bharathiraja in prominent roles, alongside a cast of real-life kabaddi players. The story centers on a women's kabaddi team and their coach, highlighting their struggles and triumphs as they aim to win a national championship. D. Imman's music for *Kennedy Club* captured the spirit of the sport and the emotional journey of the characters, with inspiring and energetic compositions that resonated with the film's themes of perseverance and teamwork.",
+      "nuggets": [
+        "Jeeva (2014 Tamil sports drama) directed by Suseenthiran with music by D. Imman",
+        "Pandiya Naadu (2013 Tamil action film) directed by Suseenthiran with music by D. Imman",
+        "Paayum Puli (2015 Tamil action-thriller) directed by Suseenthiran with music by D. Imman",
+        "Maaveeran Kittu (2016 Tamil period action drama) directed by Suseenthiran with music by D. Imman",
+        "Nenjil Thunivirundhal (2017 bilingual action drama) directed by Suseenthiran with music by D. Imman",
+        "Kennedy Club (2019 Tamil sports film) directed by Suseenthiran with music by D. Imman"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "support",
+        "support",
+        "support",
+        "support"
+      ],
+      "vstrict": 1.0,
+      "astrict": 1.0,
+      "scores": {
+        "vstrict": 1.0,
+        "astrict": 1.0,
+        "nuggets_total": 6,
+        "nuggets_vital": 6,
+        "nuggets_okay": 0,
+        "support_count": 6,
+        "partial_support_count": 0,
+        "not_support_count": 0
+      }
+    },
+    {
+      "qid": "428__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What song was composed by Bonnie McKee and Max Martin?",
+      "passage": "Here are the songs composed by Bonnie McKee and Max Martin, based on the provided Wikipedia passages:\n\n**Dynamite**\n\"Dynamite\" is a song by British singer-songwriter Taio Cruz, featured on the revised version of his second studio album, *Rokstarr* (2010). The song was co-written by Max Martin and Bonnie McKee, alongside Benjamin Levin and Lukasz Gottwald, with the latter two also serving as producers. Taio Cruz himself contributed additional instrumentation. Released internationally as the fourth single from *Rokstarr* and as the first single from Cruz's compilation album, *The Rokstarr Collection*, in the UK, \"Dynamite\" achieved significant commercial success. It became Cruz's second number-one single on both the UK Singles Chart and the Canadian Hot 100, and also topped charts in Belgium, Luxembourg, Ireland, Australia, and New Zealand. The track reached number two on the US Billboard Hot 100 and sold over 5.7 million copies in the U.S. and Canada by January 2012, making it the second best-selling song by a British artist in the digital era in those regions, surpassed only by Adele's \"Rolling in the Deep.\"\n\n**Roar**\n\"Roar\" is a song by American singer Katy Perry, released on August 10, 2013, by Capitol Records as the lead single from her fourth studio album, *Prism* (2013). Katy Perry co-wrote the song in March 2013 with Bonnie McKee and its producers Dr. Luke, Max Martin, and Cirkut. The recording took place at various studios including Luke's in the Boo in Malibu, California; Playback Recording Studio in Santa Barbara, California; Secret Garden Studios in Montecito, California; and MXM Studios in Stockholm, Sweden. Described as a power pop song with elements of arena rock, its lyrics focus on themes of self-empowerment and standing up for oneself. \"Roar\" was a major commercial success, topping charts in numerous countries including Australia, Canada, Ireland, the United Kingdom, and the United States. It was recognized by the International Federation of the Phonographic Industry (IFPI) as the fifth-best-selling single worldwide in 2013, and has since sold 15 million copies globally.\n\n**Part of Me**\n\"Part of Me\" is a song by American singer Katy Perry, included on *Teenage Dream: The Complete Confection* (2012), the reissue of her third studio album, *Teenage Dream* (2010). The song was written by Katy Perry herself, in collaboration with Dr. Luke, Max Martin, and Bonnie McKee. Production was handled by Dr. Luke and Martin, along with Cirkut. Recording sessions for the track took place at Conway Recording Studios in Hollywood, California, and Playback Recording Studios in Santa Barbara, California. Initially, \"Part of Me\" was not featured on the original *Teenage Dream* album because Perry felt it did not align with the album's overall composition. A demo version of the song leaked online in late 2010, leading to speculation that its lyrics were directed at her ex-boyfriend, Travie McCoy. After being re-worked, \"Part of Me\" was officially released as the lead single from *The Complete Confection* on February 13, 2012, through Capitol Records. Musically, it is a dance-pop and power pop record with electropop elements and a distinct house beat, often compared to Perry's earlier singles \"Firework\" and \"California Gurls.\" Its lyrics portray a female protagonist who asserts her strength and resilience after a breakup.",
+      "nuggets": [
+        "Last Friday Night (T.G.I.F.) was co-written by Bonnie McKee and Max Martin",
+        "Birthday was co-written by Bonnie McKee and Max Martin",
+        "Part of Me was co-written by Bonnie McKee and Max Martin",
+        "Wide Awake was co-written by Bonnie McKee and Max Martin",
+        "Teenage Dream was co-written by Bonnie McKee and Max Martin"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.25,
+      "astrict": 0.2,
+      "scores": {
+        "vstrict": 0.25,
+        "astrict": 0.2,
+        "nuggets_total": 5,
+        "nuggets_vital": 4,
+        "nuggets_okay": 1,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 4
+      }
+    },
+    {
+      "qid": "449__wikidata_intersection__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Which FA Cup Final was won by the Tottenham Hotspur F.C.?",
+      "passage": "Tottenham Hotspur F.C. has won the FA Cup on eight occasions. The specific finals won by the club are detailed below:\n\n**1901 FA Cup**\nTottenham Hotspur won the FA Cup for the first time in 1901. This victory was particularly historic as they became the first, and to date, only non-League club to win the FA Cup since the formation of the Football League in 1888. This achievement marked a significant milestone in the club's early history, establishing their presence in English football.\n\n**1921 FA Cup**\nTottenham Hotspur secured their second FA Cup triumph in 1921. In the final, held at Stamford Bridge, they defeated Wolverhampton Wanderers with a 1-0 scoreline. This win further cemented their status as a prominent club in the early 20th century, adding another major trophy to their cabinet.\n\n**1960–61 FA Cup**\nThe 1960–61 season was a landmark year for Tottenham Hotspur, as they achieved the League and FA Cup Double. By winning both competitions, Tottenham became the first club in the 20th century to accomplish this feat. This historic \"Double\" cemented their place in English football folklore and is widely regarded as one of the club's greatest achievements.\n\n**1962 FA Cup**\nFollowing their historic Double, Tottenham Hotspur successfully defended the FA Cup in 1962. This back-to-back victory demonstrated the sustained dominance of the team during this golden era. The successful defense of the trophy underscored their quality and consistency at the highest level of English football.\n\n**1967 FA Cup**\nTottenham Hotspur claimed their fifth FA Cup in 1967, defeating London rivals Chelsea 2-1 in the final. This match was notable as the first all-London FA Cup final, and it significantly intensified the rivalry between the two clubs, a rivalry that continues to this day. The victory further solidified Tottenham's reputation as a leading club in the 1960s.\n\n**1981 FA Cup**\nTottenham Hotspur won the FA Cup in 1981 after a memorable final against Manchester City. The initial match ended in a 1-1 draw, necessitating a replay. In the replay, Tottenham emerged victorious with a 3-2 scoreline, largely thanks to a spectacular individual goal from Ricky Villa, which is often cited as one of the greatest FA Cup final goals of all time.\n\n**1982 FA Cup**\nFor the second consecutive year, Tottenham Hotspur lifted the FA Cup in 1982. They defeated Queens Park Rangers in another replay, after the first match concluded in a draw. This successful defense of the trophy marked their seventh FA Cup title and highlighted their strong performance in cup competitions during the early 1980s.\n\n**1991 FA Cup**\nTottenham Hotspur secured their eighth FA Cup title in 1991, defeating Nottingham Forest 2-1 in the final. The match went into extra time, where an own goal from Forest's Des Walker ultimately decided the contest in Tottenham's favor. This victory made Tottenham Hotspur the record holders for the most FA Cup wins at the time, further cementing their legacy in the competition.",
+      "nuggets": [
+        "1991 FA Cup Final: Spurs beat Nottingham Forest 2-1",
+        "1962 FA Cup Final: Spurs won 3-1 over Burnley",
+        "1961 FA Cup Final: Spurs won 2-0",
+        "1921 FA Cup Final: Spurs beat Wolverhampton Wanderers 1-0"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "not_support",
+        "partial_support",
+        "support"
+      ],
+      "vstrict": 0.5,
+      "astrict": 0.5,
+      "scores": {
+        "vstrict": 0.5,
+        "astrict": 0.5,
+        "nuggets_total": 4,
+        "nuggets_vital": 4,
+        "nuggets_okay": 0,
+        "support_count": 2,
+        "partial_support_count": 1,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "871__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What rivalry featured the football team from Washington D.C.?",
+      "passage": "Here are the football rivalries featuring teams from Washington D.C.:\n\n**Washington Commanders**\nThe Washington Commanders are a professional American football team based in the Washington D.C. metropolitan area. Formerly known as the Washington Redskins and briefly as the Washington Football Team, the franchise is one of the oldest and most storied in the National Football League (NFL), having been founded in 1932. As a member of the NFC East division, the Commanders are a central figure in several intense divisional rivalries, most notably with the Dallas Cowboys, Philadelphia Eagles, and New York Giants. Their long history, passionate fanbase, and multiple Super Bowl championships have cemented their status as \"the football team from Washington D.C.\" in the professional sports landscape.\n\n**Dallas Cowboys**\nThe Dallas Cowboys are a professional American football team based in Arlington, Texas, and are also a prominent member of the National Football League (NFL). Established in 1960 as an expansion team, the Cowboys quickly rose to become one of the most successful and valuable sports franchises globally. Their inclusion in the NFC East division alongside the Washington Commanders immediately set the stage for a fierce and enduring rivalry. The Cowboys' consistent success and widespread popularity, combined with their frequent matchups against Washington, have fueled one of the most intense and historically significant rivalries in American professional sports.\n\n**Washington Commanders–Dallas Cowboys rivalry**\nThe Washington Commanders–Dallas Cowboys rivalry is one of the most historic, intense, and widely recognized rivalries in the National Football League. It originated in 1960 when the Cowboys joined the NFL as an expansion team and were placed in the same division as the Washington franchise. The rivalry is characterized by a deep-seated animosity between the two teams and their fanbases, fueled by frequent divisional matchups (guaranteeing two games per season), periods of both teams' dominance, and numerous memorable games that have often had significant playoff implications. This rivalry transcends typical divisional competition, often being cited as one of the best in all of American professional sports due to its longevity, intensity, and the cultural significance it holds for both cities and their respective fan bases.\n\n**Howard Bison**\nThe Howard Bison are the intercollegiate athletic teams representing Howard University, a historically black university (HBCU) located in Washington, D.C. The football program competes in the NCAA Division I Football Championship Subdivision (FCS) as a member of the Mid-Eastern Athletic Conference (MEAC). The Bison football team has a rich history within HBCU athletics, contributing significantly to the vibrant sports culture of Washington D.C. Their participation in various rivalries, particularly within the MEAC, highlights the unique traditions and community pride associated with HBCU sports.\n\n**Howard–Morgan State rivalry**\nThe Howard–Morgan State rivalry is a significant college football rivalry featuring the Howard Bison, a team from Washington D.C., and the Morgan State Bears, representing Morgan State University in Baltimore, Maryland. Both institutions are historically black universities (HBCUs) and have been long-standing members of the Mid-Eastern Athletic Conference (MEAC), which has historically fostered numerous intense rivalries. This particular rivalry is deeply rooted in the cultural and historical context of HBCU athletics, often referred to by fans as the \"Battle of the Real HU\" (though this moniker is also used in other HBCU rivalries). Games between the Bison and the Bears are more than just athletic contests; they are major cultural events that bring together alumni, students, and communities, showcasing the pride, tradition, and competitive spirit of both universities.",
+      "nuggets": [
+        "Cowboys-Washington rivalry is a notable NFL rivalry",
+        "Eagles-Washington rivalry is a significant NFL rivalry",
+        "Giants-Washington rivalry is the oldest in NFC East"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "partial_support",
+        "not_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 3,
+        "nuggets_vital": 3,
+        "nuggets_okay": 0,
+        "support_count": 1,
+        "partial_support_count": 1,
+        "not_support_count": 1
+      }
+    },
+    {
+      "qid": "509__wikitables_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What are the different geological fracture zones ?",
+      "passage": "Here are the different geological fracture zones and related entities:\n\n**Fracture (geology)**\nA fracture in geology refers to any separation within a geologic formation, such as a joint or a fault, that divides the rock into two or more distinct pieces. These separations can sometimes manifest as deep fissures or crevices in the rock. Fractures are typically formed when stress applied to the rock exceeds its inherent strength, causing it to lose cohesion along its weakest plane. Geologically, fractures are significant because they can enhance permeability, allowing for the movement of fluids like water or hydrocarbons. Highly fractured rocks can therefore serve as effective aquifers or hydrocarbon reservoirs, possessing both substantial permeability and fracture porosity.\n\n**Fault (geology)**\nA fault is a specific type of planar fracture or discontinuity found within a volume of rock, characterized by significant displacement across the fracture surface due to rock-mass movements. Large faults within the Earth's crust are primarily a result of plate tectonic forces, with the most substantial ones forming the boundaries between tectonic plates, such as megathrust faults in subduction zones or transform faults. Rapid movement along active faults is the primary cause of most earthquakes, though faults can also displace slowly through a process known as aseismic creep.\n\n**Fault Plane**\nThe fault plane is the specific planar surface that represents the fracture surface of a fault. It is the actual surface along which the two blocks of rock have moved relative to each other. Understanding the orientation and characteristics of a fault plane is crucial for geologists to analyze the mechanics of faulting and the associated tectonic stresses.\n\n**Fault Trace / Fault Line**\nA fault trace, also known as a fault line, is the visible expression of a fault on the Earth's surface. It is the line where the fault plane intersects the ground surface, making it possible for geologists to observe or map the fault. Fault traces are commonly plotted on geological maps to represent the location and orientation of faults.\n\n**Fault Zone**\nA fault zone is a geological area characterized by a cluster of parallel faults. Alternatively, the term can also refer to the zone of crushed rock that develops along a single fault due to prolonged motion. When closely spaced faults experience extended movement, the distinction between individual faults can blur, as the rock situated between them is progressively converted into fault-bound lenses of rock and subsequently crushed.\n\n**Clarion–Clipperton fracture zone (CCZ)**\nThe Clarion–Clipperton fracture zone (CCZ) is a vast environmental management area located in the eastern and central Pacific Ocean, situated between Hawaii and Mexico. It is recognized as one of the world's largest known fields of polymetallic nodules, which are rich in valuable minerals such as manganese, nickel, copper, and cobalt, making it a significant area for potential deep-sea mining. The CCZ is administered by the International Seabed Authority (ISA) under the United Nations Convention on the Law of the Sea (UNCLOS). Geologically, it encompasses the Clarion fracture zone and the Clipperton fracture zone, which are prominent geological submarine fracture zones. The CCZ extends approximately 4,500 miles (7,240 km) east to west, covering an area of about 4,500,000 square kilometers (1,700,000 mi²), with depths generally ranging from 4,000 to 6,000 meters (9,800 to 19,700 ft). Scientific surveys have revealed that the CCZ harbors an abundance and diversity of deep-sea life.\n\n**Clarion fracture zone**\nThe Clarion fracture zone is one of the significant geological submarine fracture zones located within the broader Clarion–Clipperton fracture zone (CCZ) in the northern Pacific Ocean. It is one of the five major lineations of the northern Pacific floor, discovered by the Scripps Institution of Oceanography in 1954. These oceanic fracture zones are typically long, linear features on the seafloor, often associated with transform faults that offset segments of mid-ocean ridges. Within the CCZ, the Clarion fracture zone contributes to the region's unusually mountainous topographical features and its rich deposits of polymetallic nodules.\n\n**Clipperton fracture zone**\nThe Clipperton fracture zone is another prominent geological submarine fracture zone that forms part of the Clarion–Clipperton fracture zone (CCZ) in the eastern and central Pacific Ocean. Like the Clarion fracture zone, it is one of the five major lineations of the northern Pacific floor, identified in 1954. These fracture zones are critical components of the oceanic crust, representing areas where the seafloor has been fractured and displaced. The Clipperton fracture zone, along with the Clarion fracture zone, contributes to the complex topography and the significant mineral resources found within the CCZ.",
+      "nuggets": [
+        "Chile Fracture Zone is a major strike-slip fault",
+        "Valdivia Fracture Zone is a transform fault off southern Chile",
+        "Easter Fracture Zone extends 5900 km from Tuamotu to Peru-Chile Trench",
+        "Kane Fracture Zone is on the Mid-Atlantic Ridge",
+        "Charlie-Gibbs Fracture Zone is a system of two parallel zones",
+        "Mocha Fracture Zone trends from Valdivia to Peru-Chile Trench",
+        "Vema Fracture Zone has a V-shaped transform valley",
+        "Lema Fracture Zone is located south of the Vema Fracture Zone"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.0,
+      "astrict": 0.0,
+      "scores": {
+        "vstrict": 0.0,
+        "astrict": 0.0,
+        "nuggets_total": 8,
+        "nuggets_vital": 7,
+        "nuggets_okay": 1,
+        "support_count": 0,
+        "partial_support_count": 0,
+        "not_support_count": 8
+      }
+    },
+    {
+      "qid": "693__wikidata_simple__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "Who was the Mayor of Jackson, Mississippi?",
+      "passage": "The Mayor of Jackson, Mississippi, is the chief executive officer of the city government. Based on the provided passages and supplemental encyclopedic knowledge, the following individuals have held or are slated to hold this position:\n\n**Chokwe Lumumba Sr.**\nChokwe Lumumba Sr. was an American attorney, activist, and politician who served as the Mayor of Jackson, Mississippi. Born Edwin Finley Taliaferro in Detroit, Michigan, he changed his name in 1969 after joining the Black separatist organization Republic of New Afrika, where he also served as its second vice president. Lumumba Sr. had a career as a human rights lawyer in both Michigan and Mississippi. After serving on the City Council, he was elected Mayor of Jackson in 2013. He passed away in office in February 2014.\n\n**Tony Yarber**\nTony Yarber served as the Mayor of Jackson, Mississippi, from 2014 to 2017. He was elected in a special election following the death of Mayor Chokwe Lumumba Sr. Yarber, a former city councilman, became the youngest mayor in Jackson's history at the time of his election. His tenure focused on addressing the city's infrastructure challenges and economic development. He ran for re-election in 2017 but was defeated by Chokwe Antar Lumumba.\n\n**Chokwe Antar Lumumba**\nChokwe Antar Lumumba was an American attorney and politician who served as the Mayor of Jackson, Mississippi, from 2017 until his death in February 2024. The son of former Mayor Chokwe Lumumba Sr., he continued his father's legacy of activism and community engagement. Lumumba Jr. was elected Mayor in 2017, succeeding Tony Yarber. His administration focused on addressing the city's long-standing infrastructure issues, particularly its water system, and promoting economic justice. He was re-elected in 2021.\n\n**Cassandra Lumumba**\nCassandra Lumumba is the current interim Mayor of Jackson, Mississippi. She assumed the role following the death of her husband, Mayor Chokwe Antar Lumumba, in February 2024. As interim mayor, she is responsible for leading the city government until a special election can be held to fill the remainder of the term. Her appointment ensures continuity in the city's leadership during a period of transition.\n\n**John Horhn**\nJohn A. Horhn is an American politician who, according to the provided passage, is mayor of Jackson, Mississippi, having won the 2025 Jackson mayoral election. Born in 1955, Horhn is a Democrat who previously served in the Mississippi State Senate from the 26th district from 1993 to 2025 and as state tourism director from 1989 to 1992. His victory in the 2025 mayoral election, where he secured over 67% of the vote, indicates his upcoming or current leadership role in the city.\n\n**Harvey Johnson Jr.**\nHarvey Johnson Jr. served two non-consecutive terms as the Mayor of Jackson, Mississippi, making him the city's first African American mayor. He initially served from 1997 to 2005. After a hiatus, he was re-elected and served a second term from 2009 to 2013. During his time in office, Johnson Jr. focused on urban revitalization, economic development, and improving city services. He was succeeded by Chokwe Lumumba Sr. in 2013.",
+      "nuggets": [
+        "Walter A. Scott was mayor from 1917 to 1945",
+        "Dale Danks, Jr. served as mayor from 1977 to 1989",
+        "Frank Melton was mayor from 2005 to 2009",
+        "Harvey Johnson, Jr. was first African American mayor",
+        "S.J. Taylor was mayor from 1913 to 1917",
+        "A. C. Crowder was mayor from 1909 to 1913",
+        "James H. Boyd served four terms as mayor",
+        "Oliver Clifton was a three-time mayor",
+        "Charles Henry Manship was mayor during the Civil War",
+        "Leland L. Speed was a former mayor"
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "okay",
+        "okay",
+        "okay",
+        "okay"
+      ],
+      "assignment": [
+        "not_support",
+        "not_support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.16666666666666666,
+      "astrict": 0.1,
+      "scores": {
+        "vstrict": 0.16666666666666666,
+        "astrict": 0.1,
+        "nuggets_total": 10,
+        "nuggets_vital": 6,
+        "nuggets_okay": 4,
+        "support_count": 1,
+        "partial_support_count": 0,
+        "not_support_count": 9
+      }
+    },
+    {
+      "qid": "241__wikidata_comp__test",
+      "dataset": "Qampari_RAGW4M",
+      "question": "What location do the media entities owned by Tribune operate out of?",
+      "passage": "The provided Wikipedia passages do not contain information about Tribune or the operating locations of its media entities. Therefore, the following information is supplemented from encyclopedic knowledge.\n\n**Tribune Company (or Tribune Media)**\nThe Tribune Company, later known as Tribune Media, was a prominent American media conglomerate that owned a diverse portfolio of television stations, radio stations, and newspapers. While the company itself was headquartered in a specific location, its media entities operated out of numerous local markets across the United States. The concept of a media conglomerate, as described in the provided text, involves a company owning numerous enterprises in mass media, and Tribune exemplified this by having holdings in various forms of content delivery, including news and broadcasting. Its business model involved both national oversight from its corporate headquarters and localized operations for its individual media outlets, which served their respective communities.\n\n**Chicago, Illinois**\nThe primary corporate headquarters and historical base of operations for the Tribune Company was located in Chicago, Illinois. From its founding in 1847 with the establishment of the *Chicago Tribune* newspaper, the company maintained a strong presence in the city. The iconic Tribune Tower in Chicago served as its headquarters for many decades, symbolizing its deep roots and influence in the region. While its media properties were spread across the country, strategic decisions, corporate management, and overall direction for the conglomerate were historically centralized in Chicago.\n\n**Various Local Markets Across the United States**\nTribune's media entities, particularly its television stations and newspapers, operated out of numerous local markets throughout the United States. For instance, its owned-and-operated television stations (O&Os), a concept explained in the provided Wikipedia context, were situated in major metropolitan areas such as New York City (WPIX), Los Angeles (KTLA), and Washington, D.C. (WGN-TV, later WDCA), among many others. Similarly, its newspaper division included major publications like the *Los Angeles Times*, *Orlando Sentinel*, and *Baltimore Sun*, each operating from their respective cities. These local operations were crucial for delivering region-specific news and content, distinguishing them from a purely national network and allowing them to serve diverse communities directly.",
+      "nuggets": [
+        "The Chicago Tribune is based in Chicago.",
+        "The Baltimore Sun is based in Baltimore.",
+        "The New York Daily News is based in New York City.",
+        "The Orlando Sentinel is based in Orlando, Florida.",
+        "The Sun Sentinel is based in Fort Lauderdale.",
+        "The San Diego Union-Tribune is based in San Diego.",
+        "The Hartford Courant is based in Hartford.",
+        "The Capital Gazette is based in Annapolis.",
+        "The Laurel Leader is serving Laurel, Maryland."
+      ],
+      "importance": [
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital",
+        "vital"
+      ],
+      "assignment": [
+        "support",
+        "support",
+        "not_support",
+        "support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support",
+        "not_support"
+      ],
+      "vstrict": 0.3333333333333333,
+      "astrict": 0.3333333333333333,
+      "scores": {
+        "vstrict": 0.3333333333333333,
+        "astrict": 0.3333333333333333,
+        "nuggets_total": 9,
+        "nuggets_vital": 9,
+        "nuggets_okay": 0,
+        "support_count": 3,
+        "partial_support_count": 0,
+        "not_support_count": 6
+      }
+    }
+  ]
+}
